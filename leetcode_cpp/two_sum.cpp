@@ -13,11 +13,6 @@ public:
                 ind1 = counter;
                 ind2 = map[difference];
                 if (ind1 != ind2) {
-                    if (ind1 > ind2) {
-                        tmp = ind1;
-                        ind1 = ind2;
-                        ind2 = tmp;
-                    }
                     return vector<int> {ind1, ind2};
                 }
             }

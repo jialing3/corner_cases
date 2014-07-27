@@ -8,4 +8,4 @@ class Solution:
             difference = target - number
             if difference in number_to_index:
                 if ind != number_to_index[difference]:
-                    return sorted((ind + 1, number_to_index[difference] + 1))
+                    return (ind + 1, number_to_index[difference] + 1)
