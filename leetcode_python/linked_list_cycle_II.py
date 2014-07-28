@@ -12,7 +12,6 @@ class Solution:
             return None
         slow = head.next
         fast = head.next.next
-        counter = 1
         while fast:
             if slow == fast:
                 third = head
@@ -24,5 +23,4 @@ class Solution:
                 return None
             slow = slow.next
             fast = fast.next.next
-            counter += 1
         return None
