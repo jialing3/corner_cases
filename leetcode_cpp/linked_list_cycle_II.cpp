@@ -9,7 +9,7 @@
 class Solution {
 public:
     ListNode *detectCycle(ListNode *head) {
-        if (head == NULL || head->next == NULL) {
+        if (head == NULL || head -> next == NULL) {
             return NULL;
         }
         ListNode *slow = head -> next;
@@ -27,7 +27,7 @@ public:
                 return NULL;
             }
             slow = slow -> next;
-            fast = fast -> next;
+            fast = fast -> next -> next;
         }
         return NULL;
     }
