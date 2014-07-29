@@ -1,28 +1,49 @@
-
+class Solution:
     # @return a list of lists of length 3, [[val1,val2,val3]]
-def threeSum(num):
+    def threeSum(self, num):
 
-    num_dict = {}
+        def merge_sort(lst):
+            if len(lst) <= 1: #key base case
+                return lst
+            n = len(lst) / 2
+            left = merge_sort(lst[:n])
+            right = merge_sort(lst[n:])
+            return merge(left, right)
 
-    for i, a in enumerate(num):
-        if a not in num_dict:
-            num_dict[a] = set()
-        num_dict[a].add(i)
+        def merge(A, B):
+            i, j = 0, 0
+            C = []
+            while (i < len(A) and j < len(B)):
+                if A[i] < B[j]:
+                    C.append(A[i])
+                    i += 1
+                else:
+                    C.append(B[j])
+                    j += 1
+            if i < len(A):
+                C.extend(A[i:])
+            if j < len(B):
+                C.extend(B[j:])
+            return C
 
-    solutions = set()
+        num = merge_sort(num)
 
-    for i, a in enumerate(num):
-        for j, b in enumerate(num):
-            if i < j:
-                c = 0 - a - b
-                if c in num_dict:
-                    k_list = num_dict[c]
-                    if any([k != i and k != j for k in k_list]):
-                        solutions.add(tuple(sorted((a, b, c))))
+        num_dict = {}
 
-    return [list(row) for row in solutions]
+        for i, a in enumerate(num):
+            if a not in num_dict:
+                num_dict[a] = set()
+            num_dict[a].add(i)
 
+        solutions = set()
 
-num = [0, 0, 0]
+        for i, a in enumerate(num):
+            for j, b in enumerate(num):
+                if i < j:
+                    c = 0 - a - b
+                    if c in num_dict:
+                        k_list = num_dict[c]
+                        if any([k != i and k != j for k in k_list]):
+                            solutions.add(tuple(sorted((a, b, c))))
 
-print threeSum(num)
+        return [list(row) for row in solutions]
