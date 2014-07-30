@@ -10,7 +10,7 @@ public:
         vector<int> int_vec(3);
 
         for (int i = 0; i < num.size(); ++i) {
-            if (i > 1 && num[i - 1] == num[i]) {
+            if (i > 0 && num[i - 1] == num[i]) {
                 continue;
             }
             j = i + 1;
