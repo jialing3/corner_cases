@@ -31,7 +31,7 @@ class Solution:
         solutions = set()
         for i, a in enumerate(num):
             j, k = 0, len(num) - 1
-            while 0 <= j < k <= len(num):
+            while j < k:
                 if j == i:
                     j += 1
                     continue
