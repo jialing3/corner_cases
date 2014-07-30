@@ -28,22 +28,23 @@ class Solution:
 
         num = merge_sort(num)
 
-        num_dict = {}
-
-        for i, a in enumerate(num):
-            if a not in num_dict:
-                num_dict[a] = set()
-            num_dict[a].add(i)
-
         solutions = set()
-
         for i, a in enumerate(num):
-            for j, b in enumerate(num):
-                if i < j:
-                    c = 0 - a - b
-                    if c in num_dict:
-                        k_list = num_dict[c]
-                        if any([k != i and k != j for k in k_list]):
-                            solutions.add(tuple(sorted((a, b, c))))
+            j, k = 0, len(num) - 1
+            while 0 <= j < k <= len(num):
+                if j == i:
+                    j += 1
+                    continue
+                if k == i:
+                    k -= 1
+                    continue
+                if num[j] + num[k] + a == 0:
+                    solutions.add(tuple(sorted((a, num[j], num[k]))))
+                    j += 1
+                    k -= 1
+                elif num[j] + num[k] + a > 0:
+                    k -= 1
+                else:
+                    j += 1
 
         return [list(row) for row in solutions]
