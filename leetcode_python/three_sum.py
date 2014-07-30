@@ -2,6 +2,26 @@ class Solution:
     # @return a list of lists of length 3, [[val1,val2,val3]]
     def threeSum(self, num):
 
+        num.sort()
+
+        solutions = set()
+        for i, a in enumerate(num):
+            if i > 1 and num[i - 1] == num[i]:
+                continue
+            j, k = i + 1, len(num) - 1
+            while j < k:
+                if num[j] + num[k] + a == 0:
+                    solutions.add((a, num[j], num[k]))
+                    j += 1
+                    k -= 1
+                elif num[j] + num[k] + a > 0:
+                    k -= 1
+                else:
+                    j += 1
+
+        return [list(row) for row in solutions]
+
+        '''
         def merge_sort(lst):
             if len(lst) <= 1: #key base case
                 return lst
@@ -27,24 +47,4 @@ class Solution:
             return C
 
         num = merge_sort(num)
-
-        solutions = set()
-        for i, a in enumerate(num):
-            j, k = 0, len(num) - 1
-            while j < k:
-                if j == i:
-                    j += 1
-                    continue
-                if k == i:
-                    k -= 1
-                    continue
-                if num[j] + num[k] + a == 0:
-                    solutions.add(tuple(sorted((a, num[j], num[k]))))
-                    j += 1
-                    k -= 1
-                elif num[j] + num[k] + a > 0:
-                    k -= 1
-                else:
-                    j += 1
-
-        return [list(row) for row in solutions]
+        '''
