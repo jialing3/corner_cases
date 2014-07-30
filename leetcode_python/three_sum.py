@@ -3,18 +3,19 @@ class Solution:
     def threeSum(self, num):
 
         num.sort()
-
         solutions = set()
+
         for i, a in enumerate(num):
             if i > 1 and num[i - 1] == num[i]:
                 continue
             j, k = i + 1, len(num) - 1
             while j < k:
-                if num[j] + num[k] + a == 0:
+                total = num[j] + num[k] + a
+                if total == 0:
                     solutions.add((a, num[j], num[k]))
                     j += 1
                     k -= 1
-                elif num[j] + num[k] + a > 0:
+                elif total > 0:
                     k -= 1
                 else:
                     j += 1
