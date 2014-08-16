@@ -1,4 +1,5 @@
 from pprint import pprint
+import matplotlib.pyplot as plt
 
 def memoize(f):
     cache = {}
@@ -19,4 +20,7 @@ def prob_total_equal_n(n):
 prob_total_equal_n = memoize(prob_total_equal_n)
 
 if __name__ == '__main__':
-    pprint([prob_total_equal_n(j) for j in range(30)])
+    P_n = [prob_total_equal_n(j) for j in range(100)]
+    pprint(P_n)
+    plt.plot(range(1, 100), P_n[1:], '.:', alpha=.5) # plateaus at around n = 20
+    plt.show()
