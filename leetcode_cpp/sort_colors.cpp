@@ -10,8 +10,9 @@ public:
             }
             if (A[i] == 0) {
                 std::swap(A[i], A[zero]);
-                ++i;
                 ++zero;
+                ++i;
+                continue;
             }
             if (A[i] == 1) {
                 ++i;
