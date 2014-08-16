@@ -12,7 +12,7 @@ public:
                 std::swap(A[i], A[zero]);
                 ++zero;
                 ++i;
-                continue;
+                continue; //C++ would not give an error without continue, it's faster with continue
             }
             if (A[i] == 1) {
                 ++i;
