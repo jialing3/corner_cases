@@ -19,7 +19,7 @@ def gcd(m, n):
     return m
 
 
-fractions = [(get_max_n(d), d) for d in range(1, 1000000)]
+fractions = [(get_max_n(d), d) for d in range(1, 1000001)]
 
 
 for ind, (n, d) in enumerate(fractions):
