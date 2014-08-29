@@ -13,3 +13,5 @@ class Solution:
         # flip left and right for each row
         for ind, row in enumerate(matrix):
             matrix[ind] = row[::-1]
+
+        return matrix
