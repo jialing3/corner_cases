@@ -19,5 +19,6 @@ def find_start_pos(A, target):
 
 if __name__ == '__main__':
     A = [1, 1, 2, 2, 3, 3, 4, 4, 4]
-    target = 3
-    print A, target, find_start_pos(A, target)
+    print A
+    for target in range(6):
+        print target, find_start_pos(A, target)
