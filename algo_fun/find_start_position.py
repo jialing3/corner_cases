@@ -1,12 +1,8 @@
 def find_start_pos(A, target):
-    if len(A) == 0:
-        return None
-    elif [target] == A:
-        return 0
-    elif len(A) == 1 and target != A[0]:
-        return None
+    if len(A) == 1:
+        return 0 if target == A[0] else None
 
-    mid = (len(A) - 1) / 2
+    mid = (len(A) - 1) / 2 # (start + end) / 2
 
     if A[mid] == target:
         return find_start_pos(A[:mid + 1], target)
