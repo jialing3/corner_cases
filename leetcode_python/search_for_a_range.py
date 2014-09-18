@@ -3,9 +3,9 @@ class Solution:
     def get_start_pos(self, A, target):
         start, end = 0, len(A) - 1
         while start <= end:
-            mid = (start + end) / 2
+            mid = (start + end) / 2 # left median
             if A[mid] == target:
-                if start == end:
+                if start == end: # till one element is left
                     return mid
                 end = mid
             elif A[mid] < target:
@@ -18,7 +18,7 @@ class Solution:
     def get_end_pos(self, A, target):
         start, end = 0, len(A) - 1
         while start <= end:
-            mid = (start + end + 1) / 2
+            mid = (start + end + 1) / 2 # right median
             if A[mid] == target:
                 if start == end:
                     return mid
