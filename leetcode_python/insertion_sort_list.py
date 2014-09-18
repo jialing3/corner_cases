@@ -4,43 +4,31 @@
 #         self.val = x
 #         self.next = None
 
+# 0     -> 1   -> 3 -> 4        -> 2   -> None
+# dummy    pre         curr        tmp
+#          1   -> 2 -> 3        -> 4   -> None
+#          pre    tmp  pre.next    curr
 class Solution:
-    def insert(self, head, node):
-        if head.val > node.val:
-            node.next = head
-            head = node
-            return
-        else:
-            last = head
-            current = head.next
-
-        while True:
-            if current is None:
-                last.next = node
-                node.next = None
-                return
-            elif current.val <= node.val:
-                last = current
-                current = current.next
-                continue
-            else:
-                last.next = node
-                node.next = current
-                return
-
     # @param head, a ListNode
     # @return a ListNode
     def insertionSortList(self, head):
-        if not head or not head.next:
+        if not head:
             return head
 
-        last = head
-        current = head.next
-        while current:
-            last.next = None
-            next_node = current.next
-            self.insert(head, current)
-            last = current
-            current = next_node
-        return head
-        
+        dummy = ListNode(0) # add a dummy node to head
+        dummy.next = head
+
+        current = head
+        while current.next:
+            if current.next.val > current.val: # continue iteration if ascending
+                current = current.next
+            else:
+                pre = dummy
+                while pre.next.val < current.next.val: # move current.next to the right place
+                    pre = pre.next
+                tmp = current.next
+                current.next = tmp.next
+                tmp.next = pre.next
+                pre.next = tmp
+
+        return dummy.next
