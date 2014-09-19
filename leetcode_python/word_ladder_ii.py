@@ -1,4 +1,4 @@
-# BST
+# BFS
 
 class Solution:
     # @param start, a string
