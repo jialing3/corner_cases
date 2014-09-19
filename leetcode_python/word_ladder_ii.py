@@ -16,7 +16,7 @@ class Solution:
                 new_dict = list(set(dict) - set(combo))
                 current_element = combo[-1]
                 for new_element in new_dict:
-                    if len(set(new_element) ^ set(current_element)) == 2:
+                    if len(set(new_element) ^ set(current_element)) == 2 and new_element not in combo:
                         current.append(combo + [new_element])
                         if new_element == end:
                             reached = True
