@@ -20,6 +20,7 @@ class LRUCache:
     # @return nothing
     def set(self, key, value):
         if len(self.store) >= self.capacity:
+            # the following operation is too costly, when capacity is reached
             key_to_discard = min(self.store.items(), key=lambda x: x[1][1])[0] # return the first occurrence if multiple entries exist
             self.store.pop(key_to_discard)
         self.store[key] = [value, 0]
