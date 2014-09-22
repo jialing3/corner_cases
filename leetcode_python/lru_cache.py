@@ -1,47 +1,36 @@
-class LRUCache:
+# An ordered dictionary remembers its insertion order.
+# When new keys are added, the keys are appended to the end.
 
+# Another key to solving this problem is to correctly understand
+# "least recently used". To use, is to get and to set. Least recent
+# has to do with freshness of the operations, not count.
+
+class LRUCache:
     # @param capacity, an integer
     def __init__(self, capacity):
-        self.store = {} # {key: [value, times_called_by_get]}
+        self.cache = collections.OrderedDict()
         self.capacity = capacity
-        self.key_order = {}
 
 
     # @return an integer
     def get(self, key):
-        if key in self.store:
-            self.store[key][1] += 1
-            if len(self.key_order) > 0:
-                new_cnt = self.store[key][1]
-                if new_cnt not in self.key_order:
-                    self.key_order[new_cnt] = []
-                self.key_order[new_cnt].append(key)
-                self.key_order[new_cnt - 1].remove(key)
-            return self.store[key][0]
+        if key in self.cache:
+            value = self.cache[key]
+            del self.cache[key]
+            self.cache[key] = value
         else:
-            return -1
+            value = -1
+        return value
 
 
     # @param key, an integer
     # @param value, an integer
     # @return nothing
     def set(self, key, value):
-        if key in self.store:
-            self.store[key][0] = value
-            return
-        if len(self.store) >= self.capacity:
-            if len(self.key_order) == 0:
-                for k, v in self.store.items():
-                    if v[1] not in self.key_order:
-                        self.key_store[v[1]] = []
-                    self.key_store[v[1]].append(k)
-            cnt = 0
-            while cnt not in self.key_order or len(self.key_order[cnt]) == 0:
-                cnt += 1
-            key_to_discard = self.key_order[cnt].pop()
-            self.store.pop(key_to_discard)
-        self.store[key] = [value, 0]
-        if 0 not in self.key_order:
-            self.key_order[0] = []
-        self.key_order[0].append(key)
-        return
+        if key in self.cache:
+            del self.cache[key]
+        if len(self.cache) == self.capacity:
+            for key_to_toss in self.cache.iterkeys():
+                del self.cache[key_to_toss]
+                break
+        self.cache[key] = value
