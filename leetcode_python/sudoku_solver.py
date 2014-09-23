@@ -6,6 +6,9 @@
 
 # DFS, try a possible value and see if this leads to any contradiction, make a copy of board each time
 
+# Because changes need to be made in-place, keep track of changes!
+# http://norvig.com/sudoku.html
+
 '''
 board = [['5', '3', '.', '.', '7', '.', '.', '.', '.'],
          ['6', '.', '.', '1', '9', '5', '.', '.', '.'],
@@ -60,6 +63,8 @@ class Solution:
 
 
     def sweep(self, board):
+        changes = []
+        starting_number_of_empty_slots = self.count_empty_slots(board)
         possible_values = [[self.get_unused_elements(i, j, board) for j in range(len(board[0]))] for i in range(len(board))]
         for i in range(len(board)):
             for j in range(len(board[0])):
@@ -67,6 +72,10 @@ class Solution:
                 if len(possible_values[i][j]) == 1:
                     value = list(possible_values[i][j])[0]
                     board[i][j] = value
+                    changes.append([i, j, value])
+                    if not self.isvalid(board):
+                        board[i][j] = '.'
+                        return 1, [] # positive_number
                     peers = self.get_peers(i, j, board)
                     for k, l in peers:
                         if value in possible_values[k][l]:
@@ -80,8 +89,12 @@ class Solution:
                         if any(all(value not in possible_values[k][l] for k, l in unit) for unit in units):
                             possible_values[i][j] = set([value])
                             board[i][j] = value
+                            changes.append([i, j, value])
+                            if not self.isvalid(board):
+                                board[i][j] = '.'
+                                return 1, [] # positive_number
                             break
-        return
+        return self.count_empty_slots(board) - starting_number_of_empty_slots, changes
 
 
     def contains_duplicates(self, non_empty_entries):
@@ -114,21 +127,26 @@ class Solution:
         return [(i, j, possible_values[i][j]) for i, j, _ in len_possibilities]
 
 
-    def walk(self, current_board):
-        branches = self.get_branches(current_board)
+    def walk(self, board):
+        if self.count_empty_slots(board) == 0:
+            return True
+        branches = self.get_branches(board)
         for i, j, value_set in branches:
             for value in sorted(value_set):
-                next_board = [row[:] for row in current_board]
-                next_board[i][j] = value
-                self.sweep(next_board)
-                if not self.isvalid(next_board):
-                    continue
-                elif self.count_empty_slots(next_board) == 0:
-                    return next_board
+                board[i][j] = value
+                delta, changes = self.sweep(board)
+                if not self.isvalid(board):
+                    board[i][j] = '.'
+                    for k, l, u in changes:
+                        board[k][l] = '.'
                 else:
-                    walk_result = self.walk(next_board)
-                    if walk_result:
-                        return walk_result
+                    tmp = self.walk(board)
+                    if tmp:
+                        return tmp
+                    else:
+                        board[i][j] = '.'
+                        for k, l, u in changes:
+                            board[k][l] = '.'
         return False
 
 
@@ -137,9 +155,8 @@ class Solution:
     # Solve the Sudoku by modifying the input board in-place.
     # Do not return any value.
     def solveSudoku(self, board):
-        board = [list(row) for row in board]
-        while self.count_empty_slots(board) > 0:
-            self.sweep(board)
-        board = self.walk(board)
-        board = [''.join(row) for row in board]
+        delta = -1
+        while delta < 0:
+            delta, _ = self.sweep(board)
+        self.walk(board)
         return
