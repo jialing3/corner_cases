@@ -64,37 +64,40 @@ class Solution:
 
     def sweep(self, board):
         changes = []
-        starting_number_of_empty_slots = self.count_empty_slots(board)
         possible_values = [[self.get_unused_elements(i, j, board) for j in range(len(board[0]))] for i in range(len(board))]
         for i in range(len(board)):
             for j in range(len(board[0])):
+                if board[i][j] != '.':
+                    continue
                 # strategy # 1
                 if len(possible_values[i][j]) == 1:
                     value = list(possible_values[i][j])[0]
-                    board[i][j] = value
                     changes.append([i, j, value])
-                    if not self.isvalid(board):
-                        board[i][j] = '.'
-                        return 1, [] # positive_number
                     peers = self.get_peers(i, j, board)
                     for k, l in peers:
                         if value in possible_values[k][l]:
                             possible_values[k][l].remove(value)
                             if len(possible_values[k][l]) == 1:
-                                board[k][l] = list(possible_values[k][l])[0]
+                                changes.append([k, l, list(possible_values[k][l])[0]])
                 # strategy # 2
                 else:
                     units = self.get_units(i, j, board)
                     for value in possible_values[i][j]:
                         if any(all(value not in possible_values[k][l] for k, l in unit) for unit in units):
                             possible_values[i][j] = set([value])
-                            board[i][j] = value
                             changes.append([i, j, value])
-                            if not self.isvalid(board):
-                                board[i][j] = '.'
-                                return 1, [] # positive_number
                             break
-        return self.count_empty_slots(board) - starting_number_of_empty_slots, changes
+        return changes
+
+
+    def apply_changes(self, board, changes):
+        for i, j, value in changes:
+            board[i][j] = value
+
+
+    def undo_changes(self, board, changes):
+        for i, j, _ in changes:
+            board[i][j] = '.'
 
 
     def contains_duplicates(self, non_empty_entries):
@@ -126,37 +129,45 @@ class Solution:
         len_possibilities.sort(key=lambda x: x[2])
         return [(i, j, possible_values[i][j]) for i, j, _ in len_possibilities]
 
-
+    # who said this? If you can convert a problem to a graph problem, you are half-way there...
     def walk(self, board):
-        if self.count_empty_slots(board) == 0:
+
+        if self.isvalid(board) and self.count_empty_slots(board) == 0:
             return True
+
         branches = self.get_branches(board)
         for i, j, value_set in branches:
             for value in sorted(value_set):
-                board[i][j] = value
-                delta, changes = self.sweep(board)
-                if not self.isvalid(board):
-                    board[i][j] = '.'
-                    for k, l, u in changes:
-                        board[k][l] = '.'
-                else:
-                    tmp = self.walk(board)
-                    if tmp:
-                        return tmp
-                    else:
-                        board[i][j] = '.'
-                        for k, l, u in changes:
-                            board[k][l] = '.'
-        return False
 
+                self.apply_changes(board, [[i, j, value]])
+                changes = self.sweep(board)
+                self.apply_changes(board, changes)
+                changes.append([i, j, value])
+
+                if len(changes) == 1:
+                    self.undo_changes(board, changes)
+
+                else: # len(changes) > 1
+
+
+                    if not self.isvalid(board):
+                        self.undo_changes(board, changes)
+
+                    else:
+                        tmp = self.walk(board)
+                        if tmp:
+                            return True
+                        self.undo_changes(board, changes)
+        return False
 
 
     # @param board, a 9x9 2D array
     # Solve the Sudoku by modifying the input board in-place.
     # Do not return any value.
     def solveSudoku(self, board):
-        delta = -1
-        while delta < 0:
-            delta, _ = self.sweep(board)
+        changes = self.sweep(board)
+        while changes:
+            self.apply_changes(board, changes)
+            changes = self.sweep(board)
         self.walk(board)
         return
