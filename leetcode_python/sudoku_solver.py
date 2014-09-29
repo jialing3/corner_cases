@@ -131,29 +131,26 @@ class Solution:
 
     # who said this? If you can convert a problem to a graph problem, you are half-way there...
     def walk(self, board):
-
         if self.isvalid(board) and self.count_empty_slots(board) == 0:
             return True
-
         branches = self.get_branches(board)
         for i, j, value_set in branches:
             for value in sorted(value_set):
-
                 self.apply_changes(board, [[i, j, value]])
                 changes = self.sweep(board)
                 self.apply_changes(board, changes)
                 changes.append([i, j, value])
-
                 if len(changes) == 1:
                     self.undo_changes(board, changes)
-
                 else: # len(changes) > 1
-
-
                     if not self.isvalid(board):
                         self.undo_changes(board, changes)
-
                     else:
+                        new_changes = self.sweep(board)
+                        while new_changes:
+                            self.apply_changes(board, new_changes)
+                            changes.extend(new_changes)
+                            new_changes = self.sweep(board)
                         tmp = self.walk(board)
                         if tmp:
                             return True
