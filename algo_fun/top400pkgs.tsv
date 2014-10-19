@@ -1,0 +1,401 @@
+project	count	link	description	rank
+django	10531	https://github.com/django/django	The Web framework for perfectionists with deadlines.	1.
+requests	10368	https://github.com/kennethreitz/requests	Python HTTP Requests for Humans™.	2.
+httpie	10281	https://github.com/jakubroztocil/httpie	Command line HTTP client, human-friendly cURL replacement.	3.
+flask	10273	https://github.com/mitsuhiko/flask	A microframework based on Werkzeug, Jinja2 and good intentions	4.
+tornado	7489	https://github.com/tornadoweb/tornado	Tornado is a Python web framework and asynchronous networking library, originally developed at FriendFeed.	5.
+ansible	6843	https://github.com/ansible/ansible	Ansible is a radically simple IT orchestration engine that makes your applications and systems easier to deploy. Avoid writing scripts or custom code to deploy and update your applications— automate in a language that approaches plain English, using SSH, with no agents to install on remote systems.	6.
+the-swift-programming-language-in-chinese	6598	https://github.com/numbbbbb/the-swift-programming-language-in-chinese	中文版 Apple 官方 Swift 教程《The Swift Programming Language》	7.
+Probabilistic-Programming-and-Bayesian-Methods-for-Hackers	5997	https://github.com/CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers	aka "Bayesian Methods for Hackers": An introduction to Bayesian methods + probabilistic programming with a computation/understanding-first, mathematics-second point of view. All in pure Python ;)  	8.
+reddit	5904	https://github.com/reddit/reddit	the code that powers reddit.com	9.
+Projects	5603	https://github.com/karan/Projects	Trying to complete over 100 projects in various categories in Python. Fork to learn any new language.	10.
+python-guide	5508	https://github.com/kennethreitz/python-guide	Python best practices guidebook, written for Humans. 	11.
+sentry	5442	https://github.com/getsentry/sentry	Sentry is a realtime, platform-agnostic error logging and aggregation platform	12.
+scrapy	5289	https://github.com/scrapy/scrapy	Scrapy, a fast high-level screen scraping and web crawling framework for Python.	13.
+YouCompleteMe	5196	https://github.com/Valloric/YouCompleteMe	A code-completion engine for Vim	14.
+youtube-dl	4977	https://github.com/rg3/youtube-dl	Small command-line program to download videos from YouTube.com and other video sites	15.
+awesome-python	4834	https://github.com/vinta/awesome-python	A curated list of awesome Python frameworks, libraries and software. Inspired by awesome-php.	16.
+ipython	4627	https://github.com/ipython/ipython	Official repository for IPython itself. Other repos in the IPython organization contain things like the website, documentation builds, etc.	17.
+Mailpile	4520	https://github.com/pagekite/Mailpile	An experimental indexing and search engine for e-mail	18.
+sshuttle	4302	https://github.com/apenwarr/sshuttle	Transparent proxy server that works as a poor man's VPN.  Forwards over ssh.  Doesn't require admin.  Works with Linux and MacOS.  Supports DNS tunneling.	19.
+boto	3962	https://github.com/boto/boto	Python interface to Amazon Web Services	20.
+salt	3726	https://github.com/saltstack/salt	Central system and configuration manager 	21.
+fabric	3703	https://github.com/fabric/fabric	Simple, Pythonic remote execution and deployment.	22.
+pelican	3607	https://github.com/getpelican/pelican	Static site generator that supports Markdown and reST syntax. Powered by Python.	23.
+python-patterns	3354	https://github.com/faif/python-patterns	A collection of design patterns implemented (by other people) in python	24.
+legit	3236	https://github.com/kennethreitz/legit	Git for Humans, Inspired by GitHub for Mac™.	25.
+pandas	3202	https://github.com/pydata/pandas	Flexible and powerful data analysis / manipulation library for Python, providing labeled data structures similar to R data.frame objects, statistical functions, and much more	26.
+huxley	3175	https://github.com/facebook/huxley	Huxley is a test-like system for catching visual regressions in Web applications. It watches you browse, takes screenshots, and tells you when they change.	27.
+NewsBlur	3096	https://github.com/samuelclay/NewsBlur	NewsBlur is a personal news reader that brings people together to talk about the world. A new sound of an old instrument.	28.
+ngxtop	3062	https://github.com/lebinh/ngxtop	Real-time metrics for nginx server	29.
+beets	2996	https://github.com/sampsyo/beets	music library manager and MusicBrainz tagger	30.
+powerline	2974	https://github.com/Lokaltog/powerline	The ultimate statusline/prompt utility.	31.
+ajenti	2929	https://github.com/Eugeny/ajenti	Ajenti - the web admin panel everyone wants.	32.
+webpy	2923	https://github.com/webpy/webpy	web.py is a web framework for python that is as simple as it is powerful. 	33.
+docopt	2898	https://github.com/docopt/docopt	Pythonic command line arguments parser, that will make you smile	34.
+django-old	2877	https://github.com/django/django-old	Old, outdated clone of the Subversion repository. No longer updated!	35.
+django-cms	2865	https://github.com/divio/django-cms	The easy-to-use and developer-friendly CMS	36.
+GateOne	2834	https://github.com/liftoff/GateOne	Gate One is an HTML5-powered terminal emulator and SSH client	37.
+celery	2787	https://github.com/celery/celery	Distributed Task Queue (development branch)	38.
+Sick-Beard	2777	https://github.com/midgetspy/Sick-Beard	PVR & episode guide that downloads and manages all your TV shows 	39.
+SublimeCodeIntel	2767	https://github.com/SublimeCodeIntel/SublimeCodeIntel	Full-featured code intelligence and smart autocomplete engine	40.
+django-debug-toolbar	2732	https://github.com/django-debug-toolbar/django-debug-toolbar	A configurable set of panels that display various debug information about the current request/response.	41.
+SocketRocket	2660	https://github.com/square/SocketRocket	A conforming Objective-C WebSocket client library.	42.
+mailinabox	2636	https://github.com/JoshData/mailinabox	Mail-in-a-Box helps individuals take back control of their email by defining a one-click, easy-to-deploy SMTP+everything else server: a mail server in a box.	43.
+redis-py	2626	https://github.com/andymccurdy/redis-py	Redis Python Client	44.
+django-rest-framework	2563	https://github.com/tomchristie/django-rest-framework	Awesome web-browseable Web APIs.	45.
+localtunnel	2562	https://github.com/progrium/localtunnel	Expose your local web server to the Internet	46.
+django-tastypie	2523	https://github.com/toastdriven/django-tastypie	Creating delicious APIs for Django apps since 2010. v0.10.0	47.
+pattern	2516	https://github.com/clips/pattern	Web mining module for Python, with tools for scraping, natural language processing, machine learning, network analysis and visualization.	48.
+quietnet	2475	https://github.com/Katee/quietnet	Simple chat program using inaudible sounds and a computer's microphone and speaker.	49.
+portia	2472	https://github.com/scrapinghub/portia	Visual scraping for Scrapy	50.
+bottle	2421	https://github.com/defnull/bottle	bottle.py is a fast and simple micro-framework for python web-applications.	51.
+mitmproxy	2397	https://github.com/mitmproxy/mitmproxy	An interactive SSL-capable intercepting HTTP proxy for penetration testers and software developers	52.
+shadowsocks	2394	https://github.com/clowwindy/shadowsocks	a lightweight tunnel proxy which can help you get through firewalls	53.
+Iconic	2379	https://github.com/somerandomdude/Iconic	A minimal set of icons in raster, vector and font formats — free for public use.	54.
+howdoi	2374	https://github.com/gleitz/howdoi	howdoi - instant coding answers via the command line	55.
+faker	2360	https://github.com/joke2k/faker	Faker is a Python package that generates fake data for you.	56.
+sh	2352	https://github.com/amoffat/sh	Python process launching	57.
+glances	2330	https://github.com/nicolargo/glances	Glances an Eye on your system	58.
+GitGutter	2311	https://github.com/jisaacks/GitGutter	A Sublime Text 2/3 plugin to see git diff in gutter	59.
+autojump	2246	https://github.com/joelthelion/autojump	A cd command that learns - easily navigate directories from the command line	60.
+glue	2218	https://github.com/jorgebastida/glue	Glue is a simple command line tool to generate CSS sprites	61.
+iOS-Universal-Framework	2213	https://github.com/kstenerud/iOS-Universal-Framework	An XCode project template to build universal frameworks (arm7, arm7s, and simulator) for iOS / iPhone.	62.
+shipyard	2192	https://github.com/shipyard/shipyard	Docker Management	63.
+deis	2156	https://github.com/deis/deis	Your PaaS. Your Rules. 	64.
+bup	2145	https://github.com/bup/bup	Highly efficient file backup system based on the git packfile format.  Capable of doing *fast* incremental backups of virtual machine images.  Development branch is master, where a 0.25 release is being prepared (please test).  Please post patches to the mailing list for discussion (see below).	65.
+tweepy	2125	https://github.com/tweepy/tweepy	Twitter for Python!	66.
+fig	2124	https://github.com/orchardup/fig	Fast, isolated development environments using Docker	67.
+django-social-auth	2109	https://github.com/omab/django-social-auth	Django social authentication made simple	68.
+chisel	2104	https://github.com/facebook/chisel	Chisel is a collection of LLDB commands to assist debugging iOS apps.	69.
+sqlmap	2083	https://github.com/sqlmapproject/sqlmap	Automatic SQL injection and database takeover tool	70.
+python-oauth2	2061	https://github.com/simplegeo/python-oauth2	A fully tested, abstract interface to creating OAuth clients and servers.	71.
+nupic	2053	https://github.com/numenta/nupic	Numenta Platform for Intelligent Computing: a brain-inspired machine intelligence platform, and biologically accurate neural network based on cortical learning algorithms.	72.
+aws-cli	2030	https://github.com/aws/aws-cli	Universal Command Line Interface for Amazon Web Services	73.
+kivy	1999	https://github.com/kivy/kivy	Open source software library for creating NUI applications, running on Windows, Linux, MacOSX, Android	74.
+python-mode	1967	https://github.com/klen/python-mode	Vim python-mode. PyLint, Rope, Pydoc, breakpoints from box.	75.
+pyston	1947	https://github.com/dropbox/pyston	An open-source Python implementation using JIT techniques. 	76.
+django-extensions	1937	https://github.com/django-extensions/django-extensions	This is a repository for collecting global custom management extensions for the Django Framework. 	77.
+500lines	1928	https://github.com/aosabook/500lines	500 Lines or Less	78.
+gunicorn	1922	https://github.com/benoitc/gunicorn	gunicorn 'Green Unicorn' is a WSGI HTTP Server for UNIX, fast clients and sleepy applications.	79.
+murder	1922	https://github.com/lg/murder	Large scale server deploys using BitTorrent and the BitTornado library	80.
+wagtail	1903	https://github.com/torchbox/wagtail	A new Django content management system	81.
+alternative-internet	1879	https://github.com/redecentralize/alternative-internet	A collection of interesting new networks and tech aiming at decentralisation (in some form).	82.
+sublime_package_control	1848	https://github.com/wbond/sublime_package_control	A full-featured package manager for Sublime Text	83.
+storm	1845	https://github.com/emre/storm	Manage your SSH like a boss.	84.
+pinax	1838	https://github.com/pinax/pinax	a Django-based platform for rapidly developing websites	85.
+awesome-machine-learning	1822	https://github.com/josephmisiti/awesome-machine-learning	A curated list of awesome Machine Learning frameworks, libraries and software.	86.
+SublimeWebInspector	1816	https://github.com/sokolovstas/SublimeWebInspector	Web Inspector allow you debug Javascript right in the editor	87.
+matplotlib	1806	https://github.com/matplotlib/matplotlib	matplotlib: plotting with Python	88.
+python_koans	1801	https://github.com/gregmalcolm/python_koans	Python Koans - Learn Python through TDD	89.
+jinja2	1797	https://github.com/mitsuhiko/jinja2	The Jinja2 template engine	90.
+mezzanine	1789	https://github.com/stephenmcd/mezzanine	A content management platform built using the Django framework.	91.
+TextBlob	1786	https://github.com/sloria/TextBlob	Simple, Pythonic, text processing--Sentiment analysis, part-of-speech tagging, noun phrase extraction, translation, and more.	92.
+blueprint	1779	https://github.com/devstructure/blueprint	Reverse engineer server configuration	93.
+jieba	1777	https://github.com/fxsjy/jieba	结巴中文分词	94.
+sublime-text-git	1775	https://github.com/kemayo/sublime-text-git	Plugin for some git integration into sublime text	95.
+Minecraft	1773	https://github.com/fogleman/Minecraft	Simple Minecraft-inspired program using Python and Pyglet	96.
+q	1725	https://github.com/harelba/q	q - Text as a Database. See Examples Below	97.
+webcam-pulse-detector	1717	https://github.com/thearn/webcam-pulse-detector	A python application that detects and highlights the heart-rate of an individual (using only their own webcam) in real-time.	98.
+coursera	1692	https://github.com/coursera-dl/coursera	Script for downloading Coursera.org videos and naming them.	99.
+thumbor	1690	https://github.com/thumbor/thumbor	thumbor is an open-source photo thumbnail service by globo.com	100.
+ggplot	1674	https://github.com/yhat/ggplot	ggplot for python	101.
+sandman	1666	https://github.com/jeffknupp/sandman	Sandman "makes things REST".	102.
+pip	1612	https://github.com/pypa/pip	A tool for installing and managing Python packages	103.
+django-crispy-forms	1599	https://github.com/maraujop/django-crispy-forms	The best way to have DRY Django forms. The app provides a tag and filter that lets you quickly render forms in a div format while providing an enormous amount of capability to configure and control the rendered HTML.	104.
+nltk	1565	https://github.com/nltk/nltk	NLTK Source	105.
+eve	1565	https://github.com/nicolaiarocci/eve	REST API framework powered by Flask, MongoDB and good intentions	106.
+click	1554	https://github.com/mitsuhiko/click	Python composable command line utility	107.
+newspaper	1524	https://github.com/codelucas/newspaper	Simplified article and news extraction & curation in python. Inspired by requests for its simplicity and powered by lxml for its speed.	108.
+werkzeug	1515	https://github.com/mitsuhiko/werkzeug	A flexible WSGI implementation and toolkit	109.
+zipline	1512	https://github.com/quantopian/zipline	Zipline, a Pythonic Algorithmic Trading Library	110.
+rq	1505	https://github.com/nvie/rq	Simple job queues for Python	111.
+CouchPotatoServer	1504	https://github.com/RuudBurger/CouchPotatoServer	Automatic Movie Downloading via NZBs & Torrents	112.
+nginx-book	1496	https://github.com/taobao/nginx-book	Nginx开发从入门到精通	113.
+play1	1491	https://github.com/playframework/play1	Play framework	114.
+PlainTasks	1489	https://github.com/aziz/PlainTasks	An opinionated todo-list plugin for Sublime Text editor (version 2 and 3)	115.
+xunlei-lixian	1484	https://github.com/iambus/xunlei-lixian	迅雷离线下载脚本	116.
+goagent	1479	https://github.com/goagent/goagent	a gae proxy	117.
+django-haystack	1478	https://github.com/toastdriven/django-haystack	Modular search for Django. Currently v2.1.1-dev.	118.
+gevent	1475	https://github.com/surfly/gevent	Coroutine-based concurrency library for Python	119.
+Cactus	1453	https://github.com/koenbok/Cactus	Static site generator for designers. Uses Python and Django templates.	120.
+clint	1434	https://github.com/kennethreitz/clint	Python Command-line Application Tools	121.
+pyramid	1419	https://github.com/Pylons/pyramid	Pyramid web framework	122.
+treeio	1418	https://github.com/treeio/treeio	Tree.io	123.
+headphones	1396	https://github.com/rembo10/headphones	Automatic music downloader for SABnzbd	124.
+pythonbrew	1376	https://github.com/utahta/pythonbrew	Python Environment manager	125.
+mongo-python-driver	1338	https://github.com/mongodb/mongo-python-driver	PyMongo - the Python driver for MongoDB	126.
+jrnl	1333	https://github.com/maebert/jrnl	A simple command line journal application that stores your journal in a plain text file.	127.
+PyBitmessage	1329	https://github.com/Bitmessage/PyBitmessage		128.
+envoy	1318	https://github.com/kennethreitz/envoy	Python Subprocesses for Humans™.	129.
+luigi	1318	https://github.com/spotify/luigi	Luigi is a Python module that helps you build complex pipelines of batch jobs. It handles dependency resolution, workflow management, visualization etc. It also comes with Hadoop support built in. 	130.
+edx-platform	1316	https://github.com/edx/edx-platform	the edX learning management system (LMS) and course authoring tool, Studio	131.
+inbox	1316	https://github.com/inboxapp/inbox	The next-generation email platform	132.
+xmltodict	1311	https://github.com/martinblech/xmltodict	Python module that makes working with XML feel like you are working with JSON	133.
+django-allauth	1310	https://github.com/pennersr/django-allauth	Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.  Visit http://jug.gl for a live demo ...	134.
+macropy	1310	https://github.com/lihaoyi/macropy	Macros in Python: quasiquotes, case classes, LINQ and more!	135.
+peewee	1308	https://github.com/coleifer/peewee	a small, expressive orm -- supports postgresql, mysql and sqlite	136.
+pyapns	1305	https://github.com/samuraisam/pyapns	An APNS provider with multi-app support.	137.
+sublime-jsdocs	1300	https://github.com/spadgos/sublime-jsdocs	Simplifies writing DocBlock comments in Javascript, PHP, CoffeeScript, Actionscript, C & C++	138.
+watchdog	1285	https://github.com/gorakhargosh/watchdog	Python library and shell utilities to monitor filesystem events.	139.
+powerline-shell	1281	https://github.com/milkbikis/powerline-shell	A beautiful and useful prompt for your shell	140.
+nova	1279	https://github.com/openstack/nova	OpenStack Compute (Nova)	141.
+arrow	1270	https://github.com/crsmithdev/arrow	Better dates & times for Python	142.
+appscale	1267	https://github.com/AppScale/appscale	The Open Source Implementation of Google App Engine -- Take your apps everywhere.	143.
+speedtest-cli	1267	https://github.com/sivel/speedtest-cli	Command line interface for testing internet bandwidth using speedtest.net	144.
+django-compressor	1265	https://github.com/django-compressor/django-compressor	Compresses linked and inline javascript or CSS into a single cached file.	145.
+rauth	1252	https://github.com/litl/rauth	A Python library for OAuth 1.0/a, 2.0, and Ofly.	146.
+readthedocs.org	1247	https://github.com/rtfd/readthedocs.org	source code to readthedocs.org	147.
+drawille	1245	https://github.com/asciimoo/drawille	Drawing in terminal with unicode braille characters	148.
+webgrind	1244	https://github.com/jokkedk/webgrind	Xdebug Profiling Web Frontend in PHP	149.
+v2ex	1233	https://github.com/livid/v2ex	Community running on Google App Engine	150.
+paramiko	1230	https://github.com/paramiko/paramiko	Native Python SSHv2 protocol library	151.
+zerorpc-python	1230	https://github.com/dotcloud/zerorpc-python		152.
+baseimage-docker	1223	https://github.com/phusion/baseimage-docker	A minimal Ubuntu base image modified for Docker-friendliness	153.
+beeswithmachineguns	1211	https://github.com/newsapps/beeswithmachineguns	A utility for arming (creating) many bees (micro EC2 instances) to attack (load test) targets (web applications).	154.
+dataset	1200	https://github.com/pudo/dataset	Easy-to-use data handling for SQL data stores with support for CSV and JSON data export	155.
+numba	1199	https://github.com/numba/numba	NumPy aware dynamic Python compiler using LLVM	156.
+viewfinder	1195	https://github.com/viewfinderco/viewfinder	Viewfinder client and server code	157.
+pyringe	1189	https://github.com/google/pyringe	Debugger capable of attaching to and injecting code into python processes.	158.
+sparkup	1188	https://github.com/rstacruz/sparkup	A parser for a condensed HTML format	159.
+mrjob	1187	https://github.com/Yelp/mrjob	Run MapReduce jobs on Hadoop or Amazon Web Services	160.
+scipy	1182	https://github.com/scipy/scipy	Scipy main repository	161.
+sympy	1182	https://github.com/sympy/sympy	A computer algebra system written in pure Python	162.
+selfspy	1179	https://github.com/gurgeh/selfspy	Log everything you do on the computer, for statistics, future reference and all-around fun!	163.
+deis	1178	https://github.com/opdemand/deis	Your PaaS. Your Rules. 	164.
+LANs.py	1160	https://github.com/DanMcInerney/LANs.py	Capture and inject traffic on LAN	165.
+vincent	1159	https://github.com/wrobstory/vincent	A Python to Vega translator	166.
+fuckitpy	1154	https://github.com/ajalt/fuckitpy	The Python error steamroller.	167.
+logster	1154	https://github.com/etsy/logster	Parse log files, generate metrics for Graphite and Ganglia	168.
+fn.py	1148	https://github.com/kachayev/fn.py	Functional programming in Python: implementation of missing features to enjoy FP	169.
+tablib	1145	https://github.com/kennethreitz/tablib	Python Module for Tabular Datasets in XLS, CSV, JSON, YAML, &c.	170.
+jedi	1141	https://github.com/davidhalter/jedi	Awesome autocompletion library for python.	171.
+moviepy	1136	https://github.com/Zulko/moviepy	Script-based movie editing with python	172.
+Pillow	1131	https://github.com/python-pillow/Pillow	The friendly PIL fork	173.
+fuzzywuzzy	1129	https://github.com/seatgeek/fuzzywuzzy	Fuzzy String Matching in Python	174.
+yowsup	1121	https://github.com/tgalal/yowsup	The open source cross platform Whatsapp library powering Wazapp	175.
+kite	1117	https://github.com/khamidou/kite	Kite is a modern webmail	176.
+django-reversion	1115	https://github.com/etianen/django-reversion	An extension to the Django web framework that provides comprehensive version control facilities.	177.
+PlexConnect	1109	https://github.com/iBaa/PlexConnect	Plex @ aTV - think different...	178.
+mopidy	1096	https://github.com/mopidy/mopidy	Music server with support for MPD/HTTP clients and Spotify streaming	179.
+django_compressor	1090	https://github.com/jezdez/django_compressor	Compresses linked and inline javascript or CSS into a single cached file.	180.
+SimpleCV	1084	https://github.com/sightmachine/SimpleCV	The Open Source Framework for Machine Vision	181.
+percol	1082	https://github.com/mooz/percol	adds flavor of interactive filtering to the traditional pipe concept of UNIX shell	182.
+securedrop	1078	https://github.com/freedomofpress/securedrop	an open source whistleblower platform	183.
+supervisor	1076	https://github.com/Supervisor/supervisor	Does your company use Supervisor?  Please donate.	184.
+django-taggit	1064	https://github.com/alex/django-taggit	Simple tagging for django	185.
+buildbot	1063	https://github.com/buildbot/buildbot	Python-based continuous integration testing framework; send pull requests for your patches!	186.
+twitter	1059	https://github.com/sixohsix/twitter	Python Twitter API	187.
+onionshare	1051	https://github.com/micahflee/onionshare	Securely and anonymously share a file of any size	188.
+CouchPotatoV1	1050	https://github.com/RuudBurger/CouchPotatoV1	This is the old version, please use https://github.com/RuudBurger/CouchPotatoServer	189.
+TCP-32764	1047	https://github.com/elvanderb/TCP-32764	some codes and notes about the backdoor listening on TCP-32764 in linksys WAG200G.	190.
+wifijammer	1047	https://github.com/DanMcInerney/wifijammer	Continuously jam all wifi clients within range	191.
+hyde	1045	https://github.com/hyde/hyde	A Python Static Website Generator	192.
+Pillow	1041	https://github.com/python-imaging/Pillow	Pillow is the "friendly" PIL fork	193.
+docker-registry	1041	https://github.com/dotcloud/docker-registry	Registry server for Docker (hosting/delivering of repositories and images)	194.
+skyline	1039	https://github.com/etsy/skyline	It'll detect your anomalies! Part of the Kale stack.	195.
+django-oscar	1038	https://github.com/tangentlabs/django-oscar	Domain-driven e-commerce for Django	196.
+mackup	1035	https://github.com/lra/mackup	Keep your application settings in sync (OS X/Linux)	197.
+facebook-sdk	1023	https://github.com/pythonforfacebook/facebook-sdk	Facebook Platform Python SDK	198.
+MediaCrush	1021	https://github.com/MediaCrush/MediaCrush	A website for sharing media super fast	199.
+MechanicalSoup	1012	https://github.com/hickford/MechanicalSoup	A Python library for automating interaction with websites.	200.
+gmvault	1011	https://github.com/gaubert/gmvault	gmail backup software	201.
+psdash	1011	https://github.com/Jahaja/psdash	A linux system information web dashboard using psutils and flask	202.
+anim_encoder	1007	https://github.com/sublimehq/anim_encoder		203.
+sublimetext-markdown-preview	1006	https://github.com/revolunet/sublimetext-markdown-preview	markdown preview and build plugin for sublime text 2/3	204.
+python-social-auth	1002	https://github.com/omab/python-social-auth	Social auth made simple	205.
+cuisine	999	https://github.com/sebastien/cuisine	Chef-like functionality for Fabric	206.
+pep8	996	https://github.com/jcrocholl/pep8	Simple Python style checker in one Python file	207.
+gmate	994	https://github.com/gmate/gmate	Set of plugins and improvements to make Gedit a powerfull programmer text editor	208.
+ultisnips	983	https://github.com/SirVer/ultisnips	Official Mirror of UltiSnips trunk on LaunchPad. Send pull requests to SirVer/ultisnips!	209.
+cookiecutter	981	https://github.com/audreyr/cookiecutter	A command-line utility that creates projects from cookiecutters (project templates). E.g. Python package projects, jQuery plugin projects.	210.
+django-xadmin	976	https://github.com/sshwsfc/django-xadmin	Drop-in replacement of Django admin comes with lots of goodies, fully extensible with plugin support, pretty UI based on Twitter Bootstrap.	211.
+inbox.py	974	https://github.com/kennethreitz/inbox.py	Python SMTP Server for Humans	212.
+virtualenv	973	https://github.com/pypa/virtualenv	Virtual Python Environment builder	213.
+cheat	973	https://github.com/chrisallenlane/cheat	cheat allows you to create and view interactive cheatsheets on the command-line. It was designed to help remind *nix system administrators of options for commands that they use frequently, but not frequently enough to remember.	214.
+gmail	965	https://github.com/charlierguo/gmail	A Pythonic interface for Google Mail	215.
+Unofficial-Google-Music-API	965	https://github.com/simon-weber/Unofficial-Google-Music-API	A client library for an unofficial Google Music api.	216.
+amonone	964	https://github.com/martinrusev/amonone	Modern self-hosted  server monitoring	217.
+Django-facebook	963	https://github.com/tschellenbach/Django-facebook	Facebook open graph api implementation using the Django web framework in python	218.
+videogrep	959	https://github.com/antiboredom/videogrep		219.
+s3cmd	956	https://github.com/s3tools/s3cmd	Official s3cmd repo -- Command line tool for managing Amazon S3 and CloudFront services	220.
+django-basic-apps	955	https://github.com/nathanborror/django-basic-apps	Simple prebuilt applications.	221.
+Minecraft-Overviewer	954	https://github.com/overviewer/Minecraft-Overviewer	Render high-resolution maps of a Minecraft world with a Google Maps powered interface	222.
+SideBarEnhancements	953	https://github.com/titoBouzout/SideBarEnhancements	Enhancements to Sublime Text sidebar. Files and folders.	223.
+jasper-client	945	https://github.com/jasperproject/jasper-client	Client code for Jasper voice computing platform	224.
+SublimeREPL	942	https://github.com/wuub/SublimeREPL	SublimeREPL - run an interpreter inside ST2 (Clojure, CoffeeScript, F#, Groovy, Haskell, Lua, MozRepl, NodeJS, Python, R, Ruby, Scala, shell or configure one yourself)	225.
+hebel	941	https://github.com/hannes-brt/hebel	GPU-Accelerated Deep Learning Library in Python	226.
+dpark	936	https://github.com/douban/dpark	Python clone of Spark,  a MapReduce alike framework in Python	227.
+webkit2png	925	https://github.com/paulhammond/webkit2png	png screenshots of webpages	228.
+clang_complete	925	https://github.com/Rip-Rip/clang_complete	Vim plugin that use clang for completing C/C++ code.	229.
+python-docx	925	https://github.com/mikemaccana/python-docx	Reads, queries and modifies Microsoft Word 2007/2008 docx files. 	230.
+networkx	924	https://github.com/networkx/networkx	Official NetworkX source code repository.  	231.
+odoo	920	https://github.com/odoo/odoo	Odoo (formerly OpenERP). Open Source Business Apps.	232.
+tqdm	920	https://github.com/noamraph/tqdm	Add a progress meter to your loops in a second	233.
+funcy	918	https://github.com/Suor/funcy	A fancy and practical functional tools	234.
+git-imerge	913	https://github.com/mhagger/git-imerge	Incremental merge for git	235.
+thumbor	909	https://github.com/globocom/thumbor	thumbor is an open-source photo thumbnail service by globo.com	236.
+flask-restful	906	https://github.com/twilio/flask-restful	Simple framework for creating REST APIs	237.
+stashboard	901	https://github.com/twilio/stashboard	An open-source status dashboard running on App Engine	238.
+django-userena	898	https://github.com/bread-and-pepper/django-userena	Accounts for Django made beautifully simple	239.
+symfony-docs	895	https://github.com/symfony/symfony-docs	The Symfony2 documentation	240.
+SpoofMAC	889	https://github.com/feross/SpoofMAC	Easily spoof your MAC address (OS X, Windows, Linux)	241.
+Diamond	888	https://github.com/BrightcoveOS/Diamond		242.
+djangobook.com	884	https://github.com/jacobian/djangobook.com		243.
+dumbo	881	https://github.com/klbostee/dumbo	Python module that allows one to easily write and run Hadoop programs.	244.
+pylearn2	880	https://github.com/lisa-lab/pylearn2	A Machine Learning library based on Theano	245.
+bunny	879	https://github.com/mothran/bunny	Bunny is a wireless. meshing, darknet that uses 802.11 to hide its communications	246.
+CommonRegex	879	https://github.com/madisonmay/CommonRegex	A collection of common regular expressions bundled with an easy to use interface.	247.
+pyzmq	876	https://github.com/zeromq/pyzmq	PyZMQ:  Python bindings for zeromq	248.
+gitfiti	876	https://github.com/gelstudios/gitfiti	abusing github commit history for the lulz	249.
+django-devserver	872	https://github.com/dcramer/django-devserver	A drop-in replacement for Django's runserver.	250.
+BracketHighlighter	868	https://github.com/facelessuser/BracketHighlighter	Bracket and tag highlighter for Sublime Text	251.
+django-filter	865	https://github.com/alex/django-filter	A generic system for filtering Django QuerySets based on user selections	252.
+django-mptt	865	https://github.com/django-mptt/django-mptt	Utilities for implementing a modified pre-order traversal tree in django.	253.
+autopep8	864	https://github.com/hhatto/autopep8	A tool that automatically formats Python code to conform to the PEP 8 style guide.	254.
+d3py	860	https://github.com/mikedewar/d3py	a plottling library for python, based on D3	255.
+httpbin	858	https://github.com/kennethreitz/httpbin	HTTP Request & Response Service, written in Python + Flask.	256.
+pip-tools	846	https://github.com/nvie/pip-tools	A set of tools to keep your pinned Python dependencies fresh.	257.
+html2text	844	https://github.com/aaronsw/html2text	Convert HTML to Markdown-formatted text.	258.
+flower	843	https://github.com/mher/flower	Real-time monitor and web admin for Celery distributed task queue	259.
+pybrain	843	https://github.com/pybrain/pybrain		260.
+leapcast	842	https://github.com/dz0ny/leapcast	ChromeCast emulation app for any device	261.
+mailin	837	https://github.com/Flolagale/mailin	Artisanal inbound emails for every web app	262.
+gensim	834	https://github.com/piskvorky/gensim	Topic Modelling for Humans	263.
+django-blog-zinnia	829	https://github.com/Fantomas42/django-blog-zinnia	Simple yet powerful and really extendable application for managing a blog within your Django Web site.	264.
+topaz	822	https://github.com/topazproject/topaz	A high performance ruby, written in RPython	265.
+Wikipedia	819	https://github.com/goldsmith/Wikipedia	A Pythonic wrapper for the Wikipedia API	266.
+lettuce	819	https://github.com/gabrielfalcao/lettuce	Cucumber-ish BDD for python	267.
+BuildingMachineLearningSystemsWithPython	817	https://github.com/luispedro/BuildingMachineLearningSystemsWithPython	Source Code for the book Machine Learning Systems with Python	268.
+rumps	813	https://github.com/jaredks/rumps	Ridiculously Uncomplicated Mac os x Python Statusbar apps	269.
+graph-explorer	809	https://github.com/vimeo/graph-explorer	A graphite dashboard that's different	270.
+cython	809	https://github.com/cython/cython	A Python to C compiler	271.
+swift	808	https://github.com/openstack/swift	OpenStack Object Storage (Swift)	272.
+twython	806	https://github.com/ryanmcgrath/twython	Actively maintained, pure Python wrapper for the Twitter API. Supports both normal and streaming Twitter APIs.	273.
+pidcat	804	https://github.com/JakeWharton/pidcat	Colored logcat script which only shows log entries for a specific application package.	274.
+livestreamer	802	https://github.com/chrippa/livestreamer	CLI program that extracts streams from various services and pipes them into a video player of choice.	275.
+seaborn	797	https://github.com/mwaskom/seaborn	Improved matplotlib for statistical data visualization	276.
+www.gittip.com	794	https://github.com/gittip/www.gittip.com	Gittip is a way to give money every week to people and teams you believe in.	277.
+redis-rdb-tools	793	https://github.com/sripathikrishnan/redis-rdb-tools	Parse Redis dump.rdb files, Analyze Memory, and Export Data to JSON	278.
+blaze	784	https://github.com/ContinuumIO/blaze	Blaze is the next generation of NumPy	279.
+django-bootstrap	782	https://github.com/earle/django-bootstrap	Django Form Implementation of the Twitter-Bootstrap UI	280.
+django-shop	782	https://github.com/divio/django-shop	A Django based shop system	281.
+osrc	780	https://github.com/dfm/osrc	The Open Source Report Card	282.
+raven-python	779	https://github.com/getsentry/raven-python	Raven is a Python client for Sentry (getsentry.com)	283.
+pymc	777	https://github.com/pymc-devs/pymc	 NOTICE: master branch now contains PyMC 3 code. PyMC 2 is in branch 2.3. 	284.
+MarkdownEditing	775	https://github.com/SublimeText-Markdown/MarkdownEditing	Powerful Markdown package for Sublime Text with better syntax understanding and good color schemes.	285.
+colout	773	https://github.com/nojhan/colout	Color text streams with this simple command	286.
+python-goose	770	https://github.com/grangier/python-goose	Html Content / Article Extractor, web scrapping lib in Python	287.
+node-gyp	768	https://github.com/TooTallNate/node-gyp	Node.js native addon build tool	288.
+locust	768	https://github.com/locustio/locust	Scalable user load testing tool written in Python	289.
+AngularJS-sublime-package	767	https://github.com/angular-ui/AngularJS-sublime-package	AngularJS code completion, snippets, go to definition, quick panel search, and more.	290.
+pinry	762	https://github.com/pinry/pinry	The open-source core of Pinry, a tiling image board system for people who want to save, tag, and share images, videos and webpages in an easy to skim through format.	291.
+xhtml2pdf	761	https://github.com/chrisglass/xhtml2pdf	HTML/CSS to PDF converter based on Python	292.
+mongol	758	https://github.com/mothran/mongol	A simple python tool to pinpoint the IP addresses of machines working for the Great Firewall of China. 	293.
+pyinotify	757	https://github.com/seb-m/pyinotify	Monitoring filesystems events with inotify on Linux.	294.
+hue	756	https://github.com/cloudera/hue	Hue is a Web application for interacting with Apache Hadoop. It supports a file and job browser, Hive, Pig, Impala, Oozie, HBase, Solr, Sqoop2, Spark, ZooKeeper and more.	295.
+prettyplotlib	754	https://github.com/olgabot/prettyplotlib	Painlessly create beautiful matplotlib plots.	296.
+django-admin2	753	https://github.com/pydanny/django-admin2	Extendable, adaptable rewrite of django.contrib.admin	297.
+actualvim	753	https://github.com/lunixbochs/actualvim	Sublime Text 3 input mode powered by Vim itself	298.
+mortar-recsys	751	https://github.com/mortardata/mortar-recsys	A customizable recommendation engine for Hadoop and Pig by Mortar Data.	299.
+pdfminer	747	https://github.com/euske/pdfminer	Python PDF Parser	300.
+falcon	745	https://github.com/racker/falcon	Falcon is a supersonic Python framework for building cloud APIs and app backends.	301.
+circus	743	https://github.com/mozilla-services/circus	A Process & Socket Manager built with zmq	302.
+HTTPretty	736	https://github.com/gabrielfalcao/HTTPretty	HTTP client mocking tool for Python, it's like ruby's FakeWeb for python	303.
+playdoh	735	https://github.com/mozilla/playdoh	Mozilla's Web application base template. Half Django, half awesomeness, half not good at math.	304.
+SleekXMPP	732	https://github.com/fritzy/SleekXMPP	Python 2.6+/3.1+ XMPP Library	305.
+django-celery	731	https://github.com/celery/django-celery	Old Celery integration project for Django	306.
+redis-faina	730	https://github.com/Instagram/redis-faina	A query analyzer that parses Redis' MONITOR command for counter/timing stats about query patterns	307.
+dpxdt	725	https://github.com/bslatkin/dpxdt	Make continuous deployment safe by comparing before and after webpage screenshots for each release. Depicted shows when any visual, perceptual differences are found. This is the ultimate, automated end-to-end test.	308.
+main	724	https://github.com/IronLanguages/main	Implementations of Python and Ruby programming languages for .NET Framework that are built on top of the Dynamic Language Runtime.	309.
+bleach	722	https://github.com/jsocol/bleach	An easy, HTML5, whitelisting HTML sanitizer.	310.
+Mario-Level-1	721	https://github.com/justinmeister/Mario-Level-1	The first level of Super Mario Bros made with Python and Pygame.	311.
+flask-admin	720	https://github.com/mrjoes/flask-admin	Simple and extensible administrative interface framework for Flask	312.
+django-admin-bootstrapped	718	https://github.com/django-admin-bootstrapped/django-admin-bootstrapped	A Django admin theme using Twitter Bootstrap. It doesn't need any kind of modification on your side, just add it to the installed apps.	313.
+explore-flask	716	https://github.com/rpicard/explore-flask	Source of Explore Flask book	314.
+BayesDB	714	https://github.com/mit-probabilistic-computing-project/BayesDB	A Bayesian database table for querying the probable implications of data as easily as SQL databases query the data itself	315.
+cobbler	714	https://github.com/cobbler/cobbler	everyone's favorite Linux Install & Update Server	316.
+pystache	713	https://github.com/defunkt/pystache	Mustache in Python	317.
+package_control_channel	713	https://github.com/wbond/package_control_channel	Default channel file for Package Control. Follow the directions at:	318.
+uscode	712	https://github.com/divegeek/uscode	The United States Code	319.
+everpad	711	https://github.com/nvbn/everpad	Evernote client well integrated with linux desktop	320.
+merchant	711	https://github.com/agiliq/merchant	A Django app to accept payments from various payment processors via Pluggable backends.	321.
+responses	709	https://github.com/dropbox/responses	A utility library for mocking out the Python Requests library.	322.
+Theano	704	https://github.com/Theano/Theano	Optimizing GPU-meta-programming code generating array oriented optimizing math compiler in Python	323.
+pygal	703	https://github.com/Kozea/pygal	PYthon svg GrAph plotting Library	324.
+brackets-shell	701	https://github.com/adobe/brackets-shell	CEF3-based application shell for Brackets.	325.
+sorl-thumbnail	699	https://github.com/mariocesar/sorl-thumbnail	Thumbnails for Django. The original and the best	326.
+python-markdown2	698	https://github.com/trentm/python-markdown2	markdown2: A fast and complete implementation of Markdown in Python	327.
+statsmodels	697	https://github.com/statsmodels/statsmodels	Statsmodels: statistical modeling and econometrics in Python	328.
+scales	696	https://github.com/Cue/scales	scales - Metrics for Python	329.
+bitcoin-arbitrage	694	https://github.com/maxme/bitcoin-arbitrage	Bitcoin arbitrage - opportunity detector	330.
+cozy-setup	694	https://github.com/cozy/cozy-setup	Cozy installation files and information	331.
+clojure-py	693	https://github.com/halgari/clojure-py	A implementation of Clojure in pure (dynamic) Python	332.
+fabtools	692	https://github.com/ronnix/fabtools	Tools for writing awesome Fabric files	333.
+django-guardian	691	https://github.com/lukaszb/django-guardian	Implementation of per object permissions for Django 1.2+	334.
+dropship	690	https://github.com/driverdan/dropship	Instantly transfer files between Dropbox accounts using only their hashes.	335.
+Feedly	688	https://github.com/tschellenbach/Feedly	Feedly is a Python library, which allows you to build newsfeed and notification systems using Cassandra and/or Redis.	336.
+redo	687	https://github.com/apenwarr/redo	Smaller, easier, more powerful, and more reliable than make.  An implementation of djb's redo.	337.
+algorithms	684	https://github.com/nryoung/algorithms	module of algorithms for Python	338.
+sublime-text-2-ruby-tests	684	https://github.com/maltize/sublime-text-2-ruby-tests	Sublime Text 2 plugin for running ruby tests! (Unit, RSpec, Cucumber)	339.
+furl	683	https://github.com/gruns/furl	URL manipulation made simple.	340.
+chnroutes	682	https://github.com/fivesheep/chnroutes	scripts help chinese netizen, who uses vpn to combat censorship, by modifying the route table so as routing only the censored ip to the vpn	341.
+rails_tutorial_sublime_text	680	https://github.com/mhartl/rails_tutorial_sublime_text	Sublime Text 2 setup used in the Ruby on Rails Tutorial	342.
+git-sweep	679	https://github.com/arc90/git-sweep	A command-line tool that helps you clean up Git branches that have been merged into master.	343.
+data_hacks	679	https://github.com/bitly/data_hacks	Command line utilities for data analysis	344.
+schedule	676	https://github.com/dbader/schedule	Python job scheduling for humans.	345.
+dulwich	675	https://github.com/jelmer/dulwich	Pure-Python Git implementation	346.
+scrapely	675	https://github.com/scrapy/scrapely	A pure-python HTML screen-scraping library	347.
+mongoengine	674	https://github.com/MongoEngine/mongoengine	A Python Object-Document-Mapper for working with MongoDB	348.
+flask-appengine-template	673	https://github.com/kamalgill/flask-appengine-template	Boilerplate project template for running Flask on Google App Engine	349.
+django-braces	673	https://github.com/brack3t/django-braces	Reusable, generic mixins for Django	350.
+PyMySQL	671	https://github.com/PyMySQL/PyMySQL	PyMySQL: Pure-Python MySQL Client	351.
+grequests	671	https://github.com/kennethreitz/grequests	Requests + Gevent = <3	352.
+pinry	668	https://github.com/overshard/pinry	Pinry's repository has moved to	353.
+hayaku	667	https://github.com/hayaku/hayaku	Fuzzy abbreviations, support for preprocessors (Sass, Less, Stylus) and a lot of other features in easily configurable set of tools for writing CSS faster	354.
+easy-thumbnails	665	https://github.com/SmileyChris/easy-thumbnails	Easy thumbnails for Django	355.
+JsFormat	663	https://github.com/jdc0589/JsFormat	Javascript formatting for Sublime Text 2 	356.
+pika	662	https://github.com/pika/pika	Pure Python RabbitMQ/AMQP 0-9-1 client library	357.
+iOSBlogCN	662	https://github.com/tangqiaoboy/iOSBlogCN	中文 iOS/Mac 开发博客列表	358.
+objc_dep	662	https://github.com/nst/objc_dep	Graph the import dependancies in an Objective-C project	359.
+python-twitter	659	https://github.com/bear/python-twitter		360.
+pulsar	657	https://github.com/quantmind/pulsar	Concurrent python	361.
+web2py	655	https://github.com/web2py/web2py	Free and open source full-stack enterprise framework for agile development of secure database-driven web-based applications, written and programmable in Python.	362.
+class2go	654	https://github.com/Stanford-Online/class2go	Class2Go is Stanford's open-source platform for online courses. 	363.
+urllib3	653	https://github.com/shazow/urllib3	Python HTTP library with thread-safe connection pooling, file post support, sanity friendly, and more.	364.
+pyres	652	https://github.com/binarydud/pyres	a resque clone in python	365.
+oauthlib	651	https://github.com/idan/oauthlib	A generic, spec-compliant, thorough implementation of the OAuth request-signing logic	366.
+flask-sockets	651	https://github.com/kennethreitz/flask-sockets	Elegant WebSockets for your Flask apps.	367.
+west-chamber-season-3	651	https://github.com/liruqi/west-chamber-season-3	All about GFW	368.
+plan	648	https://github.com/fengsp/plan	Cron jobs in Python	369.
+django-model-utils	647	https://github.com/carljm/django-model-utils	Django model mixins and utilities.	370.
+ckan	647	https://github.com/ckan/ckan	CKAN is an open-source DMS (data management system) for powering data hubs and data portals. CKAN makes it easy to publish, share and use data. It powers datahub.io, catalog.data.gov and data.gov.uk among many other sites.	371.
+geeknote	644	https://github.com/VitaliyRodnenko/geeknote	Console client for Evernote.	372.
+django-activity-stream	644	https://github.com/justquick/django-activity-stream	Generate generic activity streams from the actions on your site. Users can follow any actors' activities for personalized streams.	373.
+mincss	643	https://github.com/peterbe/mincss	Tool for finding out which CSS selectors you're NOT using.	374.
+django-pipeline	642	https://github.com/cyberdelia/django-pipeline	Pipeline is an asset packaging library for Django.	375.
+hy	641	https://github.com/hylang/hy	ὑμήνπτερόν	376.
+you-get	640	https://github.com/soimort/you-get	A YouTube/Youku/Niconico video downloader written in Python 3	377.
+dnsyo	638	https://github.com/samarudge/dnsyo	Check your DNS against over 1500 global DNS servers	378.
+python-instagram	631	https://github.com/Instagram/python-instagram	Python Client for Instagram API	379.
+kartograph.py	630	https://github.com/kartograph/kartograph.py	Renders beautiful SVG maps in Python.	380.
+evalimine	630	https://github.com/vvk-ehk/evalimine	e-hääletamise tarkvara	381.
+pycrypto	626	https://github.com/dlitz/pycrypto	The Python Cryptography Toolkit	382.
+Vintageous	624	https://github.com/guillermooo/Vintageous	Vi/Vim emulation for Sublime Text 3	383.
+flask-sqlalchemy	623	https://github.com/mitsuhiko/flask-sqlalchemy	Adds SQLAlchemy support to Flask	384.
+webgl-lessons	622	https://github.com/gpjt/webgl-lessons	https://github.com/tparisi/webgl-lessons is now the officially maintained fork for this project	385.
+mpld3	622	https://github.com/jakevdp/mpld3	D3 Renderings of Matplotlib Graphics	386.
+wal-e	622	https://github.com/wal-e/wal-e	A S3 based WAL-shipping disaster recovery and standby toolkit	387.
+nose	621	https://github.com/nose-devs/nose	nose is nicer testing for python	388.
+django-imagekit	621	https://github.com/matthewwithanm/django-imagekit	Automated image processing for Django. Currently v3.0	389.
+opencompute	619	https://github.com/facebook/opencompute	A community of engineers whose mission is to design and enable the delivery of the most efficient server, storage and data center hardware designs for scalable computing.	390.
+LaTeXTools	617	https://github.com/SublimeText/LaTeXTools	LaTeX plugin for Sublime Text 2 and 3	391.
+zsh-completions	617	https://github.com/zsh-users/zsh-completions	Additional completion definitions for Zsh.	392.
+ninja-ide	614	https://github.com/ninja-ide/ninja-ide	{Ninja-IDE Is Not Just Another IDE}	393.
+django-socialregistration	613	https://github.com/flashingpumpkin/django-socialregistration	Combining OpenID, OAuth and FacebookConnect signup in one application	394.
+gargoyle	606	https://github.com/disqus/gargoyle	Feature switches in Django	395.
+flanker	604	https://github.com/mailgun/flanker		396.
+SublimeText-Nodejs	603	https://github.com/tanepiper/SublimeText-Nodejs	nodejs snippets and bindings for Sublime Text 2	397.
+calibre	601	https://github.com/kovidgoyal/calibre	The official source code repository for the calibre ebook manager	398.
+term2048	600	https://github.com/bfontaine/term2048	2048 in your terminal	399.
+plumbum	598	https://github.com/tomerfiliba/plumbum	Plumbum: Shell Combinators	400.

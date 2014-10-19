@@ -1,0 +1,1008 @@
+project	count	link	description	rank	growing_fast
+lxml	9,183,019	http://pypi.python.org/pypi/lxml/3.2.1	Powerful and Pythonic XML processing library combining libxml2/libxslt with the ElementTree API.	1st	true
+distribute	7,487,115	http://pypi.python.org/pypi/distribute/0.6.40	Easily download, build, install, upgrade, and uninstall Python packages	2nd	true
+boto	6,116,027	http://pypi.python.org/pypi/boto/2.9.3	Amazon Web Services Library	3rd	false
+zc.buildout	5,359,988	http://pypi.python.org/pypi/zc.buildout/2.1.0	System for managing development buildouts	4th	true
+pip	5,138,619	http://pypi.python.org/pypi/pip/1.3.1	pip installs packages. Python packages. An easy_install replacement	5th	true
+simplejson	4,248,558	http://pypi.python.org/pypi/simplejson/3.3.0	Simple, fast, extensible JSON encoder/decoder for Python	6th	true
+setuptools	3,372,391	http://pypi.python.org/pypi/setuptools/0.6c11	Download, build, install, upgrade, and uninstall Python packages -- easily!	7th	false
+requests	3,317,176	http://pypi.python.org/pypi/requests/1.2.0	Python HTTP for Humans.	8th	true
+Django	3,146,086	http://pypi.python.org/pypi/Django/1.5.1	A high-level Python Web framework that encourages rapid development and clean, pragmatic design.	9th	false
+Paste	3,123,236	http://pypi.python.org/pypi/Paste/1.7.5.1	Tools for using a Web Server Gateway Interface stack	10th	false
+Jinja2	3,027,700	http://pypi.python.org/pypi/Jinja2/2.6	A small but fast and easy to use stand-alone template engine written in pure python.	11th	true
+virtualenv	2,991,401	http://pypi.python.org/pypi/virtualenv/1.9.1	Virtual Python Environment builder	12th	true
+nose	2,759,663	http://pypi.python.org/pypi/nose/1.3.0	nose extends unittest to make testing easier	13th	true
+PasteDeploy	2,752,703	http://pypi.python.org/pypi/PasteDeploy/1.5.0	Load, configure, and compose WSGI applications and servers	14th	true
+psycopg2	2,669,069	http://pypi.python.org/pypi/psycopg2/2.5	Python-PostgreSQL Database Adapter	15th	true
+python-dateutil	2,216,520	http://pypi.python.org/pypi/python-dateutil/2.1	Extensions to the standard python 3.0+ datetime module	16th	false
+SQLAlchemy	2,066,285	http://pypi.python.org/pypi/SQLAlchemy/0.8.1	Database Abstraction Library	17th	true
+coverage	2,048,598	http://pypi.python.org/pypi/coverage/3.6	Code coverage measurement for Python	18th	true
+pycrypto	1,983,830	http://pypi.python.org/pypi/pycrypto/2.6	Cryptographic modules for Python.	19th	true
+PasteScript	1,838,879	http://pypi.python.org/pypi/PasteScript/1.7.5	A pluggable command-line frontend, including commands to setup package file layouts	20th	false
+Flask	1,761,865	http://pypi.python.org/pypi/Flask/0.9	A microframework based on Werkzeug, Jinja2 and good intentions	21st	false
+Werkzeug	1,752,751	http://pypi.python.org/pypi/Werkzeug/0.8.3	The Swiss Army knife of Python web development	22nd	false
+Fabric	1,685,980	http://pypi.python.org/pypi/Fabric/1.6.0	Fabric is a simple, Pythonic tool for remote execution and deployment.	23rd	false
+pymongo	1,645,765	http://pypi.python.org/pypi/pymongo/2.5	Python driver for MongoDB 	24th	true
+kombu	1,627,068	http://pypi.python.org/pypi/kombu/2.5.10	AMQP Messaging Framework for Python	25th	true
+MySQL-python	1,557,107	http://pypi.python.org/pypi/MySQL-python/1.2.4	Python interface to MySQL	26th	false
+South	1,535,535	http://pypi.python.org/pypi/South/0.7.6	South: Migrations for Django	27th	false
+paramiko	1,519,295	http://pypi.python.org/pypi/paramiko/1.10.1	SSH2 protocol library	28th	false
+zope.interface	1,512,455	http://pypi.python.org/pypi/zope.interface/4.0.5	Interfaces for Python	29th	true
+celery	1,490,685	http://pypi.python.org/pypi/celery/3.0.19	Distributed Task Queue	30th	true
+anyjson	1,333,459	http://pypi.python.org/pypi/anyjson/0.3.3	Wraps the best available JSON implementation available in a common interface	31st	true
+httplib2	1,303,717	http://pypi.python.org/pypi/httplib2/0.8	A comprehensive HTTP client library.	32nd	true
+pytz	1,293,773	http://pypi.python.org/pypi/pytz/2013b	World timezone definitions, modern and historical	33rd	true
+greenlet	1,285,090	http://pypi.python.org/pypi/greenlet/0.4.0	Lightweight in-process concurrent programming	34th	true
+gunicorn	1,250,970	http://pypi.python.org/pypi/gunicorn/0.17.4	WSGI HTTP Server for UNIX	35th	true
+six	1,245,330	http://pypi.python.org/pypi/six/1.3.0	Python 2 and 3 compatibility utilities	36th	true
+Pygments	1,212,816	http://pypi.python.org/pypi/Pygments/1.6	Pygments is a syntax highlighting package written in Python.	37th	true
+meld3	1,153,916	http://pypi.python.org/pypi/meld3/0.6.10	meld3 is an HTML/XML templating engine.	38th	false
+graphite-web	1,131,791	http://pypi.python.org/pypi/graphite-web/0.9.10	Enterprise scalable realtime graphing	39th	false
+WebOb	1,124,585	http://pypi.python.org/pypi/WebOb/1.2.3	WSGI request and response object	40th	true
+Mako	1,079,740	http://pypi.python.org/pypi/Mako/0.8.0	A super-fast templating language that borrows the  best ideas from the existing templating languages.	41st	true
+setuptools-git	1,074,896	http://pypi.python.org/pypi/setuptools-git/1.0b1	Setuptools revision control system plugin for Git	42nd	true
+supervisor	1,048,434	http://pypi.python.org/pypi/supervisor/3.0b1	A system for controlling process state under UNIX	43rd	false
+carbon	1,044,378	http://pypi.python.org/pypi/carbon/0.9.10	Backend data caching and persistence daemon for Graphite	44th	false
+selenium	1,026,543	http://pypi.python.org/pypi/selenium/2.32.0	Python bindings for Selenium	45th	false
+suds	960,109	http://pypi.python.org/pypi/suds/0.4	Lightweight SOAP client	46th	false
+MarkupSafe	937,259	http://pypi.python.org/pypi/MarkupSafe/0.15	Implements a XML/HTML/XHTML Markup safe string for Python	47th	true
+zc.recipe.egg	922,249	http://pypi.python.org/pypi/zc.recipe.egg/2.0.0	Recipe for installing Python package distributions as eggs	48th	false
+msgpack-python	897,824	http://pypi.python.org/pypi/msgpack-python/0.3.0	MessagePack (de)serializer.	49th	true
+redis	895,177	http://pypi.python.org/pypi/redis/2.7.4	Python client for Redis key-value store	50th	true
+minitage.paste	882,443	http://pypi.python.org/pypi/minitage.paste/1.4.6	PasteScripts to facilitate use of minitage and creation of minitage based projects sponsored by Makina Corpus.	51st	false
+gevent	816,492	http://pypi.python.org/pypi/gevent/0.13.8	Python network library that uses greenlet and libevent for easy and scalable concurrency	52nd	false
+amqplib	801,891	http://pypi.python.org/pypi/amqplib/1.0.2	AMQP Client Library	53rd	true
+Deliverance	782,765	http://pypi.python.org/pypi/Deliverance/0.6.1	Deliverance transforms HTML to theme pages	54th	false
+logilab-common	755,086	http://pypi.python.org/pypi/logilab-common/0.59.1	collection of low-level Python packages and modules used by Logilab projects	55th	true
+logilab-astng	733,592	http://pypi.python.org/pypi/logilab-astng/0.24.3	rebuild a new abstract syntax tree from Python's ast	56th	true
+versiontools	729,726	http://pypi.python.org/pypi/versiontools/1.9.1	Smart replacement for plain tuple used in __version__	57th	true
+BeautifulSoup	718,016	http://pypi.python.org/pypi/BeautifulSoup/3.2.1	HTML/XML parser for quick-turnaround applications like screen-scraping.	58th	false
+pylint	717,733	http://pypi.python.org/pypi/pylint/0.28.0	python code static checker	59th	false
+eggtestinfo	712,131	http://pypi.python.org/pypi/eggtestinfo/0.3	Add test information to .egg-info	60th	true
+termcolor	708,030	http://pypi.python.org/pypi/termcolor/1.1.0	ANSII Color formatting for output in terminal.	61st	true
+tiddlywebplugins.tiddlyspace	707,587	http://pypi.python.org/pypi/tiddlywebplugins.tiddlyspace/1.2.5	A discoursive social model for Tiddlers	62nd	false
+pep8	705,906	http://pypi.python.org/pypi/pep8/1.4.5	Python style guide checker	63rd	true
+unittest2	700,848	http://pypi.python.org/pypi/unittest2/0.5.1	The new features in unittest for Python 2.7 backported to Python 2.3+.	64th	false
+billiard	695,333	http://pypi.python.org/pypi/billiard/2.7.3.28	Multiprocessing Pool Extensions	65th	true
+docutils	684,685	http://pypi.python.org/pypi/docutils/0.10	Docutils -- Python Documentation Utilities	66th	true
+sentry	675,996	http://pypi.python.org/pypi/sentry/5.4.5	A realtime logging an aggregation server.	67th	false
+Beaker	665,194	http://pypi.python.org/pypi/Beaker/1.6.4	A Session and Caching library with WSGI Middleware	68th	true
+mock	645,062	http://pypi.python.org/pypi/mock/1.0.1	A Python Mocking and Patching Library for Testing	69th	true
+ssh	639,082	http://pypi.python.org/pypi/ssh/1.8.0	SSH2 protocol library	70th	false
+django-celery	634,836	http://pypi.python.org/pypi/django-celery/3.0.17	Django Celery Integration.	71st	false
+Sphinx	628,773	http://pypi.python.org/pypi/Sphinx/1.2b1	Python documentation generator	72nd	true
+decorator	621,754	http://pypi.python.org/pypi/decorator/3.4.0	Better living through Python with decorators	73rd	true
+django-debug-toolbar	609,068	http://pypi.python.org/pypi/django-debug-toolbar/0.9.4	A configurable set of panels that display various debug information about the current request/response.	74th	false
+Twisted	599,268	http://pypi.python.org/pypi/Twisted/13.0.0	An asynchronous networking framework written in Python	75th	false
+ordereddict	588,660	http://pypi.python.org/pypi/ordereddict/1.1	A drop-in substitute for Py2.7's new collections.OrderedDict that works in Python 2.4-2.6.	76th	false
+raven	579,071	http://pypi.python.org/pypi/raven/3.3.6	Raven is a client for Sentry	77th	false
+vnc2flv	574,989	http://pypi.python.org/pypi/vnc2flv/20100207	Screen recording tool that captures a VNC session and saves as FLV	78th	false
+numpy	566,954	http://pypi.python.org/pypi/numpy/1.7.1	NumPy: array processing for numbers, strings, records, and objects.	79th	true
+FormEncode	563,696	http://pypi.python.org/pypi/FormEncode/1.2.6	HTML form validation, generation, and conversion package	80th	false
+py	559,699	http://pypi.python.org/pypi/py/1.4.14	library with cross-python path, ini-parsing, io, code, log facilities	81st	true
+Markdown	559,208	http://pypi.python.org/pypi/Markdown/2.3.1	Python implementation of Markdown.	82nd	true
+PyYAML	554,860	http://pypi.python.org/pypi/PyYAML/3.10	YAML parser and emitter for Python	83rd	true
+Unidecode	553,819	http://pypi.python.org/pypi/Unidecode/0.04.12	ASCII transliterations of Unicode text	84th	true
+django-appconf	551,604	http://pypi.python.org/pypi/django-appconf/0.6	A helper class for handling configuration defaults of packaged apps gracefully.	85th	true
+oauth2	549,995	http://pypi.python.org/pypi/oauth2/1.5.211	library for OAuth version 1.0	86th	false
+aspen	546,645	http://pypi.python.org/pypi/aspen/0.24.3	Aspen is a Python web framework. Simplates are the main attraction.	87th	false
+django_compressor	533,703	http://pypi.python.org/pypi/django_compressor/1.3	Compresses linked and inline JavaScript or CSS into single cached files.	88th	false
+amqp	519,479	http://pypi.python.org/pypi/amqp/1.0.11	Python AMQP Client.	89th	true
+pyrabbit	517,452	http://pypi.python.org/pypi/pyrabbit/1.0.1	A Pythonic interface to the RabbitMQ Management HTTP API	90th	true
+statsd	505,886	http://pypi.python.org/pypi/statsd/2.0.1	A simple statsd client.	91st	true
+html5lib	488,187	http://pypi.python.org/pypi/html5lib/0.95	HTML parser based on the WHAT-WG Web Applications 1.0("HTML5") specifcation	92nd	false
+adrest	485,143	http://pypi.python.org/pypi/adrest/2.2.2	Adrest - another django REST. Simple application for quick build RESTfull API.	93rd	false
+ipython	477,545	http://pypi.python.org/pypi/ipython/0.13.2	IPython: Productive Interactive Computing	94th	true
+pyparsing	476,499	http://pypi.python.org/pypi/pyparsing/2.0.0	Python parsing module	95th	true
+iso8601	474,039	http://pypi.python.org/pypi/iso8601/0.1.4	Simple module to parse ISO 8601 dates	96th	false
+django-extensions	472,256	http://pypi.python.org/pypi/django-extensions/1.1.1	Extensions for Django	97th	false
+pygeoip	468,572	http://pypi.python.org/pypi/pygeoip/0.2.6	Pure Python GeoIP API	98th	true
+Chameleon	461,467	http://pypi.python.org/pypi/Chameleon/2.11	Fast HTML/XML Template Compiler.	99th	true
+python-daemon	460,349	http://pypi.python.org/pypi/python-daemon/1.6	Library to implement a well-behaved Unix daemon process.	100th	false
+mrjob	457,113	http://pypi.python.org/pypi/mrjob/0.4	Python MapReduce framework	101st	false
+Tempita	454,757	http://pypi.python.org/pypi/Tempita/0.5.1	A very small text templating language	102nd	true
+chardet	454,431	http://pypi.python.org/pypi/chardet/2.1.1	Universal encoding detector	103rd	false
+pyasn1	454,347	http://pypi.python.org/pypi/pyasn1/0.1.7	ASN.1 library for Python	104th	true
+tornado	450,857	http://pypi.python.org/pypi/tornado/3.0.1	Tornado is an open source version of the scalable, non-blocking web server and and tools that power FriendFeed	105th	false
+xattr	450,519	http://pypi.python.org/pypi/xattr/0.6.4	Python wrapper for extended filesystem attributes	106th	false
+eventlet	446,469	http://pypi.python.org/pypi/eventlet/0.12.1	Highly concurrent networking library	107th	false
+PrettyTable	434,372	http://pypi.python.org/pypi/PrettyTable/0.7.2	A simple Python library for easily displaying tabular data in a visually appealing ASCII table format.	108th	true
+django-picklefield	434,023	http://pypi.python.org/pypi/django-picklefield/0.3.0	Pickled object field for Django	109th	true
+Cython	428,627	http://pypi.python.org/pypi/Cython/0.19.1	The Cython compiler for writing C extensions for the Python language.	110th	true
+BigJob	426,309	http://pypi.python.org/pypi/BigJob/0.4.130-1-g879bec5	SAGA-based Pilot-Job Implementation	111th	false
+pudb	423,277	http://pypi.python.org/pypi/pudb/2013.1	A full-screen, console-based Python debugger	112th	true
+pyOpenSSL	420,171	http://pypi.python.org/pypi/pyOpenSSL/0.13	Python wrapper module around the OpenSSL library	113th	true
+WebTest	419,642	http://pypi.python.org/pypi/WebTest/2.0.5	Helper to test WSGI applications	114th	true
+django-nose	418,947	http://pypi.python.org/pypi/django-nose/1.1	Django test runner that uses nose	115th	false
+zope.component	410,878	http://pypi.python.org/pypi/zope.component/4.1.0	Zope Component Architecture	116th	true
+zope.event	402,272	http://pypi.python.org/pypi/zope.event/4.0.2	Very basic event publishing system	117th	true
+Routes	400,217	http://pypi.python.org/pypi/Routes/1.13	Routing Recognition and Generation Tools	118th	false
+hiredis	399,477	http://pypi.python.org/pypi/hiredis/0.1.1	Python extension that wraps hiredis	119th	false
+argh	398,691	http://pypi.python.org/pypi/argh/0.23.1	A simple argparse wrapper.	120th	true
+certifi	389,754	http://pypi.python.org/pypi/certifi/0.0.8	Mozilla's SSL Certs.	121st	true
+thrift	387,807	http://pypi.python.org/pypi/thrift/0.9.0	Python bindings for the Apache Thrift RPC system	122nd	false
+zope.testing	387,800	http://pypi.python.org/pypi/zope.testing/4.1.2	Zope testing helpers	123rd	true
+mimeparse	383,198	http://pypi.python.org/pypi/mimeparse/0.1.3	A module provides basic functions for parsing mime-type names and matching them against a list of media-ranges.	124th	true
+Cheetah	380,507	http://pypi.python.org/pypi/Cheetah/2.4.4	Cheetah is a template engine and code generation tool.	125th	false
+OpenEXR	370,351	http://pypi.python.org/pypi/OpenEXR/1.2.0	Python bindings for ILM's OpenEXR image file format	126th	false
+zope.deprecation	365,781	http://pypi.python.org/pypi/zope.deprecation/4.0.2	Zope Deprecation Infrastructure	127th	true
+pyramid	364,054	http://pypi.python.org/pypi/pyramid/1.4.1	The Pyramid web application development framework, a Pylons project	128th	true
+transaction	362,773	http://pypi.python.org/pypi/transaction/1.4.1	Transaction management for Python	129th	true
+repoze.lru	361,658	http://pypi.python.org/pypi/repoze.lru/0.6	A tiny LRU cache implementation and decorator	130th	true
+pysolr	352,307	http://pypi.python.org/pypi/pysolr/3.0.6	Lightweight python wrapper for Apache Solr.	131st	true
+Pillow	352,046	http://pypi.python.org/pypi/Pillow/2.0.0	Python Imaging Library (fork)	132nd	false
+zope.schema	351,620	http://pypi.python.org/pypi/zope.schema/4.3.2	zope.interface extension for defining data schemas	133rd	true
+AWSpider	351,180	http://pypi.python.org/pypi/AWSpider/0.3.2.12	Amazon Web Services web crawler	134th	false
+plone.recipe.zope2instance	343,449	http://pypi.python.org/pypi/plone.recipe.zope2instance/4.2.10	Buildout recipe for creating a Zope 2 instance	135th	false
+xlrd	340,905	http://pypi.python.org/pypi/xlrd/0.9.2	Library for developers to extract data from Microsoft Excel (tm) spreadsheet files	136th	true
+pycassa	337,093	http://pypi.python.org/pypi/pycassa/1.8.0-4	Python client library for Apache Cassandra	137th	false
+ZODB3	336,851	http://pypi.python.org/pypi/ZODB3/3.11.0a3	Zope Object Database: object database and persistence	138th	false
+virtualenvwrapper	330,765	http://pypi.python.org/pypi/virtualenvwrapper/4.0	Enhancements to virtualenv	139th	true
+reportlab	324,971	http://pypi.python.org/pypi/reportlab/2.7	The Reportlab Toolkit	140th	false
+pytest	323,455	http://pypi.python.org/pypi/pytest/2.3.5	py.test: simple powerful testing with Python	141st	true
+haigha	310,780	http://pypi.python.org/pypi/haigha/0.5.9	Event driven AMQP client library	142nd	true
+Jinja	306,136	http://pypi.python.org/pypi/Jinja/1.2	A small but fast and easy to use stand-alone template engine written in pure python.	143rd	false
+python-openid	302,362	http://pypi.python.org/pypi/python-openid/2.2.4	OpenID support for servers and consumers.	144th	false
+Pylons	299,183	http://pypi.python.org/pypi/Pylons/1.0.1	Pylons Web Framework	145th	false
+SQLObject	298,609	http://pypi.python.org/pypi/SQLObject/1.4.0b1dev-r4593	Object-Relational Manager, aka database wrapper	146th	false
+django-facebook	296,545	http://pypi.python.org/pypi/django-facebook/5.1.2	None	147th	false
+python-cjson	295,195	http://pypi.python.org/pypi/python-cjson/1.0.5	Fast JSON encoder/decoder for Python	148th	false
+plone.app.layout	294,475	http://pypi.python.org/pypi/plone.app.layout/2.3.4	Layout mechanisms for Plone	149th	false
+xlwt	294,387	http://pypi.python.org/pypi/xlwt/0.7.5	Library to create spreadsheet files compatible with MS Excel 97/2000/XP/2003 XLS files, on any platform, with Python 2.3 to 2.6	150th	false
+plone.app.portlets	293,026	http://pypi.python.org/pypi/plone.app.portlets/2.4.3	Plone integration for the basic plone.portlets package	151st	false
+pyflakes	291,641	http://pypi.python.org/pypi/pyflakes/0.7.2	passive checker of Python programs	152nd	true
+zope.exceptions	289,410	http://pypi.python.org/pypi/zope.exceptions/4.0.6	Zope Exceptions	153rd	true
+django-mptt	288,249	http://pypi.python.org/pypi/django-mptt/0.5.5	Utilities for implementing Modified Preorder Tree Traversal
+        with your Django Models and working with trees of Model instances.	154th	false
+zope.i18nmessageid	280,959	http://pypi.python.org/pypi/zope.i18nmessageid/4.0.2	Message Identifiers for internationalization	155th	true
+collective.recipe.template	279,941	http://pypi.python.org/pypi/collective.recipe.template/1.10	Buildout recipe to generate a text file from a template	156th	false
+dogpile.cache	279,865	http://pypi.python.org/pypi/dogpile.cache/0.4.3	A caching front-end based on the Dogpile lock.	157th	true
+bottle	279,692	http://pypi.python.org/pypi/bottle/0.11.6	Fast and simple WSGI-framework for small web-applications.	158th	true
+tiddlyweb	277,526	http://pypi.python.org/pypi/tiddlyweb/1.4.9	An optionally headless, extensible RESTful datastore for tiddlers: bits of stuff.	159th	false
+Whoosh	275,037	http://pypi.python.org/pypi/Whoosh/2.4.1	Fast, pure-Python full text indexing, search, and spell checking library.	160th	true
+dogpile.core	274,511	http://pypi.python.org/pypi/dogpile.core/0.4.1	A 'dogpile' lock, typically used as a component of a larger caching solution	161st	true
+argparse	273,961	http://pypi.python.org/pypi/argparse/1.1	Python command-line parsing library	162nd	true
+pmxbot	273,922	http://pypi.python.org/pypi/pmxbot/1105.5	IRC bot - full featured, yet extensible and customizable	163rd	true
+zope.configuration	272,520	http://pypi.python.org/pypi/zope.configuration/4.0.2	Zope Configuration Markup Language (ZCML)	164th	true
+beautifulsoup4	272,214	http://pypi.python.org/pypi/beautifulsoup4/4.2.0	UNKNOWN	165th	true
+django-social-auth	269,817	http://pypi.python.org/pypi/django-social-auth/0.7.23	Django social authentication made simple.	166th	false
+django-templatetag-sugar	264,648	http://pypi.python.org/pypi/django-templatetag-sugar/0.1	A library to make Django's template tags sweet.	167th	false
+plone.app.controlpanel	264,373	http://pypi.python.org/pypi/plone.app.controlpanel/2.3.4	Formlib-based controlpanels for Plone.	168th	false
+multiprocessing	263,568	http://pypi.python.org/pypi/multiprocessing/2.6.2.1	Backport of the multiprocessing package to Python 2.4 and 2.5	169th	false
+zope.publisher	262,347	http://pypi.python.org/pypi/zope.publisher/4.0.0a4	The Zope publisher publishes Python objects on the web.	170th	false
+guppy	259,842	http://pypi.python.org/pypi/guppy/0.1.10	Guppy-PE -- A Python Programming Environment	171st	false
+venusian	259,119	http://pypi.python.org/pypi/venusian/1.0a8	A library for deferring decorator actions	172nd	true
+python-ldap	257,431	http://pypi.python.org/pypi/python-ldap/2.4.10	Python modules for implementing LDAP clients	173rd	false
+zope.security	255,969	http://pypi.python.org/pypi/zope.security/4.0.0b1	Zope Security Framework	174th	true
+regex	255,150	http://pypi.python.org/pypi/regex/2013-03-11	Alternative regular expression module, to replace re.	175th	true
+python-novaclient	254,779	http://pypi.python.org/pypi/python-novaclient/2.13.0	Client library for OpenStack Nova API.	176th	false
+thumbor	253,683	http://pypi.python.org/pypi/thumbor/3.10.0	thumbor is an open-source photo thumbnail service by globo.com	177th	false
+Plone	253,676	http://pypi.python.org/pypi/Plone/4.3	The Plone Content Management System	178th	false
+pika	253,634	http://pypi.python.org/pypi/pika/0.9.12	Pika Python AMQP Client Library	179th	false
+git-review	252,869	http://pypi.python.org/pypi/git-review/1.21	Tool to submit code to Gerrit	180th	true
+WebHelpers	251,808	http://pypi.python.org/pypi/WebHelpers/1.3	Web Helpers	181st	false
+WebError	251,584	http://pypi.python.org/pypi/WebError/0.10.3	Web Error handling and exception catching	182nd	false
+translationstring	251,280	http://pypi.python.org/pypi/translationstring/1.1	Utility library for i18n relied on by various Repoze and Pyramid packages	183rd	true
+yolk	250,975	http://pypi.python.org/pypi/yolk/0.4.3	Command-line tool for querying PyPI and Python packages installed on your system.	184th	false
+zope.i18n	250,921	http://pypi.python.org/pypi/zope.i18n/4.0.0a4	Zope Internationalization Support	185th	true
+scipy	250,373	http://pypi.python.org/pypi/scipy/0.12.0	SciPy: Scientific Library for Python	186th	true
+python-swiftclient	247,682	http://pypi.python.org/pypi/python-swiftclient/1.4.0	Client Library for OpenStack Object Storage API	187th	false
+EasyProcess	246,880	http://pypi.python.org/pypi/EasyProcess/0.1.6	Easy to use python subprocess interface.	188th	true
+pylibmc	245,331	http://pypi.python.org/pypi/pylibmc/1.2.3	Quick and small memcached client for Python	189th	false
+feedparser	245,094	http://pypi.python.org/pypi/feedparser/5.1.3	Universal feed parser, handles RSS 0.9x, RSS 1.0, RSS 2.0, CDF, Atom 0.3, and Atom 1.0 feeds	190th	true
+pyserial	243,581	http://pypi.python.org/pypi/pyserial/2.6	Python Serial Port Extension	191st	true
+python-cloudfiles	242,916	http://pypi.python.org/pypi/python-cloudfiles/1.7.10	CloudFiles client library for Python	192nd	false
+ZConfig	240,916	http://pypi.python.org/pypi/ZConfig/3.0.3	Structured Configuration Library	193rd	true
+django-paging	240,077	http://pypi.python.org/pypi/django-paging/0.2.5	An efficient paginator that works.	194th	false
+django-buckeye-corpus	238,852	http://pypi.python.org/pypi/django-buckeye-corpus/0.3.55	UNKNOWN	195th	false
+PyVirtualDisplay	238,771	http://pypi.python.org/pypi/PyVirtualDisplay/0.1.2	python wrapper for Xvfb, Xephyr and Xvnc	196th	false
+zope.proxy	238,314	http://pypi.python.org/pypi/zope.proxy/4.1.3	Generic Transparent Proxies	197th	true
+askbot	238,248	http://pypi.python.org/pypi/askbot/0.7.48	Question and Answer forum, like StackOverflow, written in python and Django	198th	false
+zope.location	237,617	http://pypi.python.org/pypi/zope.location/4.0.2	Zope Location	199th	true
+uuid	237,415	http://pypi.python.org/pypi/uuid/1.30	UUID object and generation functions (Python 2.3 or higher)	200th	false
+demjson	237,401	http://pypi.python.org/pypi/demjson/1.6	encoder, decoder, and lint/validator for JSON (JavaScript Object Notation) compliant with RFC 4627	201st	false
+JSONMapperHGMMPFork	234,846	http://pypi.python.org/pypi/JSONMapperHGMMPFork/0.62.026	Mapping JSON to objects and vice versa, this is a product of Christopher Lenz and Matthew Good with slight modifications	202nd	false
+Zope2	234,528	http://pypi.python.org/pypi/Zope2/2.13.20	Zope2 application server / web framework	203rd	false
+OpenGroupware	230,732	http://pypi.python.org/pypi/OpenGroupware/0.1.49rc38	OpenGroupware Coils Groupware & Workflow Solution	204th	false
+mozrunner	230,105	http://pypi.python.org/pypi/mozrunner/5.15	Reliable start/stop/configuration of Mozilla Applications (Firefox, Thunderbird, etc.)	205th	false
+zope.sqlalchemy	229,140	http://pypi.python.org/pypi/zope.sqlalchemy/0.7.2	Minimal Zope/SQLAlchemy transaction integration	206th	true
+stevedore	226,950	http://pypi.python.org/pypi/stevedore/0.8	Manage dynamic plugins for Python applications	207th	true
+django-registration	226,750	http://pypi.python.org/pypi/django-registration/0.8	An extensible user-registration application for Django	208th	false
+M2Crypto	226,102	http://pypi.python.org/pypi/M2Crypto/0.21.1	M2Crypto: A Python crypto and SSL toolkit	209th	false
+dotcloud	225,314	http://pypi.python.org/pypi/dotcloud/0.9.5	dotCloud meta-package to automatically install the dotCloud CLI	210th	false
+zdaemon	221,869	http://pypi.python.org/pypi/zdaemon/4.0.0	Daemon process control library and tools for Unix-based systems	211th	true
+plone.app.linkintegrity	219,410	http://pypi.python.org/pypi/plone.app.linkintegrity/1.5.1	Manage link integrity in Plone.	212th	false
+Mezzanine	219,340	http://pypi.python.org/pypi/Mezzanine/1.4.6	An open source content management platform built using the Django framework.	213th	false
+rosinstall	219,339	http://pypi.python.org/pypi/rosinstall/0.6.28	The installer for ROS	214th	true
+plone.app.form	219,131	http://pypi.python.org/pypi/plone.app.form/2.2.2	zope.formlib integration for Plone	215th	false
+plone.app.contentrules	218,008	http://pypi.python.org/pypi/plone.app.contentrules/3.0.1	Plone integration for plone.contentrules	216th	false
+zope.traversing	215,387	http://pypi.python.org/pypi/zope.traversing/4.0.0a3	Resolving paths in the object hierarchy	217th	false
+setuptools_hg	214,608	http://pypi.python.org/pypi/setuptools_hg/0.4	Setuptools/distribute plugin for finding files under Mercurial version control.	218th	true
+mr.developer	213,930	http://pypi.python.org/pypi/mr.developer/1.25	A zc.buildout extension to ease the development of large projects with lots of packages.	219th	true
+ipdb	213,451	http://pypi.python.org/pypi/ipdb/0.7	IPython-enabled pdb	220th	true
+pupynere	213,066	http://pypi.python.org/pypi/pupynere/1.0.15	NetCDF file reader and writer.	221st	false
+plone.i18n	212,752	http://pypi.python.org/pypi/plone.i18n/2.0.6	Advanced i18n/l10n features	222nd	false
+django-storages	212,613	http://pypi.python.org/pypi/django-storages/1.1.8	Support for many storages (S3, MogileFS, etc) in Django.	223rd	false
+slapos.cookbook	212,071	http://pypi.python.org/pypi/slapos.cookbook/0.78.0	SlapOS recipes.	224th	false
+plone.app.content	211,750	http://pypi.python.org/pypi/plone.app.content/2.1.1	Content Views for Plone	225th	false
+puke	211,435	http://pypi.python.org/pypi/puke/1.5.20	Puke is a straightforward build system	226th	false
+Products.TinyMCE	207,502	http://pypi.python.org/pypi/Products.TinyMCE/1.3.3	Adds support for TinyMCE, a platform independent web based Javascript HTML WYSIWYG editor, to Plone.	227th	false
+nosexcover	206,731	http://pypi.python.org/pypi/nosexcover/1.0.8	Extends nose.plugins.cover to add Cobertura-style XML reports	228th	false
+django-sentry	206,058	http://pypi.python.org/pypi/django-sentry/1.13.5	Exception Logging to a Database in Django	229th	false
+plone.app.vocabularies	204,561	http://pypi.python.org/pypi/plone.app.vocabularies/2.1.10	A collection of generally useful vocabularies.	230th	false
+archetypes.kss	204,271	http://pypi.python.org/pypi/archetypes.kss/1.7.2	KSS (Kinetic Style Sheets) for Archetypes	231st	false
+passlib	202,551	http://pypi.python.org/pypi/passlib/1.6.1	comprehensive password hashing framework supporting over 20 schemes	232nd	true
+plone.app.iterate	202,133	http://pypi.python.org/pypi/plone.app.iterate/2.1.10	check-out/check-in staging for Plone	233rd	false
+Products.Archetypes	202,036	http://pypi.python.org/pypi/Products.Archetypes/1.8.7	Archetypes is a developers framework for rapidly developing and deploying rich, full featured content types within the context of Zope/CMF and Plone.	234th	false
+django-classy-tags	201,916	http://pypi.python.org/pypi/django-classy-tags/0.4	Class based template tags for Django	235th	true
+WTForms	201,800	http://pypi.python.org/pypi/WTForms/1.0.4	A flexible forms validation and rendering library for python web development.	236th	true
+sorl-thumbnail	200,772	http://pypi.python.org/pypi/sorl-thumbnail/11.12	Thumbnails for Django	237th	false
+kss.core	199,497	http://pypi.python.org/pypi/kss.core/1.6.5	KSS (Kinetic Style Sheets) core framework	238th	false
+warehouse	199,190	http://pypi.python.org/pypi/warehouse/0.12.4	API Driven Python Package Index	239th	false
+plone.app.workflow	199,061	http://pypi.python.org/pypi/plone.app.workflow/2.1.3	workflow and security settings for Plone	240th	false
+minitage.core	198,361	http://pypi.python.org/pypi/minitage.core/2.0.57	A meta package-manager to deploy projects on UNIX Systemes sponsored by Makina Corpus.	241st	false
+django-tagging	198,059	http://pypi.python.org/pypi/django-tagging/0.3.1	Generic tagging application for Django	242nd	false
+plone.app.contentmenu	197,583	http://pypi.python.org/pypi/plone.app.contentmenu/2.0.8	Plone's content menu implementation	243rd	false
+mongoengine	196,794	http://pypi.python.org/pypi/mongoengine/0.8.0RC4	A Python Document-Object Mapper for working with MongoDB	244th	true
+oauthlib	196,670	http://pypi.python.org/pypi/oauthlib/0.4.0	A generic, spec-compliant, thorough implementation of the OAuth request-signing logic	245th	false
+python-keystoneclient	195,708	http://pypi.python.org/pypi/python-keystoneclient/0.2.3	Client library for OpenStack Identity API (Keystone)	246th	false
+rsa	194,600	http://pypi.python.org/pypi/rsa/3.1.1	Pure-Python RSA implementation	247th	false
+rdflib	193,524	http://pypi.python.org/pypi/rdflib/3.4.0	RDFLib is a Python library for working with RDF, a simple yet powerful language for representing information.	248th	true
+plone.memoize	193,384	http://pypi.python.org/pypi/plone.memoize/1.1.1	Decorators for caching the values of functions and methods	249th	false
+five.localsitemanager	193,260	http://pypi.python.org/pypi/five.localsitemanager/2.0.5	Local site manager implementation for Zope 2	250th	false
+plone.app.kss	192,324	http://pypi.python.org/pypi/plone.app.kss/1.8.0	KSS (Kinetic Style Sheets) for Plone	251st	false
+zope.dottedname	191,527	http://pypi.python.org/pypi/zope.dottedname/4.0.1	Resolver for Python dotted names.	252nd	true
+dotcloud.cli	191,123	http://pypi.python.org/pypi/dotcloud.cli/0.4.8	dotCloud command-line interface client	253rd	false
+django-tastypie	190,551	http://pypi.python.org/pypi/django-tastypie/0.9.15	A flexible & capable API layer for Django.	254th	false
+rightscale	188,690	http://pypi.python.org/pypi/rightscale/0.302	Object-oriented library for RightScale's API.	255th	false
+cliff	188,617	http://pypi.python.org/pypi/cliff/1.3.3	Command Line Interface Formulation Framework	256th	true
+virtualenv-clone	188,160	http://pypi.python.org/pypi/virtualenv-clone/0.2.4	script to clone virtualenvs.	257th	true
+zope.tales	187,177	http://pypi.python.org/pypi/zope.tales/4.0.1	Zope Template Application Language Expression Syntax (TALES)	258th	true
+pyzmq	187,097	http://pypi.python.org/pypi/pyzmq/13.1.0	Python bindings for 0MQ	259th	true
+z3c.recipe.scripts	186,758	http://pypi.python.org/pypi/z3c.recipe.scripts/1.0.1	Recipe for installing Python scripts	260th	false
+zope.pagetemplate	186,346	http://pypi.python.org/pypi/zope.pagetemplate/4.0.4	Zope Page Templates	261st	false
+zc.recipe.testrunner	186,254	http://pypi.python.org/pypi/zc.recipe.testrunner/2.0.0	ZC Buildout recipe for creating test runners	262nd	false
+zope.tal	186,066	http://pypi.python.org/pypi/zope.tal/4.0.0a1	Zope Template Application Language (TAL)	263rd	true
+python-digest	185,368	http://pypi.python.org/pypi/python-digest/1.7	A Python library to aid in implementing HTTP Digest Authentication.	264th	false
+makesite	185,183	http://pypi.python.org/pypi/makesite/0.9.83	Makesite is collection scripts for make and control site structure.	265th	false
+Products.PlonePAS	184,264	http://pypi.python.org/pypi/Products.PlonePAS/4.1.1	PlonePAS adapts the PluggableAuthService for use by Plone.	266th	false
+django-cms	183,497	http://pypi.python.org/pypi/django-cms/2.4.1	An Advanced Django CMS	267th	false
+mechanize	182,828	http://pypi.python.org/pypi/mechanize/0.2.5	Stateful programmatic web browsing.	268th	false
+Shapely	182,586	http://pypi.python.org/pypi/Shapely/1.2.17	Geometric objects, predicates, and operations	269th	false
+plone.portlets	182,302	http://pypi.python.org/pypi/plone.portlets/2.2	An extension of zope.viewlet to support dynamic portlets	270th	false
+django-pipeline	182,247	http://pypi.python.org/pypi/django-pipeline/1.3.9	Pipeline is an asset packaging library for Django.	271st	true
+zope.testbrowser	182,186	http://pypi.python.org/pypi/zope.testbrowser/3.6.0	Programmable browser for functional black-box tests	272nd	false
+nltk	181,258	http://pypi.python.org/pypi/nltk/2.0.4	Natural Language Toolkit	273rd	false
+jsonschema	181,046	http://pypi.python.org/pypi/jsonschema/1.3.0	An implementation of JSON Schema validation for Python	274th	true
+plone.app.customerize	180,246	http://pypi.python.org/pypi/plone.app.customerize/1.1.4	Integrate five.customerize into Plone.	275th	false
+plone.locking	180,234	http://pypi.python.org/pypi/plone.locking/2.0.4	webdav locking support	276th	false
+plone.app.locales	179,544	http://pypi.python.org/pypi/plone.app.locales/4.3.1	Translation files for Plone	277th	false
+Products.CMFEditions	179,423	http://pypi.python.org/pypi/Products.CMFEditions/2.2.8	Versioning for Plone	278th	false
+plone.app.redirector	178,863	http://pypi.python.org/pypi/plone.app.redirector/1.2a1	redirection tool	279th	false
+plone.session	178,332	http://pypi.python.org/pypi/plone.session/3.5.3	Session based authentication for Zope	280th	false
+plone.app.openid	176,818	http://pypi.python.org/pypi/plone.app.openid/2.0.2	Plone OpenID authentication support	281st	false
+warlock	176,240	http://pypi.python.org/pypi/warlock/1.0.0	Python object model built on JSON schema and JSON patch.	282nd	false
+djangorecipe	175,973	http://pypi.python.org/pypi/djangorecipe/1.5	Buildout recipe for Django	283rd	true
+configobj	175,745	http://pypi.python.org/pypi/configobj/4.7.2	Config file reading, writing and validation.	284th	false
+bson	175,369	http://pypi.python.org/pypi/bson/0.3.3	BSON codec for Python	285th	false
+five.customerize	174,995	http://pypi.python.org/pypi/five.customerize/1.1	TTW customization of template-based Zope views	286th	false
+zope.filerepresentation	174,934	http://pypi.python.org/pypi/zope.filerepresentation/4.0.2	File-system Representation Interfaces	287th	true
+zope.contenttype	174,611	http://pypi.python.org/pypi/zope.contenttype/4.0.1	Zope contenttype	288th	true
+jlddk	174,601	http://pypi.python.org/pypi/jlddk/0.7.37	Collection of robots	289th	false
+Products.ATContentTypes	174,355	http://pypi.python.org/pypi/Products.ATContentTypes/2.1.12	Default Content Types for Plone	290th	false
+plone.contentrules	174,091	http://pypi.python.org/pypi/plone.contentrules/2.0.2	Plone ContentRules Engine	291st	false
+zc.lockfile	173,699	http://pypi.python.org/pypi/zc.lockfile/1.1.0	Basic inter-process locks	292nd	true
+django-pagination	173,571	http://pypi.python.org/pypi/django-pagination/1.0.7	django-pagination	293rd	false
+matplotlib	173,451	http://pypi.python.org/pypi/matplotlib/1.1.1	Python plotting package	294th	true
+plone.fieldsets	173,295	http://pypi.python.org/pypi/plone.fieldsets/2.0.2	An extension to zope.formlib, which allows to group fields into different fieldsets.	295th	false
+plone.theme	173,160	http://pypi.python.org/pypi/plone.theme/2.1	Tools for managing themes in CMF and Plone sites	296th	false
+openpyxl	172,632	http://pypi.python.org/pypi/openpyxl/1.6.2	A Python library to read/write Excel 2007 xlsx/xlsm files	297th	true
+plone.app.i18n	172,495	http://pypi.python.org/pypi/plone.app.i18n/2.0.2	Plone specific i18n extensions.	298th	false
+flake8	172,272	http://pypi.python.org/pypi/flake8/2.0	code checking using pep8 and pyflakes	299th	false
+sqlalchemy-migrate	171,821	http://pypi.python.org/pypi/sqlalchemy-migrate/0.7.2	Database schema migration for SQLAlchemy	300th	false
+croniter	170,399	http://pypi.python.org/pypi/croniter/0.3.3	croniter provides iteration for datetime object with cron like format	301st	false
+plone.recipe.zope2install	169,444	http://pypi.python.org/pypi/plone.recipe.zope2install/3.3	ZC Buildout recipe for installing Zope 2.	302nd	false
+borg.localrole	168,688	http://pypi.python.org/pypi/borg.localrole/3.0.2	A PAS plugin which can manage local roles via an adapter lookup on the current context	303rd	false
+importlib	167,503	http://pypi.python.org/pypi/importlib/1.0.2	Backport of importlib.import_module() from Python 2.7	304th	true
+zope.app.publisher	167,118	http://pypi.python.org/pypi/zope.app.publisher/3.8.5	Implementations and means for configuration of Zope 3-style views and resources.	305th	false
+blinker	167,021	http://pypi.python.org/pypi/blinker/1.2	Fast, simple object-to-object and broadcast signaling	306th	true
+zope.app.publication	166,614	http://pypi.python.org/pypi/zope.app.publication/4.0.0a1.dev	Zope publication	307th	false
+django-test-utils	166,215	http://pypi.python.org/pypi/django-test-utils/0.3	A package to help testing in Django	308th	false
+django-indexer	165,711	http://pypi.python.org/pypi/django-indexer/0.3.0	Key/Value Indexer	309th	false
+z3c.form	164,722	http://pypi.python.org/pypi/z3c.form/3.0.0a3	An advanced form and widget framework for Zope 3	310th	false
+envoy	164,384	http://pypi.python.org/pypi/envoy/0.0.2	Simple API for running external processes.	311th	false
+Flask-WTF	164,288	http://pypi.python.org/pypi/Flask-WTF/0.8.3	Simple integration of Flask and WTForms	312th	false
+zope.formlib	164,130	http://pypi.python.org/pypi/zope.formlib/4.3.0a1	Form generation and validation library for Zope	313th	false
+plone.app.viewletmanager	164,126	http://pypi.python.org/pypi/plone.app.viewletmanager/2.0.3	configurable viewlet manager	314th	false
+django-haystack	163,296	http://pypi.python.org/pypi/django-haystack/2.0.0	Pluggable search for Django.	315th	false
+zope.app.form	163,289	http://pypi.python.org/pypi/zope.app.form/4.0.2	The Original Zope 3 Form Framework	316th	false
+plone.openid	162,982	http://pypi.python.org/pypi/plone.openid/2.0.1	OpenID authentication support for PAS	317th	false
+RestrictedPython	162,934	http://pypi.python.org/pypi/RestrictedPython/3.6.0	RestrictedPython provides a restricted execution environment for Python, e.g. for running untrusted code.	318th	false
+pam	162,780	http://pypi.python.org/pypi/pam/0.1.4	None	319th	false
+cssmin	162,378	http://pypi.python.org/pypi/cssmin/0.1.4	A Python port of the YUI CSS compression algorithm.	320th	false
+pyramid_debugtoolbar	160,929	http://pypi.python.org/pypi/pyramid_debugtoolbar/1.0.6	A package which provides an interactive HTML debugger for Pyramid application development	321st	true
+Products.GenericSetup	160,886	http://pypi.python.org/pypi/Products.GenericSetup/1.6.9	Read Zope configuration state from profile dirs / tarballs	322nd	false
+repoze.who	160,787	http://pypi.python.org/pypi/repoze.who/2.1	repoze.who is an identification and authentication framework for WSGI.	323rd	true
+AutoNetkit	160,074	http://pypi.python.org/pypi/AutoNetkit/0.6.1dev-20120713	Automated configuration generator for cBGP, Netkit and Junosphere	324th	false
+plone.browserlayer	159,947	http://pypi.python.org/pypi/plone.browserlayer/2.1.2	Browser layer management for Zope 2 applications	325th	false
+collective.plonetruegallery	159,026	http://pypi.python.org/pypi/collective.plonetruegallery/3.3.1b1	A gallery/slideshow product for plone that can aggregate from picasa and flickr or use plone images.	326th	false
+wsgiref	158,817	http://pypi.python.org/pypi/wsgiref/0.1.2	WSGI (PEP 333) Reference Library	327th	false
+Products.ResourceRegistries	158,809	http://pypi.python.org/pypi/Products.ResourceRegistries/2.2.7	Registry for managing CSS and JS	328th	false
+zope.lifecycleevent	158,699	http://pypi.python.org/pypi/zope.lifecycleevent/4.0.2	Object life-cycle events	329th	true
+django-tinymce	158,522	http://pypi.python.org/pypi/django-tinymce/1.5.1	A Django application that contains a widget to render a form field as a TinyMCE editor.	330th	false
+djangorestframework	158,424	http://pypi.python.org/pypi/djangorestframework/2.3.3	A lightweight REST framework for Django.	331st	true
+timeout	158,348	http://pypi.python.org/pypi/timeout/0.1.2	Python Timeout Decorators	332nd	false
+waitress	157,968	http://pypi.python.org/pypi/waitress/0.8.3	Waitress WSGI server	333rd	true
+wicked	157,732	http://pypi.python.org/pypi/wicked/1.1.10	wicked is a compact syntax for doing wiki-like content linking and creation in zope and plone	334th	false
+plone.intelligenttext	157,564	http://pypi.python.org/pypi/plone.intelligenttext/2.0.2	Provides transforms from text/x-web-intelligent to text/html and vice versa.	335th	false
+ez_setup	157,306	http://pypi.python.org/pypi/ez_setup/0.9	ez_setup.py and distribute_setup.py	336th	true
+plone.portlet.static	156,189	http://pypi.python.org/pypi/plone.portlet.static/2.0.2	A simple static HTML portlet for Plone.	337th	false
+zope.browser	155,979	http://pypi.python.org/pypi/zope.browser/2.0.2	Shared Zope Toolkit browser components	338th	true
+execnet	155,587	http://pypi.python.org/pypi/execnet/1.1	execnet: rapid multi-Python deployment	339th	true
+zope.app.container	155,329	http://pypi.python.org/pypi/zope.app.container/3.9.2	Zope Container	340th	false
+plone.portlet.collection	155,266	http://pypi.python.org/pypi/plone.portlet.collection/2.1.5	A portlet that fetches results from a collection	341st	false
+hexagonit.recipe.download	155,139	http://pypi.python.org/pypi/hexagonit.recipe.download/1.7	zc.buildout recipe for downloading and extracting packages	342nd	false
+PyMySQL	155,003	http://pypi.python.org/pypi/PyMySQL/0.5	Pure Python MySQL Driver	343rd	false
+Products.PloneFormGen	152,772	http://pypi.python.org/pypi/Products.PloneFormGen/1.7.8	A through-the-web form generator for Plone	344th	false
+ll-xist	152,764	http://pypi.python.org/pypi/ll-xist/4.10	Extensible HTML/XML generator, cross-platform templating language, Oracle utilities and various other tools	345th	true
+easy-thumbnails	152,646	http://pypi.python.org/pypi/easy-thumbnails/1.2	Easy thumbnails for Django	346th	false
+fpconst	152,410	http://pypi.python.org/pypi/fpconst/0.7.2	Utilities for handling IEEE 754 floating point special values	347th	false
+plone.recipe.distros	151,989	http://pypi.python.org/pypi/plone.recipe.distros/1.5	ZC Buildout recipe for installing distributions.	348th	false
+archetypes.referencebrowserwidget	151,670	http://pypi.python.org/pypi/archetypes.referencebrowserwidget/2.4.17	A referencebrowser implementation for Archetypes	349th	false
+Products.PloneLanguageTool	151,644	http://pypi.python.org/pypi/Products.PloneLanguageTool/3.2.7	PloneLanguageTool allows you to set the available languages in your Plone site, select various fallback mechanisms, and control the use of flags for language selection and translations.	350th	false
+plone.app.upgrade	150,902	http://pypi.python.org/pypi/plone.app.upgrade/1.3.1	Upgrade machinery for Plone.	351st	false
+hgtools	150,074	http://pypi.python.org/pypi/hgtools/3.0.2	Classes and setuptools plugin for Mercurial repositories	352nd	true
+zope.container	149,412	http://pypi.python.org/pypi/zope.container/4.0.0a3	Zope Container	353rd	false
+Clay	149,286	http://pypi.python.org/pypi/Clay/2.4.6	A rapid prototyping tool	354th	false
+Flask-SQLAlchemy	147,770	http://pypi.python.org/pypi/Flask-SQLAlchemy/0.16	Adds SQLAlchemy support to your Flask application	355th	false
+carrot	147,553	http://pypi.python.org/pypi/carrot/0.10.7	AMQP Messaging Framework for Python	356th	false
+rsb-python	147,170	http://pypi.python.org/pypi/rsb-python/0.7.0.114	Fully event-driven Robotics Service Bus	357th	false
+pystache	146,964	http://pypi.python.org/pypi/pystache/0.5.3	Mustache for Python	358th	true
+recaptcha-client	146,938	http://pypi.python.org/pypi/recaptcha-client/1.0.6	A plugin for reCAPTCHA and reCAPTCHA Mailhide	359th	false
+zope.app.pagetemplate	146,880	http://pypi.python.org/pypi/zope.app.pagetemplate/3.11.2	PageTemplate integration for Zope 3	360th	false
+plone.keyring	146,357	http://pypi.python.org/pypi/plone.keyring/2.0.1	Manage secrets	361st	false
+plone.protect	145,951	http://pypi.python.org/pypi/plone.protect/2.0.2	Security for browser forms	362nd	false
+flup	145,079	http://pypi.python.org/pypi/flup/1.0.3.dev-20110405	Random assortment of WSGI servers	363rd	false
+unittest-xml-reporting	144,226	http://pypi.python.org/pypi/unittest-xml-reporting/1.4.3	PyUnit-based test runner with JUnit like XML reporting.	364th	true
+zope.app.component	144,074	http://pypi.python.org/pypi/zope.app.component/3.9.3	Local Zope Component Support	365th	false
+Kotti	143,578	http://pypi.python.org/pypi/Kotti/0.9a2	Kotti is a high-level, 'Pythonic' web application framework. It includes a small and extensible CMS application called the Kotti CMS.	366th	false
+odict	142,918	http://pypi.python.org/pypi/odict/1.5.1	Ordered dictionary.	367th	false
+zope.session	142,802	http://pypi.python.org/pypi/zope.session/4.0.0a1	Client identification and sessions for Zope	368th	false
+GitPython	141,798	http://pypi.python.org/pypi/GitPython/0.3.2.RC1	Python Git Library	369th	false
+zope.dublincore	141,783	http://pypi.python.org/pypi/zope.dublincore/4.0.0	Zope Dublin Core implementation	370th	false
+Products.PortalTransforms	141,726	http://pypi.python.org/pypi/Products.PortalTransforms/2.1.2	MIME based content transformations	371st	false
+pyinotify	141,518	http://pypi.python.org/pypi/pyinotify/0.9.4	Linux filesystem events monitoring	372nd	true
+lettuce	141,458	http://pypi.python.org/pypi/lettuce/0.2.16	Behaviour Driven Development for python	373rd	false
+zope.app.appsetup	141,400	http://pypi.python.org/pypi/zope.app.appsetup/4.0.0a1	Zope app setup helper	374th	false
+zope.annotation	141,328	http://pypi.python.org/pypi/zope.annotation/4.2.0	Object annotation mechanism	375th	true
+zope.site	140,981	http://pypi.python.org/pypi/zope.site/4.0.0a1	Local registries for zope component architecture	376th	false
+Neptuno2	140,542	http://pypi.python.org/pypi/Neptuno2/1.2.2	A little set of utilities that Ender has been using in their web projects	377th	false
+plone.app.jquerytools	140,237	http://pypi.python.org/pypi/plone.app.jquerytools/1.5.5	jQuery Tools integration for Plone plus overlay and AJAX form helpers.	378th	false
+django-sekizai	139,760	http://pypi.python.org/pypi/django-sekizai/0.7	Django Sekizai	379th	true
+Products.PasswordResetTool	139,522	http://pypi.python.org/pypi/Products.PasswordResetTool/2.0.13	Password reset tool for Plone	380th	false
+zope.deferredimport	139,287	http://pypi.python.org/pypi/zope.deferredimport/4.0.0	zope.deferredimport allows you to perform imports names that will only be resolved when used in the code.	381st	false
+Babel	139,228	http://pypi.python.org/pypi/Babel/0.9.6	Internationalization utilities	382nd	false
+cssutils	138,545	http://pypi.python.org/pypi/cssutils/0.9.10	A CSS Cascading Style Sheets library for Python	383rd	true
+pbp.recipe.noserunner	137,893	http://pypi.python.org/pypi/pbp.recipe.noserunner/0.2.6	Expert Python Programming - ZC Buildout runner for nose	384th	false
+zope.error	137,848	http://pypi.python.org/pypi/zope.error/4.1.0	An error reporting utility for Zope3	385th	false
+python-gflags	137,473	http://pypi.python.org/pypi/python-gflags/2.0	Google Commandline Flags Module	386th	false
+zope.size	137,394	http://pypi.python.org/pypi/zope.size/4.0.1	Interfaces and simple adapter that give the size of an object	387th	true
+plone.app.z3cform	137,231	http://pypi.python.org/pypi/plone.app.z3cform/0.7.2	A collection of widgets, templates and other components for use with z3c.form and Plone	388th	false
+readline	137,191	http://pypi.python.org/pypi/readline/6.2.4.1	The standard Python readline extension statically linked against the GNU readline library.	389th	true
+Products.PluggableAuthService	136,322	http://pypi.python.org/pypi/Products.PluggableAuthService/1.10.0	Pluggable Zope2 authentication / authorization framework	390th	false
+apache-libcloud	136,237	http://pypi.python.org/pypi/apache-libcloud/0.12.4	A standard Python library that abstracts away differencesamong multiple cloud provider APIs	391st	true
+pexpect	135,537	http://pypi.python.org/pypi/pexpect/2.4	Pexpect is a pure Python Expect. It allows easy control of other applications.	392nd	false
+cube-client	135,140	http://pypi.python.org/pypi/cube-client/0.1	A Python client for Cube: Time Series Data Collection & Analysis	393rd	false
+Acquisition	135,062	http://pypi.python.org/pypi/Acquisition/4.0	Acquisition is a mechanism that allows objects to obtain attributes from the containment hierarchy they're in.	394th	false
+ZopeSkel	135,010	http://pypi.python.org/pypi/ZopeSkel/3.0b3	Templates and code generator for quickstarting Python, Zope and Plone projects.	395th	false
+zope.app.testing	134,992	http://pypi.python.org/pypi/zope.app.testing/3.10.0	Zope Application Testing Support	396th	false
+Products.PlacelessTranslationService	134,830	http://pypi.python.org/pypi/Products.PlacelessTranslationService/2.0.3	PTS provides a way of internationalizing (i18n'ing) and localizing (l10n'ing) software for Zope 2.	397th	false
+DateTime	134,221	http://pypi.python.org/pypi/DateTime/4.0	This package provides a DateTime data type, as known from Zope 2.Unless you need to communicate with Zope 2 APIs, you're probablybetter off using Python's built-in datetime module.	398th	false
+restkit	134,198	http://pypi.python.org/pypi/restkit/4.2.1	Python REST kit	399th	false
+zope.viewlet	133,660	http://pypi.python.org/pypi/zope.viewlet/4.0.0a1	Zope Viewlets	400th	false
+jsonpatch	132,686	http://pypi.python.org/pypi/jsonpatch/1.0	Apply JSON-Patches according to http://tools.ietf.org/html/draft-pbryan-json-patch-01	401st	false
+python-quantumclient	132,486	http://pypi.python.org/pypi/python-quantumclient/2.2.1	CLI and python client library for OpenStack Quantum	402nd	false
+django-grappelli	131,525	http://pypi.python.org/pypi/django-grappelli/2.4.4	A jazzy skin for the Django Admin-Interface.	403rd	false
+StrangeCase	131,516	http://pypi.python.org/pypi/StrangeCase/4.6.3	A straightforward python static site generator.	404th	false
+zope.contentprovider	131,095	http://pypi.python.org/pypi/zope.contentprovider/4.0.0a1	Content Provider Framework for Zope Templates	405th	false
+zope.copypastemove	131,031	http://pypi.python.org/pypi/zope.copypastemove/4.0.0a1	Copy, Paste and Move support for content components.	406th	false
+nma-python	130,764	http://pypi.python.org/pypi/nma-python/0.2.3	A library/cli tool for notifymyandroid (http://nma.usk.bz)	407th	false
+ujson	130,548	http://pypi.python.org/pypi/ujson/1.30	Ultra fast JSON encoder and decoder for Python	408th	true
+jsonpointer	130,212	http://pypi.python.org/pypi/jsonpointer/1.0	A JSON Pointer that can reference parts of an JSON document	409th	false
+futures	129,696	http://pypi.python.org/pypi/futures/2.1.3	Backport of the concurrent.futures package from Python 3.2	410th	true
+archetypes.schemaextender	129,509	http://pypi.python.org/pypi/archetypes.schemaextender/2.1.2	Dynamically extend Archetypes schemas with named adapters.	411th	false
+Products.CMFQuickInstallerTool	128,891	http://pypi.python.org/pypi/Products.CMFQuickInstallerTool/3.0.6	CMFQuickInstallerTool is a facility for comfortable activation/deactivation of CMF compliant products.	412th	false
+zope.sendmail	128,720	http://pypi.python.org/pypi/zope.sendmail/4.0.0a2	Zope sendmail	413th	false
+cmd2	128,414	http://pypi.python.org/pypi/cmd2/0.6.5.1	Extra features for standard library's cmd module	414th	false
+Products.CMFCore	127,946	http://pypi.python.org/pypi/Products.CMFCore/2.2.7	Zope Content Management Framework core components	415th	false
+django_openstack_auth	127,596	http://pypi.python.org/pypi/django_openstack_auth/1.0.9	A Django authentication backend for use with the OpenStack Keystone Identity backend.	416th	false
+python-memcached	127,050	http://pypi.python.org/pypi/python-memcached/1.51	Pure python memcached client	417th	false
+python-cinderclient	127,009	http://pypi.python.org/pypi/python-cinderclient/1.0.4	Client library for OpenStack Cinder API.	418th	false
+zope.app.locales	126,546	http://pypi.python.org/pypi/zope.app.locales/3.7.4	Zope locale extraction and management utilities	419th	false
+keyring	125,825	http://pypi.python.org/pypi/keyring/1.2.2	Store and access your passwords safely.	420th	true
+plone.app.discussion	125,437	http://pypi.python.org/pypi/plone.app.discussion/2.2.5	Enhanced discussion support for Plone	421st	false
+pytest-xdist	125,150	http://pypi.python.org/pypi/pytest-xdist/1.8	py.test xdist plugin for distributed testing and loop-on-failing modes	422nd	true
+plone.z3cform	124,974	http://pypi.python.org/pypi/plone.z3cform/0.8.0	plone.z3cform is a library that allows use of z3c.form with Zope 2 and the CMF.	423rd	false
+Products.CMFPlacefulWorkflow	124,804	http://pypi.python.org/pypi/Products.CMFPlacefulWorkflow/1.5.9	Workflow policies for CMF and Plone	424th	false
+zope.app.wsgi	124,648	http://pypi.python.org/pypi/zope.app.wsgi/4.0.0a4	WSGI application for the zope.publisher	425th	false
+vcstools	124,539	http://pypi.python.org/pypi/vcstools/0.1.30	VCS/SCM source control library for svn, git, hg, and bzr	426th	true
+Products.CMFFormController	124,071	http://pypi.python.org/pypi/Products.CMFFormController/3.0.3	CMFFormController provides a form validation mechanism for CMF.	427th	false
+collective.z3cform.datetimewidget	124,014	http://pypi.python.org/pypi/collective.z3cform.datetimewidget/1.2.3	z3c.form date and datetime widgets	428th	false
+django-autocomplete-light	123,569	http://pypi.python.org/pypi/django-autocomplete-light/1.1.31	Simple alternative to django-ajax-selects	429th	false
+colorama	123,088	http://pypi.python.org/pypi/colorama/0.2.5	Cross-platform colored terminal text.	430th	true
+httpagentparser	122,756	http://pypi.python.org/pypi/httpagentparser/1.2.2	Extracts OS Browser etc information from http user agent string	431st	true
+Products.CMFDynamicViewFTI	122,678	http://pypi.python.org/pypi/Products.CMFDynamicViewFTI/4.0.4	CMFDynamicViewFTI is a product for dynamic views in CMF.	432nd	false
+plone.app.blob	122,228	http://pypi.python.org/pypi/plone.app.blob/1.5.8	ZODB blob support for Plone	433rd	false
+zope.minmax	122,187	http://pypi.python.org/pypi/zope.minmax/2.0.0	Homogeneous values favoring maximum or minimum for ZODB conflict resolution	434th	false
+pisa	122,075	http://pypi.python.org/pypi/pisa/3.0.33	PDF generator using HTML and CSS	435th	false
+django-redis	122,074	http://pypi.python.org/pypi/django-redis/3.2	Redis Cache Backend for Django. (This is fork of django-redis-cache)	436th	true
+Products.LinguaPlone	121,989	http://pypi.python.org/pypi/Products.LinguaPlone/4.1.3	Manage and maintain multilingual content that integrates seamlessly with Plone.	437th	false
+django-jsonfield	121,559	http://pypi.python.org/pypi/django-jsonfield/0.9.4	JSONField for django models	438th	false
+django-reversion	121,446	http://pypi.python.org/pypi/django-reversion/1.7	An extension to the Django web framework that provides comprehensive version control facilities	439th	false
+django-jenkins	121,305	http://pypi.python.org/pypi/django-jenkins/0.14.0	Plug and play continuous integration with django and jenkins	440th	true
+enum	120,111	http://pypi.python.org/pypi/enum/0.4.4	Robust enumerated type support in Python.	441st	false
+zope.app.security	120,108	http://pypi.python.org/pypi/zope.app.security/3.7.5	ZMI Views For Zope3 Security Components	442nd	false
+zope.structuredtext	119,723	http://pypi.python.org/pypi/zope.structuredtext/4.0.0	StructuredText parser	443rd	false
+pandas	119,274	http://pypi.python.org/pypi/pandas/0.11.0	Powerful data structures for data analysis and statistics	444th	true
+django-staticfiles	119,221	http://pypi.python.org/pypi/django-staticfiles/1.2.1	A Django app that provides helpers for serving static files.	445th	false
+uncertainties	118,951	http://pypi.python.org/pypi/uncertainties/2.3.6	Transparent calculations with uncertainties on the quantities involved (aka "error propagation"); fast calculation of derivatives	446th	true
+Products.statusmessages	118,875	http://pypi.python.org/pypi/Products.statusmessages/4.0	statusmessages provides an easy way of handling internationalized status messages managed via an BrowserRequest adapter storing status messages in client-side cookies.	447th	false
+zope.cachedescriptors	117,595	http://pypi.python.org/pypi/zope.cachedescriptors/4.0.0	Method and property caching decorators	448th	true
+plonetheme.arnolfini	117,017	http://pypi.python.org/pypi/plonetheme.arnolfini/0.89	An installable theme for Plone 4	449th	false
+zope.app.authentication	116,959	http://pypi.python.org/pypi/zope.app.authentication/3.9	Principals and groups management for the pluggable authentication utility	450th	false
+gitdb	116,888	http://pypi.python.org/pypi/gitdb/0.5.4	Git Object Database	451st	false
+grab	116,790	http://pypi.python.org/pypi/grab/0.4.10	Pycurl wrapper	452nd	false
+mwlib	116,721	http://pypi.python.org/pypi/mwlib/0.15.8	mediawiki parser and utility library	453rd	false
+zope.app.dependable	116,236	http://pypi.python.org/pypi/zope.app.dependable/3.5.1	Simple Dependency API	454th	false
+buildout.dumppickedversions	115,851	http://pypi.python.org/pypi/buildout.dumppickedversions/0.5	Dump buildout picked versions.	455th	false
+bellatrix	115,370	http://pypi.python.org/pypi/bellatrix/1.1.10	Bellatrix is a comprehensive set of tools to automate the management of Amazon EC2 services.	456th	false
+Products.CMFPlone	114,864	http://pypi.python.org/pypi/Products.CMFPlone/4.3	The Plone Content Management System (core)	457th	false
+INITools	113,802	http://pypi.python.org/pypi/INITools/0.3.1	Tools for parsing and using INI-style files	458th	false
+zope.app.basicskin	113,715	http://pypi.python.org/pypi/zope.app.basicskin/3.5.1	Zope ZMI Basic Skin	459th	false
+AccessControl	113,241	http://pypi.python.org/pypi/AccessControl/3.0.7	Security framework for Zope2.	460th	false
+B1python	112,970	http://pypi.python.org/pypi/B1python/0.8.7	Python macros for (A)SAXS evaluation	461st	false
+slimit	112,903	http://pypi.python.org/pypi/slimit/0.8.1	SlimIt - JavaScript minifier	462nd	false
+django-lfs	112,577	http://pypi.python.org/pypi/django-lfs/0.7.7	LFS - Lightning Fast Shop	463rd	false
+python-Levenshtein	112,323	http://pypi.python.org/pypi/python-Levenshtein/0.10.2	Python extension computing string distances and similarities.	464th	false
+django-bootstrap-toolkit	112,017	http://pypi.python.org/pypi/django-bootstrap-toolkit/2.12.0	Bootstrap support for Django projects	465th	false
+zope.datetime	112,010	http://pypi.python.org/pypi/zope.datetime/4.0.0	Zope datetime	466th	false
+async	111,583	http://pypi.python.org/pypi/async/0.6.1	Async Framework	467th	false
+isodate	111,354	http://pypi.python.org/pypi/isodate/0.4.9	An ISO 8601 date/time/duration parser and formater	468th	true
+zc.recipe.cmmi	111,112	http://pypi.python.org/pypi/zc.recipe.cmmi/1.3.5	ZC Buildout recipe for configure/make/make install	469th	false
+Products.MimetypesRegistry	110,467	http://pypi.python.org/pypi/Products.MimetypesRegistry/2.0.4	MIME type handling for Zope	470th	false
+zope.app.schema	110,381	http://pypi.python.org/pypi/zope.app.schema/3.5.0	Component Architecture based Vocabulary Registry	471st	false
+cov-core	110,181	http://pypi.python.org/pypi/cov-core/1.7	plugin core for use by pytest-cov, nose-cov and nose2-cov	472nd	true
+Products.ATReferenceBrowserWidget	110,160	http://pypi.python.org/pypi/Products.ATReferenceBrowserWidget/2.0.8	ATReferenceBrowserWidget is reference widget for Archetypes.	473rd	false
+path.py	109,966	http://pypi.python.org/pypi/path.py/3.2	A module wrapper for os.path	474th	true
+zope.app.applicationcontrol	109,942	http://pypi.python.org/pypi/zope.app.applicationcontrol/3.5.10	Zope application control	475th	false
+django-waffle	109,543	http://pypi.python.org/pypi/django-waffle/0.9.1	A feature flipper for Django.	476th	false
+DecoratorTools	108,862	http://pypi.python.org/pypi/DecoratorTools/1.8	Class, function, and metaclass decorators -- even in Python 2.3 (now with source debugging for generated code)!	477th	false
+plonetheme.sunburst	108,833	http://pypi.python.org/pypi/plonetheme.sunburst/1.4.1	The default theme for Plone 4.	478th	false
+zope.app.folder	108,133	http://pypi.python.org/pypi/zope.app.folder/3.5.2	Folder Content Type for Zope 3	479th	false
+zope.app.content	107,702	http://pypi.python.org/pypi/zope.app.content/3.5.1	Zope Content Type	480th	false
+BIP	107,576	http://pypi.python.org/pypi/BIP/0.5.12	Bayesian Inference Tools for Python	481st	false
+Products.CMFDiffTool	107,574	http://pypi.python.org/pypi/Products.CMFDiffTool/2.0.2	Diff tool for Plone	482nd	false
+chai	107,537	http://pypi.python.org/pypi/chai/0.3.1	Easy to use mocking/stub framework.	483rd	true
+Products.CMFDefault	107,230	http://pypi.python.org/pypi/Products.CMFDefault/2.2.3	Default product for the Zope Content Management Framework	484th	false
+ExtensionClass	107,071	http://pypi.python.org/pypi/ExtensionClass/4.1a1	Metaclass for subclassable extension types	485th	false
+cssselect	106,846	http://pypi.python.org/pypi/cssselect/0.8		486th	true
+plone.recipe.plone	106,814	http://pypi.python.org/pypi/plone.recipe.plone/3.1.7	Install Plone	487th	false
+notifo	106,433	http://pypi.python.org/pypi/notifo/0.3.0	Python library for the notifo.com API	488th	false
+zope.broken	105,834	http://pypi.python.org/pypi/zope.broken/3.6.0	Zope Broken Object Interfaces	489th	false
+lava-dispatcher	105,766	http://pypi.python.org/pypi/lava-dispatcher/0.32.2	Part of the LAVA framework for dispatching test jobs	490th	false
+ConcurrentLogHandler	105,670	http://pypi.python.org/pypi/ConcurrentLogHandler/0.8.4	Concurrent logging handler (drop-in replacement for RotatingFileHandler)	491st	false
+zope.app.zcmlfiles	104,629	http://pypi.python.org/pypi/zope.app.zcmlfiles/3.7.1	Zope application server ZCML files	492nd	false
+Products.kupu	104,477	http://pypi.python.org/pypi/Products.kupu/1.5.1	UNKNOWN	493rd	false
+dj-database-url	104,274	http://pypi.python.org/pypi/dj-database-url/0.2.1	Use Database URLs in your Django Application.	494th	false
+Products.DCWorkflow	104,246	http://pypi.python.org/pypi/Products.DCWorkflow/2.3.0-beta	DCWorkflow product for the Zope Content Management Framework	495th	false
+z3c.autoinclude	104,193	http://pypi.python.org/pypi/z3c.autoinclude/0.3.4	Automatically include ZCML	496th	false
+django-oscar	104,177	http://pypi.python.org/pypi/django-oscar/0.4.9	A domain-driven e-commerce framework for Django 1.3+	497th	false
+smmap	104,168	http://pypi.python.org/pypi/smmap/0.8.2	A pure git implementation of a sliding window memory map manager	498th	false
+Products.PluginRegistry	104,144	http://pypi.python.org/pypi/Products.PluginRegistry/1.3	Configure application plugins based on interfaces	499th	false
+zope.processlifetime	103,796	http://pypi.python.org/pypi/zope.processlifetime/2.0.0	Zope process lifetime events	500th	false
+cloud	103,790	http://pypi.python.org/pypi/cloud/2.7.9	PiCloud client-side library	501st	false
+Products.ExtendedPathIndex	103,775	http://pypi.python.org/pypi/Products.ExtendedPathIndex/3.1	Zope catalog index for paths	502nd	false
+tweepy	103,454	http://pypi.python.org/pypi/tweepy/2.0	Twitter library for python	503rd	false
+PyOpenGL	103,363	http://pypi.python.org/pypi/PyOpenGL/3.0.2	Standard OpenGL bindings for Python	504th	true
+http-parser	102,755	http://pypi.python.org/pypi/http-parser/0.8.1	http request/response parser	505th	true
+Ming	102,366	http://pypi.python.org/pypi/Ming/0.3.3dev-20130322	Bringing order to Mongo since 2009	506th	false
+python-glanceclient	102,321	http://pypi.python.org/pypi/python-glanceclient/0.9.0	Client library for OpenStack Glance API	507th	false
+zope.app.http	102,294	http://pypi.python.org/pypi/zope.app.http/4.0.0a1.dev	HTTP Behavior for the Zope Publisher	508th	false
+cubicweb	101,907	http://pypi.python.org/pypi/cubicweb/3.17.0	a repository of entities / relations for knowledge management	509th	false
+zope.securitypolicy	101,873	http://pypi.python.org/pypi/zope.securitypolicy/4.0.0a1	Default security policy for Zope3	510th	false
+collective.js.jqueryui	101,777	http://pypi.python.org/pypi/collective.js.jqueryui/1.10.3	JQueryUI ready to be included in portal_javascript for Plone 4	511th	false
+tox	101,505	http://pypi.python.org/pypi/tox/1.4.3	virtualenv-based automation of test activities	512th	true
+Paver	101,379	http://pypi.python.org/pypi/Paver/1.2.0	Easy build, distribution and deployment scripting	513th	false
+fedmsg	100,984	http://pypi.python.org/pypi/fedmsg/0.6.8	Fedora Messaging Client API	514th	false
+pyramid_tm	100,799	http://pypi.python.org/pypi/pyramid_tm/0.7	A package which allows Pyramid requests to join the active transaction	515th	true
+rospkg	100,535	http://pypi.python.org/pypi/rospkg/1.0.19	ROS package library	516th	false
+Products.Marshall	100,432	http://pypi.python.org/pypi/Products.Marshall/2.1.2	Configurable Marshallers for Archetypes	517th	false
+markdown2	100,289	http://pypi.python.org/pypi/markdown2/2.1.0	A fast and complete Python implementaion of Markdown	518th	true
+beanstalk-stack	100,237	http://pypi.python.org/pypi/beanstalk-stack/0.1.92	Django base for common use	519th	false
+Products.CMFCalendar	100,143	http://pypi.python.org/pypi/Products.CMFCalendar/2.3.0-beta	Calendar product for the Zope Content Management Framework	520th	false
+FeinCMS	99,644	http://pypi.python.org/pypi/FeinCMS/1.7.4	Django-based Page CMS and CMS building toolkit.	521st	false
+zope.app.debug	99,532	http://pypi.python.org/pypi/zope.app.debug/3.4.1	Zope Debug Mode	522nd	false
+pymatgen	99,271	http://pypi.python.org/pypi/pymatgen/2.7.1	pymatgen is the Python library powering the Materials Project (www.materialsproject.org).	523rd	false
+zest.releaser	98,969	http://pypi.python.org/pypi/zest.releaser/3.45	Software releasing made easy and repeatable	524th	false
+django-kombu	98,806	http://pypi.python.org/pypi/django-kombu/0.9.4	Kombu transport using the Django database as a message store.	525th	false
+zope.hookable	98,582	http://pypi.python.org/pypi/zope.hookable/4.0.1	Zope hookable	526th	true
+textile	98,290	http://pypi.python.org/pypi/textile/2.1.5	Textile processing for python.	527th	false
+pywurfl	98,258	http://pypi.python.org/pypi/pywurfl/7.2.1	pywurfl - Python tools for processing and querying the Wireless Universal Resource File (WURFL)	528th	false
+django-annoying	98,044	http://pypi.python.org/pypi/django-annoying/0.7.7	This is a django application that tries to eliminate annoying things in the Django framework.	529th	false
+Products.CMFUid	97,959	http://pypi.python.org/pypi/Products.CMFUid/2.3.0-beta	Uid product for the Zope Content Management Framework	530th	false
+d2to1	97,781	http://pypi.python.org/pypi/d2to1/0.2.10	Allows using distutils2-like setup.cfg files for a package's metadata
+with a distribute/setuptools setup.py	531st	true
+Persistence	97,475	http://pypi.python.org/pypi/Persistence/2.13.2	Persistent ExtensionClass	532nd	false
+Products.PloneTestCase	97,287	http://pypi.python.org/pypi/Products.PloneTestCase/0.9.16	Integration testing framework for Plone.	533rd	false
+zope.app.i18n	97,230	http://pypi.python.org/pypi/zope.app.i18n/3.6.4	Persistent translation domains and message catalogs	534th	false
+Products.ExternalEditor	96,983	http://pypi.python.org/pypi/Products.ExternalEditor/1.1.0	Zope External Editor	535th	false
+Extremes	96,890	http://pypi.python.org/pypi/Extremes/1.1.1	Production-quality 'Min' and 'Max' objects (adapted from PEP 326)	536th	false
+titlecase	96,702	http://pypi.python.org/pypi/titlecase/0.5.1	Python Port of John Gruber's titlecase.pl	537th	false
+oauth	96,363	http://pypi.python.org/pypi/oauth/1.0.1	Library for OAuth version 1.0a.	538th	false
+tempstorage	96,055	http://pypi.python.org/pypi/tempstorage/2.12.2	A RAM-based storage for ZODB	539th	false
+zerigodns	95,959	http://pypi.python.org/pypi/zerigodns/0.3	Python package to interface with Zerigo DNS API.	540th	false
+plone.app.users	95,918	http://pypi.python.org/pypi/plone.app.users/1.1.5	A package for all things users and groups related (specific to plone)	541st	false
+web.py	95,751	http://pypi.python.org/pypi/web.py/0.37	web.py: makes web apps	542nd	false
+Products.SecureMailHost	95,729	http://pypi.python.org/pypi/Products.SecureMailHost/1.1.2	SecureMailHost is a reimplementation of the standard Zope2 MailHost with some security and usability enhancements.	543rd	false
+setproctitle	95,609	http://pypi.python.org/pypi/setproctitle/1.1.7	A library to allow customization of the process title.	544th	true
+stripe	94,916	http://pypi.python.org/pypi/stripe/1.9.1	Stripe python bindings	545th	false
+urllib3	94,716	http://pypi.python.org/pypi/urllib3/1.6	HTTP library with thread-safe connection pooling, file post, and more.	546th	true
+Products.CMFActionIcons	94,695	http://pypi.python.org/pypi/Products.CMFActionIcons/2.1.3	Action icons product for the Zope Content Management Framework	547th	false
+Products.validation	94,682	http://pypi.python.org/pypi/Products.validation/2.0	Data validation package for Archetypes	548th	false
+altgraph	94,653	http://pypi.python.org/pypi/altgraph/0.10.2	Python graph (network) package	549th	true
+jsbridge	94,394	http://pypi.python.org/pypi/jsbridge/3.0rc3	Python to JavaScript bridge interface.	550th	false
+alembic	94,219	http://pypi.python.org/pypi/alembic/0.5.0	A database migration tool for SQLAlchemy.	551st	true
+pyopencl	94,046	http://pypi.python.org/pypi/pyopencl/2012.1	Python wrapper for OpenCL	552nd	true
+pyxml2obj	93,826	http://pypi.python.org/pypi/pyxml2obj/0.1.2.9	pyxml2obj convert xml to python object and vice versa. This module is inspired by XML::Simple in CPAN	553rd	false
+bleach	93,796	http://pypi.python.org/pypi/bleach/1.2.1	An easy whitelist-based HTML-sanitizing tool.	554th	false
+nexus	93,435	http://pypi.python.org/pypi/nexus/0.2.3	An extendable admin interface	555th	false
+Products.contentmigration	93,122	http://pypi.python.org/pypi/Products.contentmigration/2.1.4	A generic content migration framework for Plone.	556th	false
+plone.app.imaging	93,072	http://pypi.python.org/pypi/plone.app.imaging/1.0.7	User-configurable, blob-aware image scaling for Plone.	557th	false
+zope.sequencesort	93,051	http://pypi.python.org/pypi/zope.sequencesort/4.0.1	Sequence Sorting	558th	false
+Editra	92,958	http://pypi.python.org/pypi/Editra/0.7.20	Developer's Text Editor	559th	false
+zope.app.generations	92,837	http://pypi.python.org/pypi/zope.app.generations/3.7.1	ZMI UI for zope.generations	560th	false
+protobuf	92,658	http://pypi.python.org/pypi/protobuf/2.5.0	Protocol Buffers	561st	false
+zope.authentication	92,542	http://pypi.python.org/pypi/zope.authentication/4.1.0	Definition of authentication basics for the Zope Framework	562nd	false
+zope.browserpage	92,075	http://pypi.python.org/pypi/zope.browserpage/4.1.0a1	ZCML directives for configuring browser views for Zope.	563rd	false
+django-crispy-forms	91,724	http://pypi.python.org/pypi/django-crispy-forms/1.2.8	Best way to have Django DRY forms	564th	false
+HTSeq	91,695	http://pypi.python.org/pypi/HTSeq/0.5.4p3	A framework to process and analyze data from high-throughput sequencing (HTS) assays	565th	false
+Scrapy	91,631	http://pypi.python.org/pypi/Scrapy/0.16.4	A high-level Python Screen Scraping framework	566th	false
+collective.recipe.omelette	91,459	http://pypi.python.org/pypi/collective.recipe.omelette/0.16	Creates a unified directory structure of installed packages, symlinking to the actual contents, in order to ease navigation.	567th	true
+zope.app.exception	91,368	http://pypi.python.org/pypi/zope.app.exception/3.6.3	Zope 3 exception views	568th	false
+webassets	91,359	http://pypi.python.org/pypi/webassets/0.8	Media asset management for Python, with glue code for various web frameworks	569th	false
+generateDS	91,190	http://pypi.python.org/pypi/generateDS/2.9a	Generate Python data structures and XML parser from Xschema	570th	false
+grappelli_safe	91,157	http://pypi.python.org/pypi/grappelli_safe/0.2.21	A snapshot of the grappelli_2 branch of django-grappelli, packaged as a dependency for the Mezzanine CMS for Django.	571st	false
+Flask-Script	91,106	http://pypi.python.org/pypi/Flask-Script/0.5.3	Scripting support for Flask	572nd	false
+py-restclient	91,028	http://pypi.python.org/pypi/py-restclient/1.3.3	Python REST client	573rd	false
+django-taggit	90,395	http://pypi.python.org/pypi/django-taggit/0.10a1	django-taggit is a reusable Django application for simple tagging.	574th	false
+twitter	89,935	http://pypi.python.org/pypi/twitter/1.9.4	An API and command-line toolset for Twitter (twitter.com)	575th	true
+zope.browserresource	89,860	http://pypi.python.org/pypi/zope.browserresource/4.0.1	Browser resources implementation for Zope.	576th	false
+Flask-Login	89,816	http://pypi.python.org/pypi/Flask-Login/0.1.3	User session management for Flask	577th	false
+rosdep	89,180	http://pypi.python.org/pypi/rosdep/0.10.18	rosdep system dependency installation tool	578th	false
+Products.ZCatalog	89,061	http://pypi.python.org/pypi/Products.ZCatalog/3.0	Zope 2's indexing and search solution.	579th	false
+django-fiber	88,780	http://pypi.python.org/pypi/django-fiber/0.10.3	Django Fiber - a simple, user-friendly CMS for all your Django projects	580th	false
+google-api-python-client	88,743	http://pypi.python.org/pypi/google-api-python-client/1.1	Google API Client Library for Python	581st	false
+zope.app.principalannotation	88,733	http://pypi.python.org/pypi/zope.app.principalannotation/3.7.1	Bootstrap subscriber and browser menu item for zope.principalannotation	582nd	false
+pytest-runner	88,538	http://pypi.python.org/pypi/pytest-runner/1.2	UNKNOWN	583rd	false
+blockdiag	88,355	http://pypi.python.org/pypi/blockdiag/1.2.4	blockdiag generate block-diagram image file from spec-text file.	584th	false
+geopy	88,282	http://pypi.python.org/pypi/geopy/0.95.1	Python Geocoding Toolbox	585th	false
+Products.TemplateFields	88,189	http://pypi.python.org/pypi/Products.TemplateFields/1.2.5	Supplies an Archetypes field useful for editing and storing Zope Page Templates	586th	false
+zope.app.broken	88,188	http://pypi.python.org/pypi/zope.app.broken/3.6.0	Zope Broken (ZODB) Object Support	587th	false
+pyquery	87,942	http://pypi.python.org/pypi/pyquery/1.2.4	A jquery-like library for python	588th	true
+py2app	87,678	http://pypi.python.org/pypi/py2app/0.7.3	Create standalone Mac OS X applications with Python	589th	true
+zope.app.rotterdam	87,594	http://pypi.python.org/pypi/zope.app.rotterdam/3.5.3	Rotterdam -- A Zope 3 ZMI Skin	590th	false
+collective.monkeypatcher	87,492	http://pypi.python.org/pypi/collective.monkeypatcher/1.0.1	Support for applying monkey patches late in the startup cycle by using ZCML configuration actions	591st	false
+hexagonit.recipe.cmmi	87,405	http://pypi.python.org/pypi/hexagonit.recipe.cmmi/2.0	zc.buildout recipe for compiling and installing source distributions.	592nd	false
+poster	87,266	http://pypi.python.org/pypi/poster/0.8.1	Streaming HTTP uploads and multipart/form-data encoding	593rd	false
+mox	87,114	http://pypi.python.org/pypi/mox/0.5.3	Mock object framework	594th	false
+zope.app.error	87,113	http://pypi.python.org/pypi/zope.app.error/3.5.3	Error reporting utility management UI for Zope3	595th	false
+zope.componentvocabulary	87,050	http://pypi.python.org/pypi/zope.componentvocabulary/2.0.0a1	Component vocabularies	596th	false
+z3c.formwidget.query	86,924	http://pypi.python.org/pypi/z3c.formwidget.query/0.9	A source query widget for z3c.form.	597th	false
+libprs500	86,433	http://pypi.python.org/pypi/libprs500/0.4.49	Ebook management application.	598th	false
+Products.ZopeVersionControl	86,278	http://pypi.python.org/pypi/Products.ZopeVersionControl/1.1.3	Zope Version Control	599th	false
+zope.copy	85,973	http://pypi.python.org/pypi/zope.copy/4.0.2	Pluggable object copying mechanism	600th	true
+icalendar	85,913	http://pypi.python.org/pypi/icalendar/3.4	iCalendar parser/generator	601st	false
+filebrowser_safe	85,813	http://pypi.python.org/pypi/filebrowser_safe/0.2.27	A snapshot of the filebrowser_3 branch of django-filebrowser, packaged as a dependency for the Mezzanine CMS for Django.	602nd	false
+rpy2	85,719	http://pypi.python.org/pypi/rpy2/2.3.6	Python interface to the R language	603rd	true
+zope.app.zopeappgenerations	85,701	http://pypi.python.org/pypi/zope.app.zopeappgenerations/3.5.1	Zope Application ZODB Update Generations	604th	false
+python-magic	85,501	http://pypi.python.org/pypi/python-magic/0.4.3	File type identification using libmagic	605th	false
+zope.app.renderer	85,359	http://pypi.python.org/pypi/zope.app.renderer/3.5.1	Text Renderer Framework	606th	false
+UnittestZero	85,300	http://pypi.python.org/pypi/UnittestZero/0.1.8	A simple Assertion Framework	607th	false
+plone.indexer	85,236	http://pypi.python.org/pypi/plone.indexer/1.0.2	Hooks to facilitate managing custom index values in Zope 2/CMF applications	608th	false
+plonetheme.classic	85,233	http://pypi.python.org/pypi/plonetheme.classic/1.3.1	The classic Plone 3 default theme.	609th	false
+repoze.tm2	85,048	http://pypi.python.org/pypi/repoze.tm2/2.0b1	Zope-like transaction manager via WSGI middleware	610th	false
+improviser	84,997	http://pypi.python.org/pypi/improviser/0.8.6.3	Automatic music generation software	611th	false
+twilio	84,765	http://pypi.python.org/pypi/twilio/3.4.5	Twilio API client and TwiML generator	612th	true
+zLOG	84,095	http://pypi.python.org/pypi/zLOG/2.12.0	A general logging facility	613th	false
+plone.supermodel	83,711	http://pypi.python.org/pypi/plone.supermodel/1.2.1	Serialize Zope schema definitions to and from XML	614th	false
+URLObject	83,628	http://pypi.python.org/pypi/URLObject/2.3.4	A utility class for manipulating URLs.	615th	false
+plone.recipe.command	83,525	http://pypi.python.org/pypi/plone.recipe.command/1.1	Run arbitrary commands from buildout	616th	false
+datahaven	83,480	http://pypi.python.org/pypi/datahaven/rev7702	Distributed encrypted backup utility	617th	false
+pyobjc-core	83,099	http://pypi.python.org/pypi/pyobjc-core/2.5.1	Python<->ObjC Interoperability Module	618th	true
+castro	82,771	http://pypi.python.org/pypi/castro/1.0.6	Screencasting library	619th	false
+collective.recipe.cmd	82,529	http://pypi.python.org/pypi/collective.recipe.cmd/0.6	ZC Buildout recipe to execute a commande line	620th	false
+grok	82,526	http://pypi.python.org/pypi/grok/1.11.3	Grok: Now even cavemen can use Zope 3!	621st	false
+slapos.libnetworkcache	82,343	http://pypi.python.org/pypi/slapos.libnetworkcache/0.13.4	libnetworkcache - Client for ShaCache and ShaDir HTTP Server	622nd	false
+five.intid	82,300	http://pypi.python.org/pypi/five.intid/1.0.3	Zope2 support for zope.intid	623rd	false
+Trac	82,260	http://pypi.python.org/pypi/Trac/0.12.5	Integrated SCM, wiki, issue tracker and project environment	624th	false
+Pyro4	82,260	http://pypi.python.org/pypi/Pyro4/4.18	distributed object middleware for Python (RPC)	625th	true
+grokcore.view	82,241	http://pypi.python.org/pypi/grokcore.view/2.8	Grok-like configuration for Zope browser pages	626th	false
+django-countries	81,735	http://pypi.python.org/pypi/django-countries/1.5	Provides a country field for Django models.	627th	false
+django-coverage	81,637	http://pypi.python.org/pypi/django-coverage/1.2.2	Django Test Coverage App	628th	false
+CouchDB	81,484	http://pypi.python.org/pypi/CouchDB/0.9	Python library for working with CouchDB	629th	false
+etm	81,249	http://pypi.python.org/pypi/etm/891	event and task manager	630th	false
+PyChef	80,974	http://pypi.python.org/pypi/PyChef/0.2.1	Python implementation of a Chef API client.	631st	false
+Missing	80,968	http://pypi.python.org/pypi/Missing/3.0	Special Missing objects used in Zope2.	632nd	false
+calibre	80,937	http://pypi.python.org/pypi/calibre/0.6.16	E-book management application.	633rd	false
+zope.app.interface	80,878	http://pypi.python.org/pypi/zope.app.interface/3.6.0	Zope Interface Extensions	634th	false
+ClientForm	80,668	http://pypi.python.org/pypi/ClientForm/0.2.10	Client-side HTML form handling.	635th	false
+py.saunter	80,583	http://pypi.python.org/pypi/py.saunter/0.62	An opinionated Selenium framework	636th	false
+gargoyle	80,558	http://pypi.python.org/pypi/gargoyle/0.10.7	Gargoyle is a platform built on top of Django which allows you to switch functionality of your application on and off based on conditions.	637th	false
+zope.password	80,501	http://pypi.python.org/pypi/zope.password/4.0.2	Password encoding and checking utilities	638th	false
+Brownie	80,480	http://pypi.python.org/pypi/Brownie/0.5.1	Common utilities and datastructures for Python applications.	639th	false
+hashlib	80,306	http://pypi.python.org/pypi/hashlib/20081119	Secure hash and message digest algorithm library	640th	false
+networkx	80,258	http://pypi.python.org/pypi/networkx/1.7	Python package for creating and manipulating graphs and networks	641st	true
+gensim	80,247	http://pypi.python.org/pypi/gensim/0.8.6	Python framework for fast Vector Space Modelling	642nd	false
+zope.browsermenu	80,245	http://pypi.python.org/pypi/zope.browsermenu/4.1.0a1	Browser menu implementation for Zope.	643rd	false
+martian	79,885	http://pypi.python.org/pypi/martian/0.14	Martian is a library that allows the embedding of configuration
+information in Python code. Martian can then grok the system and
+do the appropriate configuration registrations. One example of a system
+that uses Martian is the system where it originated: Grok
+(http://grok.zope.org)	644th	false
+collective.dancing	79,862	http://pypi.python.org/pypi/collective.dancing/0.9.10	The all-singing all-dancing newsletter add-on for Plone.	645th	false
+braintree	79,578	http://pypi.python.org/pypi/braintree/2.21.0	Braintree Python Library	646th	false
+Record	79,417	http://pypi.python.org/pypi/Record/3.0	Special Record objects used in Zope2.	647th	false
+initgroups	79,297	http://pypi.python.org/pypi/initgroups/2.13.0	Convenience uid/gid helper function used in Zope2.	648th	false
+colander	79,226	http://pypi.python.org/pypi/colander/1.0a3	A simple schema-based serialization and deserialization library	649th	true
+yay	78,930	http://pypi.python.org/pypi/yay/0.0.62	An extensible config file format	650th	false
+django-celex-lexicon	78,739	http://pypi.python.org/pypi/django-celex-lexicon/0.1.94	UNKNOWN	651st	false
+MultiMapping	78,498	http://pypi.python.org/pypi/MultiMapping/2.13.0	Special MultiMapping objects used in Zope2.	652nd	false
+plone.app.registry	78,434	http://pypi.python.org/pypi/plone.app.registry/1.2.2	Zope 2 and Plone  integration for plone.registry	653rd	false
+pynzb	78,404	http://pypi.python.org/pypi/pynzb/0.1.0	pynzb is a unified API for parsing NZB files, with several concrete implementations included	654th	false
+PyScons	78,220	http://pypi.python.org/pypi/PyScons/1.0.87	An extension to Scons which enables dependency tracking on python script imports.	655th	false
+vobject	78,158	http://pypi.python.org/pypi/vobject/0.8.1c	VObject: module for reading vCard and vCalendar files	656th	false
+RhodeCode	78,084	http://pypi.python.org/pypi/RhodeCode/1.6.0	Mercurial repository browser/management with build in push/pull server and full text search	657th	false
+z3c.pt	78,016	http://pypi.python.org/pypi/z3c.pt/3.0.0a1	Fast ZPT engine.	658th	false
+zodbcode	77,973	http://pypi.python.org/pypi/zodbcode/3.4.0	Allows Python code to live in the ZODB	659th	false
+ZopeUndo	77,726	http://pypi.python.org/pypi/ZopeUndo/4.0	ZODB undo support for Zope2.	660th	false
+irc	77,715	http://pypi.python.org/pypi/irc/8.3	IRC (Internet Relay Chat) protocol client library for Python	661st	true
+zope.ptresource	77,508	http://pypi.python.org/pypi/zope.ptresource/4.0.0a1	Page template resource plugin for zope.browserresource	662nd	false
+pytest-mozwebqa	77,423	http://pypi.python.org/pypi/pytest-mozwebqa/1.0	Mozilla WebQA plugin for py.test.	663rd	false
+TurboJson	77,328	http://pypi.python.org/pypi/TurboJson/1.3.2	Python template plugin that supports JSON	664th	false
+pytest-cov	77,298	http://pypi.python.org/pypi/pytest-cov/1.6	py.test plugin for coverage reporting with support for both centralised and distributed testing, including subprocesses	665th	true
+slapos.core	76,899	http://pypi.python.org/pypi/slapos.core/0.35.1	SlapOS core.	666th	false
+django-uni-form	76,816	http://pypi.python.org/pypi/django-uni-form/0.9.0	django-uni-form	667th	false
+django-devserver	76,740	http://pypi.python.org/pypi/django-devserver/0.6.2	Drop-in replacement for Django's runserver	668th	false
+plone.reload	76,682	http://pypi.python.org/pypi/plone.reload/2.0	Configuration and code reload without server restarts.	669th	false
+z3c.batching	76,675	http://pypi.python.org/pypi/z3c.batching/2.0.0	Batching	670th	false
+dap	76,244	http://pypi.python.org/pypi/dap/2.2.6.7	DAP (Data Access Protocol) client and server for Python.	671st	false
+couchdbkit	76,157	http://pypi.python.org/pypi/couchdbkit/0.6.4	Python couchdb kit	672nd	false
+Elixir	76,085	http://pypi.python.org/pypi/Elixir/0.7.1	Declarative Mapper for SQLAlchemy	673rd	false
+plone.scale	75,956	http://pypi.python.org/pypi/plone.scale/1.3.1	Image scaling	674th	false
+jsmin	75,877	http://pypi.python.org/pypi/jsmin/2.0.2-1	JavaScript minifier.	675th	true
+teamcity-messages	75,833	http://pypi.python.org/pypi/teamcity-messages/1.7	A unittest extension to send test result messages to TeamCity continuous integration server	676th	true
+python-gettext	75,726	http://pypi.python.org/pypi/python-gettext/2.1	Python Gettext po to mo file compiler.	677th	true
+Products.TALESField	75,516	http://pypi.python.org/pypi/Products.TALESField/1.1.3	An Archetypes field that stores TALES Expressions	678th	false
+Products.PythonField	75,432	http://pypi.python.org/pypi/Products.PythonField/1.1.3	Archetypes field for Python input	679th	false
+mozdevice	75,249	http://pypi.python.org/pypi/mozdevice/0.25	Mozilla-authored device management	680th	false
+sprox	75,225	http://pypi.python.org/pypi/sprox/0.8.3	A package for creation of web widgets directly from database schema.	681st	false
+APScheduler	75,154	http://pypi.python.org/pypi/APScheduler/2.1.0	In-process task scheduler with Cron-like capabilities	682nd	true
+macholib	74,946	http://pypi.python.org/pypi/macholib/1.5.1	Mach-O header analysis and editing	683rd	true
+scikit-learn	74,405	http://pypi.python.org/pypi/scikit-learn/0.13.1	A set of python modules for machine learning and data mining	684th	false
+txAMQP	74,351	http://pypi.python.org/pypi/txAMQP/0.6.2	Python library for communicating with AMQP peers and brokers using Twisted	685th	false
+gdata	74,300	http://pypi.python.org/pypi/gdata/2.0.17	Python client library for Google data APIs	686th	false
+plone.autoform	74,214	http://pypi.python.org/pypi/plone.autoform/1.3	Tools to construct z3c.form forms	687th	false
+Products.ZSQLMethods	74,192	http://pypi.python.org/pypi/Products.ZSQLMethods/2.13.4	SQL method support for Zope 2.	688th	false
+Creoleparser	73,731	http://pypi.python.org/pypi/Creoleparser/0.7.4	Parser for the Creole common wiki markup language	689th	false
+Flask-Mail	73,708	http://pypi.python.org/pypi/Flask-Mail/0.8.2	Flask extension for sending email	690th	false
+django-forms-builder	73,692	http://pypi.python.org/pypi/django-forms-builder/0.8.4	A Django reusable app providing the ability for admin users to create their own forms.	691st	false
+roundup	73,596	http://pypi.python.org/pypi/roundup/1.4.21	A simple-to-use and -install issue-tracking system with command-line, web and e-mail interfaces. Highly customisable.	692nd	false
+kid	73,508	http://pypi.python.org/pypi/kid/0.9.6	A simple and pythonic XML template language	693rd	false
+grokcore.component	73,488	http://pypi.python.org/pypi/grokcore.component/2.5	Grok-like configuration for basic components (adapters, utilities, subscribers)	694th	false
+django-hudson	73,433	http://pypi.python.org/pypi/django-hudson/0.9.1	Plug and play continuous integration with django and hudson	695th	false
+roman	72,937	http://pypi.python.org/pypi/roman/2.0.0	Integer to Roman numerals converter	696th	false
+html2text	72,845	http://pypi.python.org/pypi/html2text/3.200.3	Turn HTML into equivalent Markdown-structured text.	697th	true
+plone.app.folder	72,770	http://pypi.python.org/pypi/plone.app.folder/1.0.5	Integration package for `plone.folder` into Plone	698th	false
+django-notification	72,738	http://pypi.python.org/pypi/django-notification/1.0	User notification management for the Django web framework	699th	false
+sure	72,571	http://pypi.python.org/pypi/sure/1.2.2	assertion toolbox for python	700th	false
+infrae.subversion	72,360	http://pypi.python.org/pypi/infrae.subversion/1.4.5	Buildout recipe for checking out from subversion	701st	false
+sentimental-skk	72,109	http://pypi.python.org/pypi/sentimental-skk/0.0.64	三 ⊂二二( ^o^)─ ＜ Japanese Input Method SKK (Simple Kana to Kanji conversion) on your terminal	702nd	false
+plone.recipe.zope2zeoserver	71,745	http://pypi.python.org/pypi/plone.recipe.zope2zeoserver/1.5	ZC Buildout recipe for installing a Zope 2 ZEO server	703rd	false
+collective.recipe.supervisor	71,549	http://pypi.python.org/pypi/collective.recipe.supervisor/0.19	A buildout recipe to install supervisor	704th	false
+Cartridge	71,504	http://pypi.python.org/pypi/Cartridge/0.8.2	A Django shopping cart application.	705th	false
+five.formlib	71,430	http://pypi.python.org/pypi/five.formlib/1.0.4	zope.formlib integration for Zope 2	706th	false
+factory_boy	71,423	http://pypi.python.org/pypi/factory_boy/2.0.2	A verstile test fixtures replacement based on thoughtbot's factory_girl for Ruby.	707th	false
+SuRF	71,419	http://pypi.python.org/pypi/SuRF/1.1.4-r352	Object RDF Mapper	708th	false
+RPi.GPIO	71,232	http://pypi.python.org/pypi/RPi.GPIO/0.5.2a	A class to control Raspberry Pi GPIO channels	709th	true
+SOAPpy	71,033	http://pypi.python.org/pypi/SOAPpy/0.12.5	SOAP Services for Python	710th	false
+wsgi_intercept	70,699	http://pypi.python.org/pypi/wsgi_intercept/0.5.1	installs a WSGI application in place of a real URI for testing.	711th	false
+DateUtils	70,683	http://pypi.python.org/pypi/DateUtils/0.6.5	Various utilities for working with datetime objects.	712th	false
+collective.recipe.backup	70,615	http://pypi.python.org/pypi/collective.recipe.backup/2.11	bin/backup script: sensible defaults around bin/repozo	713th	false
+Products.CMFTestCase	70,605	http://pypi.python.org/pypi/Products.CMFTestCase/0.9.12	Integration testing framework for CMF.	714th	false
+Flask-Cache	70,521	http://pypi.python.org/pypi/Flask-Cache/0.12	Adds cache support to your Flask application	715th	false
+jsonpickle	70,410	http://pypi.python.org/pypi/jsonpickle/0.4.0	Python library for serializing any arbitrary object graph into JSON	716th	false
+balanced	70,286	http://pypi.python.org/pypi/balanced/0.11.3	Balanced payments python client	717th	false
+tw.forms	70,283	http://pypi.python.org/pypi/tw.forms/0.9.9	Web Widgets for building and validating forms. (former ToscaWidgetsForms)	718th	false
+turses	70,130	http://pypi.python.org/pypi/turses/0.2.13	A ncurses Twitter client.	719th	false
+ladon	70,035	http://pypi.python.org/pypi/ladon/0.8.1	Serve your python methods to several types of internet services at once.	720th	true
+pythonbrew	69,976	http://pypi.python.org/pypi/pythonbrew/1.3.3	Manage python installations in your $HOME	721st	true
+xlutils	69,823	http://pypi.python.org/pypi/xlutils/1.6.0	Utilities for working with Excel files that require both xlrd and xlwt	722nd	false
+kss.demo	69,818	http://pypi.python.org/pypi/kss.demo/1.4.6	KSS (Kinetic Style Sheets) demo	723rd	false
+Products.ZCTextIndex	69,766	http://pypi.python.org/pypi/Products.ZCTextIndex/2.13.4	Full text indexing for ZCatalog / Zope 2.	724th	false
+minitage.recipe	69,722	http://pypi.python.org/pypi/minitage.recipe/1.41	zc.buildout recipes to compile and install software or python packages and generate scripts or configuration files sponsored by Makina Corpus.	725th	false
+mozprofile	69,560	http://pypi.python.org/pypi/mozprofile/0.8	handling of Mozilla XUL app profiles	726th	false
+django-imagekit	69,508	http://pypi.python.org/pypi/django-imagekit/2.0.4	Automated image processing for Django models.	727th	false
+mailinglogger	69,447	http://pypi.python.org/pypi/mailinglogger/3.7.0	Enhanced emailing handlers for the python logging package.	728th	false
+manuel	69,281	http://pypi.python.org/pypi/manuel/1.7.2	Manuel lets you build tested documentation.	729th	true
+pdfminer	69,107	http://pypi.python.org/pypi/pdfminer/20110515	PDF parser and analyzer	730th	false
+lovely.buildouthttp	69,062	http://pypi.python.org/pypi/lovely.buildouthttp/0.4.7	Buildout extension to add http authentication for find-links and download recipies	731st	false
+UPY	68,824	http://pypi.python.org/pypi/UPY/0.14.15	Open-source platform built on top of Django Web Framework, provides useful apps and tools for the most common features to save your time and let you focus just on your specific needs.	732nd	false
+dogapi	68,738	http://pypi.python.org/pypi/dogapi/1.2.3	Python bindings to Datadog's API and a user-facing command line tool.	733rd	false
+zweb	68,608	http://pypi.python.org/pypi/zweb/0.4309	A web site framework	734th	false
+modulegraph	68,595	http://pypi.python.org/pypi/modulegraph/0.10.4	Python module dependency analysis tool	735th	true
+Pyccuracy	68,424	http://pypi.python.org/pypi/Pyccuracy/1.2.47	Pyccuracy is a BDD style Acceptance Testing framework	736th	false
+pyramid_beaker	68,397	http://pypi.python.org/pypi/pyramid_beaker/0.7	Beaker session factory backend for Pyramid	737th	true
+tgext.crud	68,369	http://pypi.python.org/pypi/tgext.crud/0.6.0	Crud Controller Extension for TG2	738th	false
+twython	68,088	http://pypi.python.org/pypi/twython/2.9.1	An easy (and up to date) way to access Twitter data with Python.	739th	false
+Products.Poi	68,030	http://pypi.python.org/pypi/Products.Poi/2.2.3	Poi: A friendly issue tracker	740th	false
+LEPL	67,965	http://pypi.python.org/pypi/LEPL/5.1.3	A Parser Library for Python 2.6+/3+: Recursive Descent; Full Backtracking	741st	false
+nose-testconfig	67,919	http://pypi.python.org/pypi/nose-testconfig/0.9	Test Configuration plugin for nosetests.	742nd	false
+wstools	67,905	http://pypi.python.org/pypi/wstools/0.4.3	wstools	743rd	false
+oslo.config	67,870	http://pypi.python.org/pypi/oslo.config/1.1.0	Oslo configuration API	744th	false
+leaderboard	67,499	http://pypi.python.org/pypi/leaderboard/2.3.0	Library for interacting with leaderboards backed by Redis	745th	true
+vos	67,217	http://pypi.python.org/pypi/vos/1.8.0	CADC VOSpace Filesystem	746th	false
+tgext.admin	67,195	http://pypi.python.org/pypi/tgext.admin/0.5.4	Admin Controller add-on for basic TG identity model.	747th	false
+django-autoslug	67,152	http://pypi.python.org/pypi/django-autoslug/1.6.1	An automated slug field for Django.	748th	false
+coards	67,137	http://pypi.python.org/pypi/coards/1.0.3.2	Convert COARDS time specification to a datetime object.	749th	false
+docopt	67,073	http://pypi.python.org/pypi/docopt/0.6.1	Pythonic option parser, that will make you smile	750th	true
+peewee	67,044	http://pypi.python.org/pypi/peewee/2.1.1	a little orm	751st	false
+curlwrapper	66,870	http://pypi.python.org/pypi/curlwrapper/0.1.110	curlwrapper (browser interface for curl)	752nd	false
+tiddlywebwiki	66,848	http://pypi.python.org/pypi/tiddlywebwiki/0.64.0	A TiddlyWeb plugin to provide a multi-user TiddlyWiki environment.	753rd	false
+mozprocess	66,786	http://pypi.python.org/pypi/mozprocess/0.9	Mozilla-authored process handling	754th	false
+collective.easyslider	66,745	http://pypi.python.org/pypi/collective.easyslider/1.3.7	The product will allow you to apply an easyslider to any page with the ability to create each slide using a WYSIWYG editor. It also provides a slider view for Folders and Collections.	755th	false
+plone.folder	66,680	http://pypi.python.org/pypi/plone.folder/1.0.4	BTree-based folder implementation with order support	756th	false
+Plomino	65,952	http://pypi.python.org/pypi/Plomino/1.13.4	Create specific applications in Plone without developing. Created by Makina Corpus.	757th	false
+avocado	65,949	http://pypi.python.org/pypi/avocado/2.0.21	A data-driven query engine	758th	false
+zope.app.intid	65,765	http://pypi.python.org/pypi/zope.app.intid/3.7.1	ZMI views for Integer Id Utility	759th	false
+cuisine	65,654	http://pypi.python.org/pypi/cuisine/0.6.3	Chef-like functionality for Fabric	760th	false
+plone.registry	65,636	http://pypi.python.org/pypi/plone.registry/1.0.1	A debconf-like (or about:config-like) registry for storing application settings	761st	false
+IPy	65,521	http://pypi.python.org/pypi/IPy/0.81	Class and tools for handling of IPv4 and IPv6 addresses and networks	762nd	true
+zope.app.file	65,509	http://pypi.python.org/pypi/zope.app.file/3.6.1	File and Image -- Zope 3 Content Components	763rd	false
+bulbs	65,333	http://pypi.python.org/pypi/bulbs/0.3.14-20130504	A Python persistence framework for graph databases that connects to Rexster.	764th	true
+coinor.dippy	65,297	http://pypi.python.org/pypi/coinor.dippy/1.5.8	DIP Python Interface	765th	false
+django-modeldict	65,157	http://pypi.python.org/pypi/django-modeldict/1.4.1	Stores a model as a dictionary	766th	false
+fullhistory	64,970	http://pypi.python.org/pypi/fullhistory/0.3.1	Fullhistory for Django	767th	false
+pytools	64,956	http://pypi.python.org/pypi/pytools/2013.1	A collection of tools for Python	768th	false
+teamcity-nose	64,814	http://pypi.python.org/pypi/teamcity-nose/1.2	A nose plugin to send test result messages to TeamCity continuous integration server	769th	false
+plonetheme.porseleinplaats	64,799	http://pypi.python.org/pypi/plonetheme.porseleinplaats/0.54	An installable theme for Plone 3	770th	false
+zope.app.cache	64,779	http://pypi.python.org/pypi/zope.app.cache/3.7.0	Zope Caching Framework	771st	false
+django-model-utils	64,698	http://pypi.python.org/pypi/django-model-utils/1.3.1	Django model mixins and utilities	772nd	false
+johnny-cache	64,511	http://pypi.python.org/pypi/johnny-cache/1.4	Django caching framework that automatically caches all read queries.	773rd	false
+webunit	64,507	http://pypi.python.org/pypi/webunit/1.3.10	Unit test your websites with code that acts like a web browser.	774th	false
+w3lib	64,391	http://pypi.python.org/pypi/w3lib/1.2	Library of web-related functions	775th	false
+Products.BTreeFolder2	64,369	http://pypi.python.org/pypi/Products.BTreeFolder2/2.13.4	A BTree based implementation for Zope 2's OFS.	776th	false
+ella	64,354	http://pypi.python.org/pypi/ella/3.0.9	Ella - Django powered CMS	777th	false
+Products.PythonScripts	64,128	http://pypi.python.org/pypi/Products.PythonScripts/2.13.2	Provides support for restricted execution of Python scripts in Zope 2.	778th	false
+MoPyTools	63,963	http://pypi.python.org/pypi/MoPyTools/3.3	Set of tools to build Mozilla Services apps	779th	false
+mongokit	63,880	http://pypi.python.org/pypi/mongokit/0.8.3	Python mongodb kit	780th	false
+mozinfo	63,838	http://pypi.python.org/pypi/mozinfo/0.4	file for interface to transform introspected system information to a format pallatable to Mozilla	781st	false
+b3	63,240	http://pypi.python.org/pypi/b3/1.9.1	BigBrotherBot (B3) is a cross-platform, cross-game game administration bot. Features in-game administration of game servers, multiple user access levels, and database storage. Currently include parsers for Call of Duty 1 to 7, Urban Terror (ioUrT), World of Padman, ETpro, Smokin' Guns, BFBC2, MOH, HomeFront, Open Arena, Altitude etc.	782nd	false
+Euphorie	63,228	http://pypi.python.org/pypi/Euphorie/6.0	Euphorie Risk Assessment tool	783rd	false
+zope.index	63,225	http://pypi.python.org/pypi/zope.index/4.0.1	Indices for using with catalog like text, field, etc.	784th	false
+pygraphviz	63,081	http://pypi.python.org/pypi/pygraphviz/1.1	Python interface to Graphviz	785th	false
+plone.stringinterp	63,053	http://pypi.python.org/pypi/plone.stringinterp/1.0.7	Adaptable string interpolation	786th	false
+cerebrod	62,810	http://pypi.python.org/pypi/cerebrod/1.2.11	A Cluster Management System	787th	false
+joblib	62,807	http://pypi.python.org/pypi/joblib/0.7.0d	Lightweight pipelining: using Python functions as pipeline jobs.	788th	true
+py2neo	62,675	http://pypi.python.org/pypi/py2neo/1.5	Python bindings to Neo4j	789th	true
+testresources	62,667	http://pypi.python.org/pypi/testresources/0.2.7	Testresources, a pyunit extension for managing expensive test resources	790th	true
+fudge	62,666	http://pypi.python.org/pypi/fudge/1.0.3	Replace real objects with fakes (mocks, stubs, etc) while testing.	791st	true
+construct	62,660	http://pypi.python.org/pypi/construct/2.0.4	a powerful declarative parser for binary data	792nd	true
+fixtures	62,619	http://pypi.python.org/pypi/fixtures/0.3.12	Fixtures, reusable state for writing clean tests and more.	793rd	true
+chartio	62,525	http://pypi.python.org/pypi/chartio/2.0.5	Setup wizard and connection client for connecting MySQL/PostgreSQL databases to Chartio	794th	false
+Couchapp	62,478	http://pypi.python.org/pypi/Couchapp/1.0.1	Standalone CouchDB Application Development Made Simple.	795th	false
+testtools	62,476	http://pypi.python.org/pypi/testtools/0.9.30	Extensions to the Python standard library unit testing framework	796th	true
+tailer	62,461	http://pypi.python.org/pypi/tailer/0.3	Python tail is a simple implementation of GNU tail and head.	797th	false
+you-get	62,255	http://pypi.python.org/pypi/you-get/0.3.11	A YouTube/Youku/Niconico video downloader written in Python 3.	798th	true
+dbf	62,243	http://pypi.python.org/pypi/dbf/0.95.003	Pure python package for reading/writing dBase, FoxPro, and Visual FoxPro .dbf files (including memos)	799th	false
+mozhttpd	62,128	http://pypi.python.org/pypi/mozhttpd/0.5	basic python webserver, tested with talos	800th	false
+DocumentTemplate	62,116	http://pypi.python.org/pypi/DocumentTemplate/2.13.2	Document Templating Markup Language (DTML)	801st	false
+collective.solr	61,772	http://pypi.python.org/pypi/collective.solr/3.1	Solr integration for external indexing and searching.	802nd	false
+zope.principalregistry	61,674	http://pypi.python.org/pypi/zope.principalregistry/4.0.0a2	Global principal registry component for Zope3	803rd	false
+bloom	61,580	http://pypi.python.org/pypi/bloom/0.3.5	Bloom is a release automation tool.	804th	false
+django-guardian	61,469	http://pypi.python.org/pypi/django-guardian/1.1.0.beta	Implementation of per object permissions for Django 1.2 or later.	805th	false
+Geraldo	61,457	http://pypi.python.org/pypi/Geraldo/0.4.17	Geraldo is a reports engine for Python and Django applications	806th	false
+plone.app.dexterity	61,409	http://pypi.python.org/pypi/plone.app.dexterity/2.0.7	Dexterity is a content type framework for CMF applications, with particular emphasis on Plone. It can be viewed as an alternative to Archetypes that is more light-weight and modular.	807th	false
+GDAL	61,270	http://pypi.python.org/pypi/GDAL/1.9.1	GDAL: Geospatial Data Abstraction Library	808th	false
+watchdog	61,137	http://pypi.python.org/pypi/watchdog/0.6.0	Filesystem events monitoring	809th	false
+splinter	60,985	http://pypi.python.org/pypi/splinter/0.5.2	browser abstraction for web acceptance testing	810th	false
+ComplexSystems	60,808	http://pypi.python.org/pypi/ComplexSystems/0.3.2	Toolbox for Complex Sytems including : Human Based Mobility Models	811th	false
+Kivy	60,482	http://pypi.python.org/pypi/Kivy/1.7.0	A software library for rapid development of hardware-accelerated multitouch applications.	812th	false
+Products.MailHost	60,427	http://pypi.python.org/pypi/Products.MailHost/2.13.1	zope.sendmail integration for Zope 2.	813th	false
+minitage.recipe.egg	60,207	http://pypi.python.org/pypi/minitage.recipe.egg/1.99	zc.buildout recipes to compile and install software or python packages and generate scripts or configuration files sponsored by Makina Corpus.	814th	false
+django-redis-cache	60,022	http://pypi.python.org/pypi/django-redis-cache/0.9.7	Redis Cache Backend for Django	815th	false
+bitstring	59,760	http://pypi.python.org/pypi/bitstring/3.1.2	Simple construction, analysis and modification of binary data.	816th	true
+lck.django	59,694	http://pypi.python.org/pypi/lck.django/0.8.10	Various common Django-related routines.	817th	false
+Products.StandardCacheManagers	59,455	http://pypi.python.org/pypi/Products.StandardCacheManagers/2.13.0	Cache managers for Zope 2.	818th	false
+smartypants	59,382	http://pypi.python.org/pypi/smartypants/1.6.0.3	SmartyPants: a smart-quotes plugin.	819th	false
+lava-scheduler	59,257	http://pypi.python.org/pypi/lava-scheduler/0.28	LAVA Scheduler Application	820th	false
+Products.ExternalMethod	59,244	http://pypi.python.org/pypi/Products.ExternalMethod/2.13.0	This package provides support for external Python methods within a Zope 2 environment.	821st	false
+django-piston	59,213	http://pypi.python.org/pypi/django-piston/0.2.2.1	Piston is a Django mini-framework creating APIs.	822nd	false
+solrpy	59,126	http://pypi.python.org/pypi/solrpy/0.9.5	Client for the Solr search service	823rd	false
+pathtools	59,107	http://pypi.python.org/pypi/pathtools/0.1.2	File system general utilities	824th	false
+zope.app.session	59,029	http://pypi.python.org/pypi/zope.app.session/3.6.2	Zope session	825th	false
+Products.MIMETools	58,990	http://pypi.python.org/pypi/Products.MIMETools/2.13.0	MIMETools provides the <!--#mime--> tag for DocumentTemplate.	826th	false
+mozfile	58,966	http://pypi.python.org/pypi/mozfile/0.5	Library of file utilities for use in Mozilla testing	827th	false
+symposion	58,952	http://pypi.python.org/pypi/symposion/1.0b2.dev2	A collection of Django apps for conference websites.	828th	false
+Products.CMFSquidTool	58,928	http://pypi.python.org/pypi/Products.CMFSquidTool/1.5.1	HTTP cache management for CMF sites	829th	false
+django-lfstheme	58,881	http://pypi.python.org/pypi/django-lfstheme/0.7.4	The default theme for LFS	830th	false
+BDD4Django	58,866	http://pypi.python.org/pypi/BDD4Django/0.3.13	"Behavior Driven Development" (BDD) -- Integrating Morelia + Splinter + Django	831st	false
+minitage.recipe.common	58,859	http://pypi.python.org/pypi/minitage.recipe.common/1.87	zc.buildout recipes to compile and install software or python packages and generate scripts or configuration files  sponsored by Makina Corpus.	832nd	false
+websockify	58,853	http://pypi.python.org/pypi/websockify/0.4.1	Websockify.	833rd	false
+trytond	58,667	http://pypi.python.org/pypi/trytond/1.8.11	Tryton server	834th	false
+django-ses	58,574	http://pypi.python.org/pypi/django-ses/0.4.1	A Django email backend for Amazon's Simple Email Service	835th	false
+grokcore.viewlet	58,477	http://pypi.python.org/pypi/grokcore.viewlet/1.11	Grok-like configuration for zope viewlets	836th	false
+tables	58,382	http://pypi.python.org/pypi/tables/2.4.0	Hierarchical datasets for Python	837th	false
+django-webtest	58,339	http://pypi.python.org/pypi/django-webtest/1.6.1	Instant integration of Ian Bicking's WebTest
+(http://pythonpaste.org/webtest/) with django's testing framework.	838th	true
+Products.plonehrm	58,325	http://pypi.python.org/pypi/Products.plonehrm/2.14	Human Resource Management in Plone	839th	false
+lamson	58,171	http://pypi.python.org/pypi/lamson/1.3.4	Lamson is a modern Pythonic mail server built like a web application server.	840th	false
+cilantro	58,034	http://pypi.python.org/pypi/cilantro/2.0.10	A client implementation for Serrano	841st	false
+CassandraLauncher	57,956	http://pypi.python.org/pypi/CassandraLauncher/1.18-7	Command line utilities for launching Cassandra clusters in EC2	842nd	false
+pycryptopp	57,873	http://pypi.python.org/pypi/pycryptopp/0.6.0.1206569328141510525648634803928199668821045408958	Python wrappers for a few algorithms from the Crypto++ library	843rd	false
+Products.SimpleAttachment	57,873	http://pypi.python.org/pypi/Products.SimpleAttachment/4.3	Simple Attachments for Plone	844th	false
+django-suave	57,746	http://pypi.python.org/pypi/django-suave/0.5.19	Rather nice pages.	845th	false
+grokcore.security	57,613	http://pypi.python.org/pypi/grokcore.security/1.6.2	Grok-like configuration for Zope security components	846th	false
+django-plus	57,522	http://pypi.python.org/pypi/django-plus/1.2.21	Django utilities library	847th	false
+django-fabfile	57,376	http://pypi.python.org/pypi/django-fabfile/2012.11.13.2	Fabric tasks for Django and Amazon Web Services	848th	false
+JMake	57,347	http://pypi.python.org/pypi/JMake/0.9.11	C/C++ build tool	849th	false
+testrepository	57,255	http://pypi.python.org/pypi/testrepository/0.0.15	A repository of test results.	850th	true
+cef	57,145	http://pypi.python.org/pypi/cef/0.5	Module that emits CEF logs	851st	false
+Products.OFSP	56,811	http://pypi.python.org/pypi/Products.OFSP/2.13.2	General Zope 2 help screens.	852nd	false
+relatorio	56,783	http://pypi.python.org/pypi/relatorio/0.5.7	A templating library able to output odt and pdf files	853rd	false
+JCC	56,686	http://pypi.python.org/pypi/JCC/2.16	a C++ code generator for calling Java from C++/Python	854th	false
+Products.CacheSetup	56,646	http://pypi.python.org/pypi/Products.CacheSetup/1.2.1	Control caching of Plone sites	855th	false
+biotools	56,513	http://pypi.python.org/pypi/biotools/1.2.10	A bunch of bioinformatics utilities	856th	false
+bitarray	56,382	http://pypi.python.org/pypi/bitarray/0.8.1	efficient arrays of booleans -- C extension	857th	true
+Products.LDAPUserFolder	56,347	http://pypi.python.org/pypi/Products.LDAPUserFolder/2.24	A LDAP-enabled Zope 2 user folder	858th	false
+urlfetch	56,283	http://pypi.python.org/pypi/urlfetch/0.5.4.2	An easy to use HTTP client	859th	true
+WSGIProxy	56,122	http://pypi.python.org/pypi/WSGIProxy/0.2.2	HTTP proxying tools for WSGI apps	860th	false
+lizard-map	56,015	http://pypi.python.org/pypi/lizard-map/4.27	Basic map setup for lizard web sites	861st	false
+zope.keyreference	55,998	http://pypi.python.org/pypi/zope.keyreference/4.0.0a2	Key References	862nd	false
+zope.app.localpermission	55,914	http://pypi.python.org/pypi/zope.app.localpermission/3.7.2	Local Persistent Permissions for zope.security	863rd	false
+Beaver	55,643	http://pypi.python.org/pypi/Beaver/28	python daemon that munches on logs and sends their contents to logstash	864th	false
+Products.DataGridField	55,600	http://pypi.python.org/pypi/Products.DataGridField/1.8.4	A table input component for Plone.	865th	false
+pilas	55,529	http://pypi.python.org/pypi/pilas/0.79	A simple to use video game framework.	866th	false
+plone.outputfilters	55,485	http://pypi.python.org/pypi/plone.outputfilters/1.9	Transformations applied to HTML in Plone text fields as they are rendered	867th	false
+lino	55,456	http://pypi.python.org/pypi/lino/1.6.7	A web application framework using Django and ExtJS	868th	false
+pylast	55,448	http://pypi.python.org/pypi/pylast/0.5.11	A Python interface to Last.fm (and other API compatible social networks)	869th	false
+Products.Ploneboard	55,388	http://pypi.python.org/pypi/Products.Ploneboard/3.4	A discussion board for Plone.	870th	false
+django-filter	55,348	http://pypi.python.org/pypi/django-filter/0.6	Django-filter is a reusable Django application for allowing users to filter queryset dynamically.	871st	false
+plone.app.caching	55,335	http://pypi.python.org/pypi/plone.app.caching/1.1.3	Plone UI and default rules for plone.caching/z3c.caching	872nd	false
+tablib	55,012	http://pypi.python.org/pypi/tablib/0.9.11	Format agnostic tabular data library (XLS, JSON, YAML, CSV)	873rd	true
+ToscaWidgets	54,991	http://pypi.python.org/pypi/ToscaWidgets/0.9.12	Web widget creation toolkit based on TurboGears widgets	874th	false
+seqdiag	54,788	http://pypi.python.org/pypi/seqdiag/0.8.2	seqdiag generate sequence-diagram image file from spec-text file.	875th	false
+Products.EasyNewsletter	54,662	http://pypi.python.org/pypi/Products.EasyNewsletter/2.6.11	An easy to use but powerfull newsletter/mailing product for Plone 3+4	876th	false
+EasyWidgets	54,438	http://pypi.python.org/pypi/EasyWidgets/0.2dev-20130116	A minimalistic approach to HTML generation and validation with TurboGears	877th	false
+zope.ramcache	54,383	http://pypi.python.org/pypi/zope.ramcache/2.0.0	Zope RAM Cache	878th	false
+plone.app.theming	54,312	http://pypi.python.org/pypi/plone.app.theming/1.1	Integrates the Diazo theming engine with Plone	879th	false
+zope.app.securitypolicy	54,172	http://pypi.python.org/pypi/zope.app.securitypolicy/3.6.1	ZMI-based management views for zope.securitypolicy	880th	false
+python-twitter	54,158	http://pypi.python.org/pypi/python-twitter/0.8.7	A python wrapper around the Twitter API	881st	false
+zope.testrunner	54,157	http://pypi.python.org/pypi/zope.testrunner/4.3.3	Zope testrunner script.	882nd	true
+DARE	54,014	http://pypi.python.org/pypi/DARE/0.8.0175	Dynamic Application Runtime Environment	883rd	false
+anybox.recipe.openerp	53,959	http://pypi.python.org/pypi/anybox.recipe.openerp/1.5.4	A buildout recipe to install and configure OpenERP	884th	false
+zope.intid	53,801	http://pypi.python.org/pypi/zope.intid/4.0.0a1	Integer Id Utility	885th	false
+pywizard	53,797	http://pypi.python.org/pypi/pywizard/0.4.7	Tool that implements chef/puppet -like approach for server management.	886th	false
+pynagios	53,713	http://pypi.python.org/pypi/pynagios/0.1.1	Python library to write Nagios plugins.	887th	false
+repoze.what	53,677	http://pypi.python.org/pypi/repoze.what/1.0.9	Authorization framework for WSGI applications	888th	false
+jmbo-foundry	53,453	http://pypi.python.org/pypi/jmbo-foundry/1.1.17	Jmbo foundry behaviour/templates app.	889th	false
+pyVows	53,284	http://pypi.python.org/pypi/pyVows/1.1.16	pyVows is a test engine based in VowsJS(http://vowsjs.org/).	890th	false
+mahotas	53,074	http://pypi.python.org/pypi/mahotas/0.99	Mahotas: Computer Vision Library	891st	false
+grokcore.formlib	52,805	http://pypi.python.org/pypi/grokcore.formlib/1.9	Grok-like configuration for zope.formlib components	892nd	false
+GeoBasesDev	52,743	http://pypi.python.org/pypi/GeoBasesDev/6.0.0a18	Data services and visualization - development version	893rd	false
+flexmock	52,712	http://pypi.python.org/pypi/flexmock/0.9.7	Mock/Stub/Spy library for Python	894th	true
+repoze.who-friendlyform	52,623	http://pypi.python.org/pypi/repoze.who-friendlyform/1.0.8	Collection of repoze.who friendly form plugins	895th	false
+Products.GroupUserFolder	52,558	http://pypi.python.org/pypi/Products.GroupUserFolder/3.55.1	Acl Users Folder with group and plugin support	896th	false
+sh	52,503	http://pypi.python.org/pypi/sh/1.08	Python subprocess interface	897th	true
+pycuda	52,404	http://pypi.python.org/pypi/pycuda/2012.1	Python wrapper for Nvidia CUDA	898th	false
+zExceptions	52,332	http://pypi.python.org/pypi/zExceptions/2.13.0	zExceptions contains common exceptions used in Zope2.	899th	false
+tw2.core	52,280	http://pypi.python.org/pypi/tw2.core/2.1.5	Web widget creation toolkit based on TurboGears widgets	900th	false
+topzootools	52,068	http://pypi.python.org/pypi/topzootools/0.4.2dev-20130414	Processing and conversion tools for Internet Topology Zoo	901st	false
+Products.TextIndexNG3	52,067	http://pypi.python.org/pypi/Products.TextIndexNG3/3.4.5.1	Pluggable fulltext indexing solution for Zope 2 and Zope 3	902nd	false
+bbfreeze	51,904	http://pypi.python.org/pypi/bbfreeze/1.1.0	create standalone executables from python scripts	903rd	false
+django-mailer	51,851	http://pypi.python.org/pypi/django-mailer/0.1.0	A reusable Django app for queuing the sending of email	904th	false
+lizard-ui	51,461	http://pypi.python.org/pypi/lizard-ui/4.25.1	Basic user interface for lizard websites	905th	false
+Logbook	51,401	http://pypi.python.org/pypi/Logbook/0.4.1	A logging replacement for Python	906th	false
+httpie	51,369	http://pypi.python.org/pypi/httpie/0.5.1	HTTPie - cURL for humans.	907th	true
+nameparser	51,344	http://pypi.python.org/pypi/nameparser/0.2.7	A simple Python module for parsing human names into their individual components.	908th	false
+five.grok	51,316	http://pypi.python.org/pypi/five.grok/1.3.2	Grok-like layer for Zope 2	909th	false
+happybase	51,152	http://pypi.python.org/pypi/happybase/0.4	A developer-friendly Python library to interact with Apache HBase	910th	false
+awscli	51,086	http://pypi.python.org/pypi/awscli/0.9.3	Universal Command Line Environment for AWS.	911th	false
+django-tools	51,010	http://pypi.python.org/pypi/django-tools/0.25.0	miscellaneous tools for django	912th	false
+dexy	51,007	http://pypi.python.org/pypi/dexy/0.9.9.2	Document Automation	913th	false
+Flask-Babel	50,933	http://pypi.python.org/pypi/Flask-Babel/0.8	Adds i18n/l10n support to Flask applications	914th	false
+django-couch-utils	50,875	http://pypi.python.org/pypi/django-couch-utils/1.4.3	Handy tools and helpers for django projects, powered by CouchDB	915th	false
+plone.transformchain	50,853	http://pypi.python.org/pypi/plone.transformchain/1.0.3	Hook into repoze.zope2 that allows third party packages to register a sequence of hooks that will be allowed to modify the response before it is returned to the browser	916th	false
+lava-dashboard	50,822	http://pypi.python.org/pypi/lava-dashboard/0.29	Validation Dashboard for LAVA Server	917th	false
+Products.PolicyHTTPCacheManager	50,573	http://pypi.python.org/pypi/Products.PolicyHTTPCacheManager/1.2	Cache manager which delegates policy to CMF's caching policy manager	918th	false
+django-common	50,475	http://pypi.python.org/pypi/django-common/0.1.51	A number of useful django shortcuts and helpers	919th	false
+ctypes-snappy	50,441	http://pypi.python.org/pypi/ctypes-snappy/1.03	Python ctypes interface to Google's libsnappy compression.	920th	true
+Astropysics	50,376	http://pypi.python.org/pypi/Astropysics/0.1.dev-r1178	Astrophysics libraries for Python	921st	false
+deform	50,356	http://pypi.python.org/pypi/deform/0.9.7	Another form generation library	922nd	true
+collective.flowplayer	50,342	http://pypi.python.org/pypi/collective.flowplayer/4.0	A simple package using Flowplayer for video content	923rd	false
+ssl	50,319	http://pypi.python.org/pypi/ssl/1.16	SSL wrapper for socket objects (2.3, 2.4, 2.5 compatible)	924th	false
+pyormish	50,257	http://pypi.python.org/pypi/pyormish/0.9.6	A simple, ultra-lightweight ORM for MySQL, SQLite, and Postgres	925th	false
+ZSI	50,234	http://pypi.python.org/pypi/ZSI/2.0-rc3	Zolera SOAP Infrastructure	926th	false
+Shake	50,207	http://pypi.python.org/pypi/Shake/1.6.2	A web framework mixed from the best ingredients	927th	false
+grokcore.site	50,186	http://pypi.python.org/pypi/grokcore.site/1.6.1	Grok-like configuration for Zope local site and utilities	928th	false
+Products.PageCacheManager	50,178	http://pypi.python.org/pypi/Products.PageCacheManager/1.2	Cache rendered pages including headers	929th	false
+django-robots	50,106	http://pypi.python.org/pypi/django-robots/0.9.2	Robots exclusion application for Django, complementing Sitemaps.	930th	false
+chameleon.core	50,040	http://pypi.python.org/pypi/chameleon.core/1.0.4	Attribute language template compiler	931st	false
+arrayterator	50,029	http://pypi.python.org/pypi/arrayterator/1.0.1	Buffered iterator for big arrays.	932nd	false
+extras	49,956	http://pypi.python.org/pypi/extras/0.0.3	Useful extra bits for Python - things that shold be in the standard library	933rd	false
+PyUtilib	49,875	http://pypi.python.org/pypi/PyUtilib/4.5.3053	PyUtilib: A collection of Python utilities	934th	false
+SetupDocs	49,774	http://pypi.python.org/pypi/SetupDocs/1.0.4	setuptools plugin that automates building of docs from ReST source	935th	false
+Flask-Assets	49,741	http://pypi.python.org/pypi/Flask-Assets/0.8	Asset management for Flask, to compress and merge CSS and Javascript files.	936th	false
+TurboMail	49,687	http://pypi.python.org/pypi/TurboMail/3.0.3	TurboMail is a mail delivery subsystem and MIME message generation framework for Python.	937th	false
+XenAPI	49,667	http://pypi.python.org/pypi/XenAPI/1.2	XenAPI SDK, for communication with Citrix XenServer and Xen Cloud Platform.	938th	false
+Spawning	49,609	http://pypi.python.org/pypi/Spawning/0.9.7	Spawning is a wsgi server which supports multiple processes, multiple threads, green threads, non-blocking HTTP io, and automatic graceful upgrading of code.	939th	false
+Products.CMFBibliographyAT	49,593	http://pypi.python.org/pypi/Products.CMFBibliographyAT/1.1.2	Bibliographic references in Plone	940th	false
+botocore	49,396	http://pypi.python.org/pypi/botocore/0.9.2	Low-level, data-driven core of boto 3.	941st	false
+PyJWT	49,263	http://pypi.python.org/pypi/PyJWT/0.1.5	JSON Web Token implemtnation in Python	942nd	false
+windmill	49,208	http://pypi.python.org/pypi/windmill/1.6	Web testing framework intended for complete automation of user interface testing, with strong test debugging and recording capabilities.	943rd	false
+argcomplete	49,176	http://pypi.python.org/pypi/argcomplete/0.5.4	Bash tab completion for argparse	944th	true
+logan	49,166	http://pypi.python.org/pypi/logan/0.5.6	Logan is a toolkit for building standalone Django applications.	945th	false
+plone.namedfile	49,109	http://pypi.python.org/pypi/plone.namedfile/2.0.1	File types and fields for images, files and blob files with filenames	946th	false
+z3c.setuptools_mercurial	49,004	http://pypi.python.org/pypi/z3c.setuptools_mercurial/1.1.1	Mercurial File Finder Plugin for Setuptools	947th	false
+AuthKit	48,989	http://pypi.python.org/pypi/AuthKit/0.4.5	An authentication and authorization toolkit for WSGI applications and frameworks	948th	false
+plone.subrequest	48,921	http://pypi.python.org/pypi/plone.subrequest/1.6.7	Subrequests for Zope2	949th	false
+django-tables2	48,898	http://pypi.python.org/pypi/django-tables2/0.13.0	Table/data-grid framework for Django	950th	false
+pyshp	48,752	http://pypi.python.org/pypi/pyshp/1.1.4	Pure Python read/write support for ESRI Shapefile format	951st	true
+rope	48,734	http://pypi.python.org/pypi/rope/0.9.4	a python refactoring library...	952nd	false
+ibm_db	48,503	http://pypi.python.org/pypi/ibm_db/2.0.2	Python DBI driver for DB2 (LUW, zOS, i5) and IDS	953rd	false
+confine-controller	48,356	http://pypi.python.org/pypi/confine-controller/0.8.38a10	Django-based framework for building control servers for computer networking and distributed systems testbeds.	954th	false
+pyramid_mailer	48,230	http://pypi.python.org/pypi/pyramid_mailer/0.11	Sendmail package for Pyramid	955th	true
+ManifestDestiny	48,167	http://pypi.python.org/pypi/ManifestDestiny/0.5.6	Universal manifests for Mozilla test harnesses	956th	false
+blist	48,133	http://pypi.python.org/pypi/blist/1.3.4	a list-like type with better asymptotic performance and similar performance on small lists	957th	true
+socketpool	48,026	http://pypi.python.org/pypi/socketpool/0.5.2	Python socket pool	958th	true
+autopep8	47,950	http://pypi.python.org/pypi/autopep8/0.9	A tool that automatically formats Python code to conform to the PEP 8 style guide	959th	true
+Products.CMFTopic	47,903	http://pypi.python.org/pypi/Products.CMFTopic/2.3.0-beta	Topic product for the Zope Content Management Framework	960th	false
+django-profiles	47,880	http://pypi.python.org/pypi/django-profiles/0.2	User-profile application for Django	961st	false
+erp5.util	47,813	http://pypi.python.org/pypi/erp5.util/0.4.34	ERP5 related utilities.	962nd	false
+grokcore.annotation	47,803	http://pypi.python.org/pypi/grokcore.annotation/1.3	Grok-like configuration for Zope annotations	963rd	false
+mwlib.rl	47,682	http://pypi.python.org/pypi/mwlib.rl/0.14.3	generate pdfs from mediawiki markup	964th	false
+stuf	47,608	http://pypi.python.org/pypi/stuf/0.9.10	stuf has attributes	965th	true
+plone.dexterity	47,539	http://pypi.python.org/pypi/plone.dexterity/2.1.2	Flexible CMF content	966th	false
+pelican	47,499	http://pypi.python.org/pypi/pelican/3.2	A tool to generate a static blog, with restructured text (or markdown) input files.	967th	false
+zope.modulealias	47,482	http://pypi.python.org/pypi/zope.modulealias/3.4.0	Zope modulealias	968th	false
+pinax-theme-bootstrap	47,398	http://pypi.python.org/pypi/pinax-theme-bootstrap/3.0a5	a theme for Pinax based on Twitter's Bootstrap	969th	false
+salt	47,366	http://pypi.python.org/pypi/salt/0.15.1	Portable, distributed, remote execution and configuration management system	970th	false
+mozInstall	47,218	http://pypi.python.org/pypi/mozInstall/1.5	This is a utility package for installing Mozilla applications on various platforms.	971st	false
+django-filebrowser	47,149	http://pypi.python.org/pypi/django-filebrowser/3.5.2	Media-Management with Grappelli	972nd	false
+funkload	47,018	http://pypi.python.org/pypi/funkload/1.16.1	Functional and load web tester.	973rd	false
+grokproject	46,983	http://pypi.python.org/pypi/grokproject/2.9	Script that creates a Grok project directory, installs Grok, the Grok Toolkit and the Zope Toolkit and sets up a complete skeleton for a new Grok web application.	974th	false
+DeliciousAPI	46,968	http://pypi.python.org/pypi/DeliciousAPI/1.6.7	Unofficial Python API for retrieving data from Delicious.com	975th	false
+speaklater	46,951	http://pypi.python.org/pypi/speaklater/1.3	implements a lazy string for python useful for use with gettext	976th	false
+jldaws	46,918	http://pypi.python.org/pypi/jldaws/0.4.27	Collection of Amazon AWS related scripts	977th	false
+Pydap	46,907	http://pypi.python.org/pypi/Pydap/3.1.RC1	Pure Python Opendap/DODS client and server.	978th	false
+plone.uuid	46,822	http://pypi.python.org/pypi/plone.uuid/1.0.3	UUIDs for content items	979th	false
+five.globalrequest	46,735	http://pypi.python.org/pypi/five.globalrequest/1.0	Zope 2 integration for zope.globalrequest	980th	false
+bambu-tools	46,587	http://pypi.python.org/pypi/bambu-tools/2.9.4.4	Tools for Django webapps	981st	false
+facepy	46,517	http://pypi.python.org/pypi/facepy/0.8.4	Facepy makes it absurdly easy to interact with Facebook APIs	982nd	false
+slapos.toolbox	46,467	http://pypi.python.org/pypi/slapos.toolbox/0.34.0	SlapOS toolbox.	983rd	false
+Distutils2	46,375	http://pypi.python.org/pypi/Distutils2/1.0a4	Python Packaging Library	984th	false
+ztfy.blog	46,371	http://pypi.python.org/pypi/ztfy.blog/0.5.5	ZTFY blog handling package	985th	false
+Batman	46,314	http://pypi.python.org/pypi/Batman/0.5.0	A deployment toolbelt	986th	false
+zope.app.catalog	46,313	http://pypi.python.org/pypi/zope.app.catalog/3.8.1	Management pages for Zope Catalog	987th	false
+collective.mediaShow	46,272	http://pypi.python.org/pypi/collective.mediaShow/1.26	A flexible slideshow that can show any kind of media or Plone content	988th	false
+pynliner	46,234	http://pypi.python.org/pypi/pynliner/0.5.0	Python CSS-to-inline-styles conversion tool for HTML using BeautifulSoup and cssutils	989th	false
+plone.formwidget.namedfile	46,234	http://pypi.python.org/pypi/plone.formwidget.namedfile/1.0.5	Image widget for z3c.form and Plone	990th	false
+uwosh.pfg.d2c	46,135	http://pypi.python.org/pypi/uwosh.pfg.d2c/2.3.0b4	A PloneFormGen adapter that will save the data from a form to an actual content type. This way you can still use permissions, workflows, etc on the form data.	991st	false
+gondor	46,124	http://pypi.python.org/pypi/gondor/1.2.4	official gondor.io command line client	992nd	true
+zc.zope3recipes	45,933	http://pypi.python.org/pypi/zc.zope3recipes/0.18.0	ZC Buildout recipe for defining Zope 3 applications	993rd	false
+zc.catalog	45,861	http://pypi.python.org/pypi/zc.catalog/1.5.1	Extensions to the Zope 3 Catalog	994th	false
+itsdangerous	45,819	http://pypi.python.org/pypi/itsdangerous/0.18	Various helpers to pass trusted data to untrusted environments.	995th	false
+testfixtures	45,779	http://pypi.python.org/pypi/testfixtures/3.0.0	A collection of helpers and mock objects for unit tests and doc tests.	996th	false
+PyGithub	45,753	http://pypi.python.org/pypi/PyGithub/1.14.2	Use the full Github API v3	997th	true
+SymbolType	45,709	http://pypi.python.org/pypi/SymbolType/1.0	Simple "symbol" type, useful for enumerations or sentinels	998th	false
+gozerbot	45,666	http://pypi.python.org/pypi/gozerbot/1.0.1	the irc bot and xmpp bot in one	999th	false
+zope.globalrequest	45,550	http://pypi.python.org/pypi/zope.globalrequest/1.0	Global way of retrieving the currently active request.	1000th	false
