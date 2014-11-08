@@ -3,7 +3,7 @@ class Solution:
     # @return an integer
     memo = dict()
 
-    def numDecodings(self, s): # recurse from left to right
+    def numDecodings(self, s): # recurse from left to right, opposite to word split by Norvig
         if s in self.memo:
             return self.memo.get(s)
 
@@ -26,7 +26,7 @@ class Solution:
             else:
                 self.memo[s] = 1
                 return 1
-        else:
+        else: # len(s) > 2
             if s[-2:] in ('10', '20'):
                 self.memo[s] = self.numDecodings(s[:-2])
                 return self.memo[s]
@@ -39,5 +39,3 @@ class Solution:
             else:
                 self.memo[s] = self.numDecodings(s[:-1])
                 return self.memo[s]
-
-                
