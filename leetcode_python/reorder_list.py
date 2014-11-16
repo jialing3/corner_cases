@@ -5,31 +5,32 @@
 #         self.next = None
 
 class Solution:
-    def find_second_to_last_node(self, head):
+    def make_double_link(self, head):
         previous = head
-        while head.next:
-            previous = head
-            head = head.next
+        current = head.next
+        while current:
+            current.last = previous
+            previous = current
+            current = current.next
         return previous
 
     # @param head, a ListNode
     # @return nothing
     def reorderList(self, head):
-        empty_before_head = ListNode(0)
-        empty_before_head.next = head
-        previous_last = None
-        while head:
-            first = head
-            second_to_last = self.find_second_to_last_node(head)
-            last = second_to_last.next
-            if first.next == last:
-                head = None
-            else:
-                head = first.next
-                second_to_last.next = None
-            first.next = last
-            if previous_last:
-                previous_last.next = first
-            previous_last = last
-        return empty_before_head.next
-        
+        if not head or not head.next:
+            return head
+        pointer_to_head = ListNode(0)
+        pointer_to_head.next = head
+        tail = self.make_double_link(pointer_to_head)
+        previous_right = None
+        while tail.next != head.last and tail.next != head: # notice the two-element and three-element cases
+            left = head
+            right = tail
+            head = head.next
+            tail = tail.last
+            left.next = right
+            right.next = None
+            if previous_right:
+                previous_right.next = left
+            previous_right = right
+        return pointer_to_head.next
