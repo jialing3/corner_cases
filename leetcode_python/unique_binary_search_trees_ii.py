@@ -14,9 +14,12 @@ class Solution:
             return self.memo[num_list]
         else:
             if len(num_list) == 0:
+                self.memo[num_list] = [None]
                 return [None]
             elif len(num_list) == 1:
-                return [TreeNode(num_list[0])]
+                tmp = TreeNode(num_list[0])
+                self.memo[num_list] = [tmp]
+                return [tmp]
             else:
                 output = []
                 for root in num_list:
@@ -28,6 +31,7 @@ class Solution:
                             tmp.left = left
                             tmp.right =right
                             output.append(tmp)
+                self.memo[num_list] = output
                 return output
 
     # @return a list of tree node
