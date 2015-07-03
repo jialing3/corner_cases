@@ -18,7 +18,7 @@ class Solution:
             stack.append(node)
             clone_map[node] = UndirectedGraphNode(node.label)
         while stack:
-            current = stack.pop()
+            current = stack.pop() # adding a 0 inside pop() will change from DFS to BFS
             for neighbor in current.neighbors:
                 if neighbor not in clone_map:
                     clone_map[neighbor] = UndirectedGraphNode(neighbor.label)
