@@ -12,19 +12,14 @@ class Solution:
     def kthSmallest(self, root, k):
         self.update_tree(root)
         while root:
-            if root.left:
-                if root.left.size == k - 1:
-                    return root.val
-                elif root.left.size >= k:
-                    root = root.left
-                else:
-                    k = k - 1 - root.left.size
-                    root = root.right
-            elif k == 1:
+            left_size = 0 if not root.left else root.left.size
+            if left_size + 1 == k:
                 return root.val
-            elif root.right:
-                k = k - 1
+            elif k > left_size:
+                k = k - 1 - left_size
                 root = root.right
+            else:
+                root = root.left
 
 
     def update_tree(self, root):
