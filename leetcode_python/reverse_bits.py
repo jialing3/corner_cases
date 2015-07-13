@@ -1,6 +1,8 @@
 # (1 << 31) - 1
 # 32-bit unsigned integer
 
+# if called many times, memoize input -> output, output -> input
+
 class Solution:
     # @param n, an integer
     # @return an integer
