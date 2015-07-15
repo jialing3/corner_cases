@@ -1,3 +1,6 @@
+# chop in half, reverse half and join
+# would use constant space instead of linear space as in my solution
+
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -33,4 +36,4 @@ class Solution:
             if previous_right:
                 previous_right.next = left
             previous_right = right
-        return pointer_to_head.next
+        return #pointer_to_head.next
