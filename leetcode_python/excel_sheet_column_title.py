@@ -9,5 +9,5 @@ class Solution:
         output = []
         while n:
             output.append(self.letter2number.get((n - 1) % 26))
-            n = (n - 1) / 26
+            n = (n - 1) // 26
         return ''.join(reversed(output))
