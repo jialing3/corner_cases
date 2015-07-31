@@ -7,7 +7,7 @@ class Solution:
         word_len = len(words[0])
         word_dict = {}
         for w in words:
-            word_dict[w] = word_dict.get(w, 1) + 1
+            word_dict[w] = word_dict.get(w, 0) + 1
 
         output = []
         for i in range(len(s) + 1 - word_len * num_words):
@@ -18,7 +18,7 @@ class Solution:
                 if w not in word_dict:
                     break
                 else:
-                    counter[w] = counter.get(w, 1) + 1
+                    counter[w] = counter.get(w, 0) + 1
                 if counter[w] > word_dict[w]:
                     break
                 j += 1
