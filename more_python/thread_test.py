@@ -24,8 +24,8 @@ if __name__ == "__main__":
 	jobs = []
 	for i in range(0, threads):
 		out_list = list()
-		thread = threading.Thread(target=
-										list_append(size, i, out_list))
+		thread = threading.Thread(target=list_append,
+								  args=(size, i, out_list)) 
 		jobs.append(thread)
 
 	# Start the threads (i.e. calculate the random number lists)
