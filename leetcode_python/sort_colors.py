@@ -11,7 +11,7 @@ class Solution:
             if A[i] == 0:
                 A[i], A[zero] = A[zero], A[i]
                 zero += 1
-                i += 1 // needed for keeping i on the right side of zero
-                continue // needed to keep i in bound
+                i += 1 # needed for keeping i on the right side of zero
+                continue # needed to keep i in bound
             if A[i] == 1:
                 i += 1
