@@ -1,5 +1,6 @@
-# find islands
-# for each island, check if touching any edge
+# mark all islands that are not fully surrounded by land as '_'
+# fill the rest of the islands
+# change '_' back to 'O'
 
 class Solution:
     # @param {character[][]} board
@@ -9,38 +10,24 @@ class Solution:
         if m == 0:
             return
         n = len(board[0])
-        adjacency_list = {}
-        #print(board)
-        #board = list(map(list, board))
+
+        seeds_on_edge = [(0, j) for j in range(n)] + [(m - 1, j) for j in range(n)] + [(i, 0) for i in range(m)] + [(i, n - 1) for i in range(m)]
+        for seed_row, seed_col in seeds_on_edge:
+            if board[seed_row][seed_col] == 'O':
+                nodes_to_visit = [(seed_row, seed_col)]
+                while nodes_to_visit:
+                    i, j = nodes_to_visit.pop()
+                    board[i][j] = '_'
+                    for row, col in ((i, j - 1), (i, j + 1), (i - 1, j), (i + 1, j)):
+                        if 0 <= row <= m - 1 and 0 <= col <= n - 1:
+                            if board[row][col] == 'O':
+                                nodes_to_visit.append((row, col))
+
         for i in range(m):
             for j in range(n):
                 if board[i][j] == 'O':
-                    adjacency_list[(i, j)] = []
-                    for row, col in ((i - 1, j), (i + 1, j), (i, j - 1), (i, j + 1)):
-                        if 0 <= row < m and 0 <= col < n:
-                            if board[row][col] == 'O':
-                                adjacency_list[(i, j)].append((row, col))
+                    board[i][j] = 'X'
+                elif board[i][j] == '_':
+                    board[i][j] = 'O'
 
-        visited = set()
-        for node in adjacency_list.keys():
-            if board[node[0]][node[1]] == 'O' and node not in visited: # not already filled or otherwise visited
-                nodes_in_neighborhood = self.find_neighborhood(node, adjacency_list)
-                if all([0 < row < m - 1 and 0 < col < n - 1 for row, col in nodes_in_neighborhood]): # not touching edges
-                    for row, col in nodes_in_neighborhood:
-                        board[row][col] = 'X'
-                else:
-                    visited = visited | nodes_in_neighborhood
-        #board = list(map(''.join, board))
-        #print(board)
         return
-
-    def find_neighborhood(self, node, adjacency_list):
-        nodes_to_visit = [node]
-        visited = set()
-        while nodes_to_visit:
-            current = nodes_to_visit.pop()
-            visited.add(current)
-            for neighbor in adjacency_list[current]:
-                if neighbor not in visited:
-                    nodes_to_visit.append(neighbor)
-        return visited
