@@ -10,7 +10,8 @@ class Solution:
             return
         n = len(board[0])
         adjacency_list = {}
-        board = list(map(list, board))
+        #print(board)
+        #board = list(map(list, board))
         for i in range(m):
             for j in range(n):
                 if board[i][j] == 'O':
@@ -20,12 +21,17 @@ class Solution:
                             if board[row][col] == 'O':
                                 adjacency_list[(i, j)].append((row, col))
 
+        visited = set()
         for node in adjacency_list.keys():
-            nodes_in_neighborhood = self.find_neighborhood(node, adjacency_list)
-            if all([0 < row < m - 1 and 0 < col < n - 1 for row, col in nodes_in_neighborhood]): # not touching edges
-                for row, col in nodes_in_neighborhood:
-                    board[row][col] = 'X'
-
+            if board[node[0]][node[1]] == 'O' and node not in visited: # not already filled or otherwise visited
+                nodes_in_neighborhood = self.find_neighborhood(node, adjacency_list)
+                if all([0 < row < m - 1 and 0 < col < n - 1 for row, col in nodes_in_neighborhood]): # not touching edges
+                    for row, col in nodes_in_neighborhood:
+                        board[row][col] = 'X'
+                else:
+                    visited = visited | nodes_in_neighborhood
+        #board = list(map(''.join, board))
+        #print(board)
         return
 
     def find_neighborhood(self, node, adjacency_list):
