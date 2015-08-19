@@ -39,4 +39,3 @@ class Solution:
                 if cnt > 1 and cnt > count[tmp_one] and tmp_four in output_list:
                     output_list.remove(tmp_four)
         return [list(x) for x in output_list]
-        

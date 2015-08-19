@@ -27,7 +27,7 @@ class Solution:
         # previous nodes
         target1_found_left, target2_found_left, lca_left = self.find_node(node.left, target1, target2) if node.left else (False, False, None)
         target1_found_right, target2_found_right, lca_right = self.find_node(node.right, target1, target2) if node.right else (False, False, None)
-        print target1_found, target1_found_left, target1_found_right, target2_found, target2_found_left, target2_found_right
+
         # previously found
         if lca_left:
             return True, True, lca_left
