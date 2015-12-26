@@ -33,3 +33,10 @@ class Solution:
 sol = Solution()
 assert sol.break_down_wrapper(10) == 5
 assert sol.sieve_prime(100) == [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+
+number_of_ways = []
+for n in range(10, 100):
+    number_of_ways.append(sol.break_down_wrapper(n))
+    if number_of_ways[-1] > 5000:
+        print(n, number_of_ways)
+        break
