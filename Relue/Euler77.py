@@ -24,7 +24,7 @@ class Solution:
         for i in range(2, n):
             for j in range(2, n):
                 non_prime.add(i * j)
-        return [x for x in range(1, n + 1) if x not in non_prime]
+        return [x for x in range(2, n + 1) if x not in non_prime]
 
     def break_down_wrapper(self, n):
         return self.break_down(n, self.sieve_prime(n))
@@ -32,3 +32,4 @@ class Solution:
 
 sol = Solution()
 assert sol.break_down_wrapper(10) == 5
+assert sol.sieve_prime(100) == [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
