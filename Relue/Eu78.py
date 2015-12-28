@@ -1,4 +1,4 @@
-# not efficient yet
+# correct but very inefficient
 class Solution:
     def __init__(self):
         self.memo = {}
