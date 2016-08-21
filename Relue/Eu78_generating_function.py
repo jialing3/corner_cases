@@ -6,15 +6,25 @@
 
 class Solution:
     def __init__(self):
-        self.p = {0: 1, 1: 1}
+        self.p = [0] * 10 ** 5
+        self.p[0] = 1
+        self.p[1] = 1
 
     def get_p(self, n):
         if n < 0:
             return 0
-        elif n in self.p:
+        elif self.p[n]:
             return self.p[n]
         else:
-            self.p[n] = sum((-1) ** (k + 1) * (self.get_p(n - k * (3 * k - 1) // 2) + self.get_p(n - k * (3 * k + 1) // 2)) for k in range(1, n + 1)) % 10 ** 6
+            temp_sum = 0
+            for k in range(1, n + 1):
+                n1 = self.get_p(n - k * (3 * k - 1) // 2)
+                n2 = self.get_p(n - k * (3 * k + 1) // 2)
+                if k % 2:
+                    temp_sum += n1 + n2
+                else:
+                    temp_sum -= n1 + n2
+            self.p[n] = temp_sum % 10 ** 6
             return self.p[n]
 
     def test(self):
@@ -26,8 +36,7 @@ if __name__ == '__main__':
     sol.test()
 
     n = 5
-    while sol.p[n] != 0:
+    while sol.get_p(n):
         n += 1
-        sol.get_p(n)
 
     print(n)
