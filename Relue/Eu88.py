@@ -1,4 +1,4 @@
-# k <= Nk <= 2k
+# k <= N[k] <= 2k
 # k = 1 + 1 + ... + 1
 # 2k = 2 * k = 2 + k + 1 + ... + 1
 
@@ -28,7 +28,7 @@ def update_N(lst, N, memo):
 def grow_tree_to_curr_num(curr_num, N, memo):
     memo_keys = list(memo.keys())
     for head_lst in memo_keys:
-        upper_bound = int(np.log(12000 / memo[head_lst][0]) / np.log(curr_num)) + 1
+        upper_bound = int(np.log(24000 / memo[head_lst][0]) / np.log(curr_num)) + 1 # N[k] <= 2k
         for j in range(1, upper_bound):
             tail_lst = [curr_num for _ in range(j)]
             update_N(list(head_lst) + tail_lst, N, memo)
@@ -43,7 +43,7 @@ num_unfilled = len(list(filter(lambda x: x is np.Inf, N)))
 while num_unfilled > 0:
     grow_tree_to_curr_num(curr_num, N, memo)
     num_unfilled = len(list(filter(lambda x: x is np.Inf, N)))
-    print(curr_num, num_unfilled) # num_unfilled vs curr_num shrinks fast initially but the shrinkage slows down after num_unfilled = 26
+    print(curr_num, num_unfilled)
     curr_num += 1
 
 
