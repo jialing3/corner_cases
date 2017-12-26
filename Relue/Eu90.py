@@ -31,6 +31,8 @@ def check_if_all_squares_are_covered(cube_0, cube_1, lst_of_squares):
 def get_all_cubes():
     return list(map(set, combinations('0123456789', 6)))
 
+assert(check_if_all_squares_are_covered(cube_0, cube_1, lst_of_squares) is True)
+
 all_cubes = get_all_cubes()
 count_of_working_set_of_two_cubes = 0
 for ind_0, cube_0 in enumerate(all_cubes):
