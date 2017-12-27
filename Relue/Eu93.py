@@ -19,19 +19,18 @@ def get_possible_targets(num_sequence):
                 next_list.add(result)
         curr_list = next_list.copy()
     target_set = set(map(int, filter(lambda x: x > 0 and x % 1 == 0, curr_list)))
+
     # a operator (b operator c) operator d
     for middle_num in perform_all_possible_operations(num_sequence[1], num_sequence[2]):
         curr_list = set([num_sequence[0]])
         for next_num in [middle_num, num_sequence[3]]:
             next_list = set()
             for num in curr_list:
-                next_list.add(num + next_num)
-                next_list.add(num - next_num)
-                next_list.add(num * next_num)
-                if next_num != 0:
-                    next_list.add(num / next_num)
+                for result in perform_all_possible_operations(num, next_num):
+                    next_list.add(result)
             curr_list = next_list.copy()
         target_set |= set(map(int, filter(lambda x: x > 0 and x % 1 == 0, curr_list)))
+
     # (a operator b) operator (c operator d)
     curr_list = set()
     for num_0 in perform_all_possible_operations(num_sequence[0], num_sequence[1]):
