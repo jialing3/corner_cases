@@ -49,7 +49,7 @@ def get_pure_weights(num_assets):
         pure_weights.append(weights)
     return pure_weights
 
-def optimize_portfolio(data, selected, num_portfolios=5000):
+def optimize_portfolio(data, selected, num_portfolios):
     returns_annual, cov_annual = returns_and_covariance(data, selected)
 
     # empty lists to store returns, volatility and weights of imiginary portfolios
@@ -79,8 +79,8 @@ def optimize_portfolio(data, selected, num_portfolios=5000):
     # add customized portfolios
     pure_weights = get_pure_weights(num_assets)
     customized_weights = [0.38, 0.2, 0.2, 0.2, 0.02]
-    weights_lst = pure_weights + [customized_weights]
-    label_lst = selected + ['Customized']
+    weights_lst = [customized_weights] + pure_weights
+    label_lst = ['Customized'] + selected
     for weights, label in zip(weights_lst, label_lst):
         returns, volatility, sharpe = variance_at_return(returns_annual, cov_annual, np.array(weights))
         sharpe_ratio.append(sharpe)
@@ -126,8 +126,8 @@ def optimize_portfolio(data, selected, num_portfolios=5000):
     df.at[df['Returns']==max_return_port_at_customized_volatility, 'Portfolio Label'] = 'Max Return Portfolio At Customized Volatility'
     df.at[df['Volatility']==min_volatility_port_at_customized_returns, 'Portfolio Label'] = 'Min Volatility Portfolio At Customized Returns'
 
-    # print customized portfolios
-    print(df.loc[df['Portfolio Label'] != 'Random'])
+    # save customized portfolios
+    df.loc[df['Portfolio Label'] != 'Random'].reset_index(drop=True).to_csv('~/Downloads/portfolio_opt.csv', float_format='%.3f')
 
 
     # allow Chinese characters to appear in plots (so my parents can understand this more easily)
@@ -140,10 +140,12 @@ def optimize_portfolio(data, selected, num_portfolios=5000):
     # plot frontier, max sharpe & min Volatility values with a scatterplot
     plt.style.use('seaborn-dark')
     df.plot.scatter(x='Volatility', y='Returns', c='Sharpe Ratio',
-                    cmap='RdYlGn', edgecolors='black', figsize=(10, 8), grid=True)
+                    cmap='RdYlGn', edgecolors=None, figsize=(10, 8), grid=True)
     # plot non-random portfolios
-    colors = ['orange', 'cyan', 'dodgerblue', 'blanchedalmond', 'silver', 'palegreen', 'darkslateblue', 'tomato', 'khaki', 'crimson']
-    markers = ['D', 'D', '^', '^', 'o', 'o', 'o', 'o', 'o', 'o']
+    colors = ['orange', 'cyan', 'dodgerblue', 'gold', 'turquoise', 'palegreen', 'darkslateblue', 'tomato', 'plum', 'crimson']
+    np.random.seed(123)
+    np.random.shuffle(colors)
+    markers = ['D', 'D', '^', '^', 's', 'o', 'o', 'o', 'o', 'o']
     for ind, port in df.loc[df['Portfolio Label'] != 'Random'].reset_index().iterrows():
         plt.scatter(x=port['Volatility'], y=port['Returns'], c=colors[ind], marker=markers[ind], s=200, label=port['Portfolio Label'], alpha=0.8)
     plt.xlabel('Volatility (Std. Deviation) 风险', fontproperties=fontP)
