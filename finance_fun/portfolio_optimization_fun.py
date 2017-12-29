@@ -2,10 +2,17 @@ import quandl
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import sys
 
 def reorder_tabulated_df(selected, df):
     df.index = df.index.droplevel()
-    return df.reindex(selected)
+    del df.index.name
+    df = df.reindex(selected)
+    if type(df) == pd.core.frame.DataFrame:
+        df.columns = df.columns.droplevel()
+        del df.columns.name
+        df = df[selected]
+    return df
 
 def variance_at_return(returns_annual, cov_annual, weights):
     returns = np.dot(weights, returns_annual)
@@ -63,6 +70,26 @@ def optimize_portfolio(data, selected, num_portfolios):
     num_assets = len(selected)
     num_portfolios = num_portfolios
 
+    # add customized portfolios
+    pure_weights = get_pure_weights(num_assets)
+    customized_weights = [0.0 for ind in range(num_assets)]
+    customized_weights[selected.index('IVV')] = 1.85
+    customized_weights[selected.index('FCNTX')] = 1.0
+    customized_weights[selected.index('FSMEX')] = 1.0
+    customized_weights[selected.index('FTEC')] = 1.0
+    customized_weights[selected.index('FNCL')] = 0.15
+    customized_weights[selected.index('AAPL')] = 0.5
+    customized_weights /= np.sum(customized_weights)
+    weights_lst = pure_weights + [customized_weights]
+    label_lst = selected + ['Customized']
+    for weights, label in zip(weights_lst, label_lst):
+        returns, volatility, sharpe = variance_at_return(returns_annual, cov_annual, np.array(weights))
+        sharpe_ratio.append(sharpe)
+        port_returns.append(returns)
+        port_volatility.append(volatility)
+        stock_weights.append(weights)
+        port_label.append(label)
+
     #set random seed for reproduction's sake
     np.random.seed(101)
 
@@ -74,20 +101,7 @@ def optimize_portfolio(data, selected, num_portfolios):
         port_returns.append(returns)
         port_volatility.append(volatility)
         stock_weights.append(weights)
-        port_label.append('Random')
-
-    # add customized portfolios
-    pure_weights = get_pure_weights(num_assets)
-    customized_weights = [0.38, 0.2, 0.2, 0.2, 0.02]
-    weights_lst = [customized_weights] + pure_weights
-    label_lst = ['Customized'] + selected
-    for weights, label in zip(weights_lst, label_lst):
-        returns, volatility, sharpe = variance_at_return(returns_annual, cov_annual, np.array(weights))
-        sharpe_ratio.append(sharpe)
-        port_returns.append(returns)
-        port_volatility.append(volatility)
-        stock_weights.append(weights)
-        port_label.append(label)
+        port_label.append('')
 
     # a dictionary for Returns and Risk values of each portfolio
     portfolio = {'Returns': port_returns,
@@ -113,8 +127,8 @@ def optimize_portfolio(data, selected, num_portfolios):
     max_sharpe = df['Sharpe Ratio'].max()
 
     # change the portfolio labels for min Volatility & max sharpe values
-    df.at[df['Sharpe Ratio']==max_sharpe, 'Portfolio Label'] = 'Max Sharpe Ratio'
-    df.at[df['Volatility']==min_volatility, 'Portfolio Label'] = 'Min Volatility'
+    df.at[df['Sharpe Ratio']==max_sharpe, 'Portfolio Label'] = df.loc[df['Sharpe Ratio']==max_sharpe, 'Portfolio Label'].values[0] + '(Max Sharpe Ratio)'
+    df.at[df['Volatility']==min_volatility, 'Portfolio Label'] = df.loc[df['Volatility']==min_volatility, 'Portfolio Label'].values[0] + '(Min Volatility)'
 
     # find portfolios on the efficient frontier at the volatility / returns level of Customized
     customized_returns = df.loc[df['Portfolio Label']=='Customized', 'Returns'].values[0]
@@ -123,11 +137,16 @@ def optimize_portfolio(data, selected, num_portfolios):
     max_return_port_at_customized_volatility = df.loc[(df['Returns']>=customized_returns) & (df['Volatility']<=customized_volatility), 'Returns'].max()
     min_volatility_port_at_customized_returns = df.loc[(df['Returns']>=customized_returns) & (df['Volatility']<=customized_volatility), 'Volatility'].min()
 
-    df.at[df['Returns']==max_return_port_at_customized_volatility, 'Portfolio Label'] = 'Max Return Portfolio At Customized Volatility'
-    df.at[df['Volatility']==min_volatility_port_at_customized_returns, 'Portfolio Label'] = 'Min Volatility Portfolio At Customized Returns'
+    if (max_return_port_at_customized_volatility - customized_returns) / customized_returns >= 0.01:
+        df.at[df['Returns']==max_return_port_at_customized_volatility, 'Portfolio Label'] = df.loc[df['Returns']==max_return_port_at_customized_volatility, 'Portfolio Label'].values[0] + '(Max Return Portfolio At Customized Volatility)'
+    #if (customized_volatility - min_volatility_port_at_customized_returns) / customized_volatility >= 0.01:
+    #    df.at[df['Volatility']==min_volatility_port_at_customized_returns, 'Portfolio Label'] = df.loc[df['Volatility']==min_volatility_port_at_customized_returns, 'Portfolio Label'].values[0] + '(Min Volatility Portfolio At Customized Returns)'
 
     # save customized portfolios
-    df.loc[df['Portfolio Label'] != 'Random'].reset_index(drop=True).to_csv('~/Downloads/portfolio_opt.csv', float_format='%.3f')
+    df_port = df.loc[df['Portfolio Label'] != '']
+    index_by_port_label_length = df_port['Portfolio Label'].str.len().sort_values().index
+    df_port = df_port.reindex(index_by_port_label_length).reset_index(drop=True)
+    df_port.to_csv('~/Downloads/portfolio_opt.csv', float_format='%.3f')
 
 
     # allow Chinese characters to appear in plots (so my parents can understand this more easily)
@@ -137,37 +156,64 @@ def optimize_portfolio(data, selected, num_portfolios):
     fontP.set_family('SimHei')
     fontP.set_size(14)
 
+    # plot covariance
+    import seaborn as sns
+    mask = np.zeros_like(cov_annual, dtype=np.bool)
+    mask[np.triu_indices_from(mask)] = True
+    sns.heatmap(cov_annual, mask=mask, cmap='RdYlGn',
+                square=True, linewidths=.5, cbar_kws={"shrink": .5})
+    plt.title('Covariance among Assets')
+    plt.show()
+
     # plot frontier, max sharpe & min Volatility values with a scatterplot
     plt.style.use('seaborn-dark')
     df.plot.scatter(x='Volatility', y='Returns', c='Sharpe Ratio',
                     cmap='RdYlGn', edgecolors=None, figsize=(10, 8), grid=True)
     # plot non-random portfolios
-    colors = ['orange', 'cyan', 'dodgerblue', 'gold', 'turquoise', 'palegreen', 'darkslateblue', 'tomato', 'plum', 'crimson']
-    np.random.seed(123)
+    colors = ['orange', 'cyan', 'dodgerblue', 'gold', 'turquoise', 'palegreen',
+              'darkslateblue', 'tomato', 'plum', 'crimson', 'blueviolet',
+              'lightsalmon', 'lightpink', 'mediumslateblue', 'coral', 'darkcyan',
+              'mistyrose', 'forestgreen', 'cornflowerblue', 'darkviolet',
+              'deepskyblue', 'deeppink', 'limegreen', 'cyan', 'magenta',
+              'palevioletred']
+    while len(colors) < num_assets:
+        colors = colors * 2
+    np.random.seed(33)
     np.random.shuffle(colors)
-    markers = ['D', 'D', '^', '^', 's', 'o', 'o', 'o', 'o', 'o']
-    for ind, port in df.loc[df['Portfolio Label'] != 'Random'].reset_index().iterrows():
-        plt.scatter(x=port['Volatility'], y=port['Returns'], c=colors[ind], marker=markers[ind], s=200, label=port['Portfolio Label'], alpha=0.8)
+    markers = ['o'] * num_assets + ['s', 'D', 'D', '^', '^']
+    for ind, port in df_port.iterrows():
+        plt.scatter(x=port['Volatility'], y=port['Returns'], c=colors[ind], marker=markers[ind], s=200, label=port['Portfolio Label'], alpha=1.0)
     plt.xlabel('Volatility (Std. Deviation) 风险', fontproperties=fontP)
     plt.ylabel('Expected Returns 收益', fontproperties=fontP)
     plt.title('Efficient Frontier 效率前沿', fontproperties=fontP)
     plt.legend()
     plt.show()
 
+def get_data(api_key):
+    # get adjusted closing prices of selected assets from Y! finance
+    selected_0 = ['IVV', 'FCNTX', 'FSMEX', 'FTEC', 'FNCL', 'RYAAY']
+    data = pd.DataFrame()
+    for symbol in selected_0:
+        tmp = pd.read_csv('~/Downloads/' + symbol + '.csv')
+        tmp = tmp[['Date', 'Adj Close']]
+        tmp['ticker'] = symbol
+        data = pd.concat([data, tmp])
+    data.columns = list(map(lambda x: '_'.join(x.lower().split()), data.columns))
 
-# get adjusted closing prices of 5 selected companies with Quandl
-#quandl.ApiConfig.api_key = ''
-#selected = ['CNP', 'F', 'WMT', 'GE', 'TSLA']
-#data = quandl.get_table('WIKI/PRICES', ticker = selected,
-#                        qopts = {'columns': ['date', 'ticker', 'adj_close']},
-#                        date = {'gte': '2014-1-1', 'lte': '2017-12-01'},
-#                        paginate=True)
-selected = ['IVV', 'FCNTX', 'FSMEX', 'FTEC', 'FNCL']
-data = pd.DataFrame()
-for symbol in selected:
-    tmp = pd.read_csv('~/Downloads/' + symbol + '.csv')
-    tmp = tmp[['Date', 'Adj Close']]
-    tmp['ticker'] = symbol
+    # get adjusted closing prices of selected companies with Quandl
+    quandl.ApiConfig.api_key = api_key
+    selected_1 = ['AAPL', 'BAC', 'JPM', 'FB', 'AMZN']
+    tmp = quandl.get_table('WIKI/PRICES', ticker = selected_1,
+                           qopts = {'columns': ['date', 'ticker', 'adj_close']},
+                           date = {'gte': '2015-1-1', 'lte': '2017-12-27'},
+                           paginate=True)
+    del tmp.index.name
+    data.date = data.date.astype('<M8[ns]')
     data = pd.concat([data, tmp])
-data.columns = list(map(lambda x: '_'.join(x.lower().split()), data.columns))
-optimize_portfolio(data, selected, 5000)
+
+    return data, selected_0 + selected_1
+
+if __name__ == '__main__':
+    api_key = sys.argv[1]
+    data, selected = get_data(api_key)
+    optimize_portfolio(data, selected, 5000)
