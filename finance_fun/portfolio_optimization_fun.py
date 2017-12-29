@@ -137,10 +137,10 @@ def optimize_portfolio(data, selected, num_portfolios):
     max_return_port_at_customized_volatility = df.loc[(df['Returns']>=customized_returns) & (df['Volatility']<=customized_volatility), 'Returns'].max()
     min_volatility_port_at_customized_returns = df.loc[(df['Returns']>=customized_returns) & (df['Volatility']<=customized_volatility), 'Volatility'].min()
 
-    if (max_return_port_at_customized_volatility - customized_returns) / customized_returns >= 0.01:
+    if (max_return_port_at_customized_volatility - customized_returns) / customized_returns >= 0.05:
         df.at[df['Returns']==max_return_port_at_customized_volatility, 'Portfolio Label'] = df.loc[df['Returns']==max_return_port_at_customized_volatility, 'Portfolio Label'].values[0] + '(Max Return Portfolio At Customized Volatility)'
-    #if (customized_volatility - min_volatility_port_at_customized_returns) / customized_volatility >= 0.01:
-    #    df.at[df['Volatility']==min_volatility_port_at_customized_returns, 'Portfolio Label'] = df.loc[df['Volatility']==min_volatility_port_at_customized_returns, 'Portfolio Label'].values[0] + '(Min Volatility Portfolio At Customized Returns)'
+    if (customized_volatility - min_volatility_port_at_customized_returns) / customized_volatility >= 0.05:
+        df.at[df['Volatility']==min_volatility_port_at_customized_returns, 'Portfolio Label'] = df.loc[df['Volatility']==min_volatility_port_at_customized_returns, 'Portfolio Label'].values[0] + '(Min Volatility Portfolio At Customized Returns)'
 
     # save customized portfolios
     df_port = df.loc[df['Portfolio Label'] != '']
@@ -186,7 +186,7 @@ def optimize_portfolio(data, selected, num_portfolios):
     plt.xlabel('Volatility (Std. Deviation) 风险', fontproperties=fontP)
     plt.ylabel('Expected Returns 收益', fontproperties=fontP)
     plt.title('Efficient Frontier 效率前沿', fontproperties=fontP)
-    plt.legend()
+    plt.legend(loc='upper left')
     plt.show()
 
 def get_data(api_key):
@@ -216,4 +216,5 @@ def get_data(api_key):
 if __name__ == '__main__':
     api_key = sys.argv[1]
     data, selected = get_data(api_key)
+    data = data.loc[data['date']>='2016-11-01']
     optimize_portfolio(data, selected, 5000)
