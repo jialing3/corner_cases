@@ -73,12 +73,14 @@ def optimize_portfolio(data, selected, num_portfolios):
     # add customized portfolios
     pure_weights = get_pure_weights(num_assets)
     customized_weights = [0.0 for ind in range(num_assets)]
-    customized_weights[selected.index('IVV')] = 1.85
+    customized_weights[selected.index('IVV')] = 1.8
     customized_weights[selected.index('FCNTX')] = 1.0
     customized_weights[selected.index('FSMEX')] = 1.0
     customized_weights[selected.index('FTEC')] = 1.0
-    customized_weights[selected.index('FNCL')] = 0.15
-    customized_weights[selected.index('AAPL')] = 0.5
+    customized_weights[selected.index('FNCL')] = 0.2
+    customized_weights[selected.index('AAPL')] = 0.85
+    #customized_weights[selected.index('BAC')] = 0.65
+    #customized_weights[selected.index('RYAAY')] = 0.35
     customized_weights /= np.sum(customized_weights)
     weights_lst = pure_weights + [customized_weights]
     label_lst = selected + ['Customized']
@@ -168,7 +170,7 @@ def optimize_portfolio(data, selected, num_portfolios):
     # plot frontier, max sharpe & min Volatility values with a scatterplot
     plt.style.use('seaborn-dark')
     df.plot.scatter(x='Volatility', y='Returns', c='Sharpe Ratio',
-                    cmap='RdYlGn', edgecolors=None, figsize=(10, 8), grid=True)
+                    cmap='Greys', edgecolors=None, figsize=(10, 8), grid=True)
     # plot non-random portfolios
     colors = ['orange', 'cyan', 'dodgerblue', 'gold', 'turquoise', 'palegreen',
               'darkslateblue', 'tomato', 'plum', 'crimson', 'blueviolet',
@@ -182,7 +184,7 @@ def optimize_portfolio(data, selected, num_portfolios):
     np.random.shuffle(colors)
     markers = ['o'] * num_assets + ['s', 'D', 'D', '^', '^']
     for ind, port in df_port.iterrows():
-        plt.scatter(x=port['Volatility'], y=port['Returns'], c=colors[ind], marker=markers[ind], s=200, label=port['Portfolio Label'], alpha=1.0)
+        plt.scatter(x=port['Volatility'], y=port['Returns'], c=colors[ind], marker=markers[ind], s=200, label=port['Portfolio Label'], alpha=0.75)
     plt.xlabel('Volatility (Std. Deviation) 风险', fontproperties=fontP)
     plt.ylabel('Expected Returns 收益', fontproperties=fontP)
     plt.title('Efficient Frontier 效率前沿', fontproperties=fontP)
@@ -217,4 +219,12 @@ if __name__ == '__main__':
     api_key = sys.argv[1]
     data, selected = get_data(api_key)
     data = data.loc[data['date']>='2016-11-01']
-    optimize_portfolio(data, selected, 5000)
+    if len(sys.argv) == 2:
+        optimize_portfolio(data, selected, 50000)
+    else:
+        returns_annual, cov_annual = returns_and_covariance(data, selected)
+        weights = np.array(list(map(float, sys.argv[2:])))
+        weights /= np.sum(weights)
+        returns, volatility, sharpe = variance_at_return(returns_annual, cov_annual, np.array(weights))
+        print(weights)
+        print(returns, volatility, sharpe)
